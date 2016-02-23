@@ -1,2 +1,0 @@
-# lucas.ninja
-New website
