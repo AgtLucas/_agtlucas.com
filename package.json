@@ -4,7 +4,10 @@
   "description": "Personal website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server",
+    "build": "webpack -p",
+    "deploy": "node deploy.js",
+    "gh-pages": "npm run build && npm run deploy"
   },
   "repository": {
     "type": "git",
