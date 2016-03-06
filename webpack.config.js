@@ -42,7 +42,7 @@ module.exports = {
       exclude: /node_modules/,
       loader: 'babel'
     }, {
-      test: /\.styl$/,
+      test: /\.(styl|css)$/,
       loader: 'style-loader!css-loader!postcss-loader!stylus-loader'
     }, {
       test: /\.(png|jpe?g|svg|gif)$/,
@@ -52,7 +52,7 @@ module.exports = {
     }],
 
     resolve: {
-      extensions: ['', '.js', '.styl']
+      extensions: ['', '.js', '.styl', '.css']
     }
   },
 
