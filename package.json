@@ -40,6 +40,7 @@
     "webpack-hot-middleware": "^2.9.1"
   },
   "dependencies": {
-    "media-queries": "^1.0.3"
+    "media-queries": "^1.0.3",
+    "normalize.styl": "^3.0.3"
   }
 }
