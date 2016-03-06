@@ -26,6 +26,7 @@
     "css-loader": "^0.23.1",
     "extract-text-webpack-plugin": "^1.0.1",
     "gh-pages": "^0.11.0",
+    "html-minifier": "^1.2.0",
     "html-webpack-plugin": "^2.9.0",
     "lost": "^6.7.2",
     "postcss": "^5.0.19",

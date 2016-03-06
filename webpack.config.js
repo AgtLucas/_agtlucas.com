@@ -4,6 +4,8 @@ var path = require('path')
 var webpack = require('webpack')
 var HtmlWebpackPlugin = require('html-webpack-plugin')
 
+var minifier = require('html-minifier')
+
 module.exports = {
   devtool: 'eval-source-map',
   entry: [
@@ -21,7 +23,10 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: 'src/index.html',
       inject: 'body',
-      filename: 'index.html'
+      filename: 'index.html',
+      minify: minifier = {
+        collapseWhitespace: true
+      }
     }),
     new webpack.optimize.OccurenceOrderPlugin(),
     new webpack.HotModuleReplacementPlugin(),
