@@ -1,0 +1,19 @@
+{
+  "name": "lucas.ninja",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgtLucas/lucas.ninja.git"
+  },
+  "author": "Lucas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AgtLucas/lucas.ninja/issues"
+  },
+  "homepage": "https://github.com/AgtLucas/lucas.ninja#readme"
+}
