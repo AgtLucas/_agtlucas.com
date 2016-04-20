@@ -13,7 +13,8 @@
   "author": "Lucas",
   "license": "MIT",
   "dependencies": {
-    "media-queries": "^1.0.4"
+    "media-queries": "^1.0.4",
+    "sanitize.css": "^3.3.0"
   },
   "devDependencies": {
     "css-mqpacker": "^4.0.1",
