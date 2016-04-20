@@ -1,0 +1,15 @@
+{
+  "name": "ghostlights",
+  "version": "1.0.0",
+  "description": "Hexo theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "haha no"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AgtLucas/lucas.ninja/tree/master/themes/ghostlights"
+  },
+  "author": "Lucas",
+  "license": "MIT"
+}
