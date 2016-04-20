@@ -11,5 +11,8 @@
     "url": "https://github.com/AgtLucas/lucas.ninja/tree/master/themes/ghostlights"
   },
   "author": "Lucas",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "media-queries": "^1.0.4"
+  }
 }
