@@ -11,7 +11,7 @@ const postcss = require('gulp-postcss')
 gulp.task('css', () => {
   var processors = [
     atImport,
-    cssnext({ browsers: ['last 2 version'] }),
+    cssnext({ browsers: ['last 2 versions'] }),
     lost,
     nested,
     mqpacker,
