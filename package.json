@@ -18,5 +18,15 @@
   "homepage": "https://github.com/AgtLucas/lucas.ninja#readme",
   "dependencies": {
     "normalize.css": "^4.1.1"
+  },
+  "devDependencies": {
+    "css-mqpacker": "^5.0.1",
+    "cssnano": "^3.5.2",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.1.1",
+    "postcss-cssnext": "^2.5.2",
+    "postcss-import": "^8.1.2",
+    "postcss-nested": "^1.0.0",
+    "postcss-scss": "^0.1.7"
   }
 }
