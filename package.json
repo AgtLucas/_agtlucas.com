@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AgtLucas/lucas.ninja/issues"
   },
-  "homepage": "https://github.com/AgtLucas/lucas.ninja#readme"
+  "homepage": "https://github.com/AgtLucas/lucas.ninja#readme",
+  "dependencies": {
+    "normalize.css": "^4.1.1"
+  }
 }
