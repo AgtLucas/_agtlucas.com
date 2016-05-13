@@ -1,8 +1,0 @@
-:root {
-
-}
-
-@custom-media --medium-up (width >= 640px);
-@custom-media --large-up (width >= 830px);
-
-@lost flexbox flex;
