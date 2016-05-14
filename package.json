@@ -5,7 +5,9 @@
   "main": "gulpfile.js",
   "scripts": {
     "start": "npm run jekyll",
+    "gulp": "gulp",
     "jekyll": "jekyll server",
+    "browsersync": "browser-sync start --proxy localhost:4000 --files='_site'",
     "deploy": "node deploy"
   },
   "repository": {
@@ -22,11 +24,13 @@
     "suitcss-base": "^2.0.0"
   },
   "devDependencies": {
+    "browser-sync": "^2.12.8",
     "css-mqpacker": "^5.0.1",
     "cssnano": "^3.5.2",
     "gh-pages": "^0.11.0",
     "gulp": "^3.9.1",
     "gulp-postcss": "^6.1.1",
+    "npm-run-all": "^2.1.0",
     "postcss-cssnext": "^2.5.2",
     "postcss-focus": "^1.0.0",
     "postcss-import": "^8.1.2",
