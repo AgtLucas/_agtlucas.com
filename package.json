@@ -5,7 +5,8 @@
   "main": "gulpfile.js",
   "scripts": {
     "start": "npm run jekyll",
-    "jekyll": "jekyll server"
+    "jekyll": "jekyll server",
+    "deploy": "node deploy"
   },
   "repository": {
     "type": "git",
