@@ -20,7 +20,7 @@ gulp.task('css', () => {
 
   return gulp.src('src/css/main.css')
     .pipe(postcss(processors, { syntax: scss }))
-    .pipe(gulp.dest('css'))
+    .pipe(gulp.dest('_includes/css'))
 })
 
 gulp.task('watch', () => gulp.watch('src/css/**/*.css', ['css']))

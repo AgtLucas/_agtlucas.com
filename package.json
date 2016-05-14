@@ -4,7 +4,7 @@
   "description": "Lucas new blog",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "npm-run-all --parallel jekyll browsersync gulp",
+    "start": "npm-run-all --parallel jekyll gulp browsersync",
     "gulp": "gulp",
     "jekyll": "jekyll server",
     "browsersync": "browser-sync start --proxy localhost:4000 --files='_site'",
