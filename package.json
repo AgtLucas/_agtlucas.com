@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/AgtLucas/lucas.ninja#readme",
   "dependencies": {
+    "suitcss-base": "^2.0.0"
   },
   "devDependencies": {
     "css-mqpacker": "^5.0.1",
