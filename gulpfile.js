@@ -6,12 +6,14 @@ const nested = require('postcss-nested')
 const cssnext = require('postcss-cssnext')
 const atImport = require('postcss-import')
 const focus = require('postcss-focus')
+const fontMagician = require('postcss-font-magician')
 const postcss = require('gulp-postcss')
 
 gulp.task('css', () => {
   var processors = [
     atImport,
     cssnext({ browsers: ['last 2 versions'] }),
+    fontMagician,
     focus,
     nested,
     mqpacker,
