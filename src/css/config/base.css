@@ -1,0 +1,7 @@
+.Main {
+  padding: 2em;
+
+  @media (--medium-up) {
+    padding: 2em calc(50% - 310px);
+  }
+}
