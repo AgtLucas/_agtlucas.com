@@ -33,6 +33,7 @@
     "npm-run-all": "^2.1.0",
     "postcss-cssnext": "^2.5.2",
     "postcss-focus": "^1.0.0",
+    "postcss-font-magician": "^1.4.0",
     "postcss-import": "^8.1.2",
     "postcss-nested": "^1.0.0",
     "postcss-scss": "^0.1.7"
