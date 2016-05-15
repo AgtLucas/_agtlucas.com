@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lucas</title>
+    <description>Front-End Developer
+</description>
+    <link>https://lucas.ninja/</link>
+    <atom:link href="https://lucas.ninja/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 15 May 2016 15:57:00 -0300</pubDate>
+    <lastBuildDate>Sun, 15 May 2016 15:57:00 -0300</lastBuildDate>
+    <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>Brave New World again</title>
+        <description>&lt;p&gt;Howdy people from Internet!&lt;/p&gt;
+
+&lt;p&gt;Yep, I’m back once again to this blog-ish thing!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 15 May 2016 15:37:58 -0300</pubDate>
+        <link>https://lucas.ninja/blog/2016/05/15/brave-new-world-again.html</link>
+        <guid isPermaLink="true">https://lucas.ninja/blog/2016/05/15/brave-new-world-again.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>BrazilJS Conf 2015 — eu fui!</title>
+        <description>&lt;p&gt;Já se passou mais de uma semana do maior evento de JS desse universo (ouvi dizer que há outro universo em que há outro evento de JS ainda maior), chega a hora de escrever (ou acabar de escrever?) um post sobre o mesmo.&lt;/p&gt;
+
+&lt;p&gt;Ano passado (2014), quase fui, este ano (2015), quase não fui, sim, confesso que estava pensativo se realmente valeria a pena todo o esforço com tantas coisas acontecendo ao mesmo tempo.&lt;/p&gt;
+
+&lt;p&gt;Quer saber se valeu a pena?&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@agtlucas/braziljs-conf-2015-eu-fui-dbae6a26c813#.cfme5pwhr&quot;&gt;Continue lendo aqui!&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 06 Sep 2015 06:57:58 -0300</pubDate>
+        <link>https://lucas.ninja/blog/2015/09/06/brazil-js-conf-2015-eu-fui.html</link>
+        <guid isPermaLink="true">https://lucas.ninja/blog/2015/09/06/brazil-js-conf-2015-eu-fui.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+  </channel>
+</rss>
