@@ -74,8 +74,9 @@ blockquote {
   }
 }
 
-.Copyright {
+.jp-Name {
   display: block;
-  text-align: center;
-  margin: 3em 0 0;
+  margin: 3em auto 0;
+  width: 50px;
+  height: auto;
 }
