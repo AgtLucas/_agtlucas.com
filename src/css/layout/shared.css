@@ -1,0 +1,14 @@
+.Post-header,
+.Page-header {
+  text-align: center;
+}
+
+.Nav {
+  text-align: center;
+}
+
+.Nav-item {
+  color: #5F6161;
+  margin: .5em;
+  padding: 0 .5em;
+}
