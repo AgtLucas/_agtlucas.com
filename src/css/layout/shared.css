@@ -9,6 +9,11 @@
 
 .Nav-item {
   color: #5F6161;
-  margin: .5em;
+  margin: 1em;
   padding: 0 .5em;
+  display: block;
+
+  @media (--medium-up) {
+    display: inline-block;
+  }
 }
