@@ -6,3 +6,7 @@
     padding: 2em calc(50% - 310px);
   }
 }
+
+img {
+  max-width: 100%;
+}

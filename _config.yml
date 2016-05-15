@@ -18,4 +18,5 @@ github_username:  AgtLucas
 exclude: ['node_modules', 'package.json', 'gulpfile.js', 'src', '.DS_Store', '.sass-cache', 'README.md', 'npm-debug.log', 'LICENSE', 'deploy.js']
 
 # Build settings
-markdown: kramdown
+kramdown:
+  input: GFM
