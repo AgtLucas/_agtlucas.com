@@ -2,3 +2,5 @@
 @import 'config/code';
 @import 'config/global';
 @import 'config/base';
+
+@import 'layout/shared';
