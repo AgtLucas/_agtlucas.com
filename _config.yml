@@ -20,3 +20,6 @@ exclude: ['node_modules', 'package.json', 'gulpfile.js', 'src', '.DS_Store', '.s
 # Build settings
 kramdown:
   input: GFM
+
+compress_html:
+  clippings: all
