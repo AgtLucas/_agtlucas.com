@@ -48,13 +48,18 @@ blockquote {
   padding: 2em;
 }
 
+.Post {
+  .Post-meta {
+    margin-top: 0;
+  }
+}
+
 .Post-item:not(:last-child) {
   margin-bottom: 4em;
 }
 
 .Post-item {
   .Post-meta {
-    font-size: .875rem;
     display: block;
     margin: .5em 0;
   }
@@ -72,4 +77,8 @@ blockquote {
       margin: .5em 0;
     }
   }
+}
+
+.Post-meta {
+  font-size: .875rem;
 }
