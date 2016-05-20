@@ -16,6 +16,8 @@ Ok, na época que comecei a brincar com web o CSS já estava um pouco mais estab
 ### Less
 > Descrever minha descoberta sobre pre-processadores
 
+Meu primeiro contato com Less foi através do blog [Loop Infinito](http://loopinfinito.com.br/).
+
 ### Sass
 > Sobre Sass & Compass
 
