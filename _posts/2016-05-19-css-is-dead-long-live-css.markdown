@@ -39,6 +39,7 @@ Ok, na época que comecei a brincar com web o CSS já estava um pouco mais estab
 
 ### Futuro!
 > Far beyond...
+> https://drafts.csswg.org/cssom/
 
 ```css
 ul {
