@@ -37,6 +37,8 @@ Meu primeiro contato com Less foi através do blog [Loop Infinito](http://loopin
 
 ### CSS Modules
 > <3
+Sass/Stylus/Less ajudam a escrever CSS mais facilmente
+CSS Modules ajuda escrever CSS escalável
 
 ### CSS4? Não!
 > <3
