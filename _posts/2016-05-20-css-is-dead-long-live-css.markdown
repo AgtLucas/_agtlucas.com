@@ -46,6 +46,7 @@ CSS Modules ajuda escrever CSS escalável
 ### Futuro!
 > Far beyond...
 > https://drafts.csswg.org/cssom/
+> Make CSS great again
 
 ```css
 ul {
