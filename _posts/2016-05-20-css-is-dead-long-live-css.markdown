@@ -25,7 +25,8 @@ Minha mudança para o Sass se deu por conta de 2 fatores: Compass e Rails.
 Percebi que estavam falando muito do tal do Compass e então descobri que era um framework para o Sass. Como estava num processo de transição do PHP para o Rails, acabei descobrindo todo o poder do Sass.
 
 ### Pre-conceito com o Stylus
-> "Sass fanboy"
+
+Nunca gostei muito do Stylus, principalmente pela liberdade excessiva.
 
 ### Stylus
 > Não é tão ruim assim
