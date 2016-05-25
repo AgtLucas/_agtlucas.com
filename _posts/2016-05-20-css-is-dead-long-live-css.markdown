@@ -14,9 +14,8 @@ Não sou nenhum dinossauro neste mundo de web, comecei brincando com blogspot em
 Ok, na época que comecei a brincar com web o CSS já estava um pouco mais estabilizado, (in)felizmente não peguei a época onde as tabelas comandavam os layouts, entre outras coisas...
 
 ### Less
-> Descrever minha descoberta sobre pre-processadores
 
-Meu primeiro contato com Less foi através do blog [Loop Infinito](http://loopinfinito.com.br/).
+Meu primeiro contato com Less foi através do blog [Loop Infinito](http://loopinfinito.com.br/). Lembro que fuçando o site encontrei um projeto de tradução do site do Less.
 
 ### Sass
 > Sobre Sass & Compass
