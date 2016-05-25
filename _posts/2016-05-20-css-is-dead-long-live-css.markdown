@@ -24,6 +24,9 @@ Meu primeiro contato com Less foi através do blog [Loop Infinito](http://loopin
 Minha mudança para o Sass se deu por conta de 2 fatores: Compass e Rails.
 Percebi que estavam falando muito do tal do Compass e então descobri que era um framework para o Sass. Como estava num processo de transição do PHP para o Rails, acabei descobrindo todo o poder do Sass.
 
+> Codekit
+> Grunt
+
 ### Pre-conceito com o Stylus
 
 Nunca gostei muito do Stylus, principalmente pela liberdade excessiva.
@@ -40,6 +43,8 @@ Hoje, com raras exceções, não uso mais pré-processedores. Os motivos são cl
 
 ### CSS Modules
 > <3
+Sass/Stylus/Less ajudam a escrever CSS mais facilmente
+CSS Modules ajuda escrever CSS escalável
 
 ### CSS4? Não!
 > <3
@@ -47,6 +52,7 @@ Hoje, com raras exceções, não uso mais pré-processedores. Os motivos são cl
 ### Futuro!
 > Far beyond...
 > https://drafts.csswg.org/cssom/
+> Make CSS great again
 
 ```css
 ul {
