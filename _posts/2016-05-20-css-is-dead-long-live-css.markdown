@@ -17,8 +17,12 @@ Ok, na época que comecei a brincar com web o CSS já estava um pouco mais estab
 
 Meu primeiro contato com Less foi através do blog [Loop Infinito](http://loopinfinito.com.br/). Lembro que fuçando o site encontrei um projeto de tradução do site do Less.
 
+> ...
+
 ### Sass
-> Sobre Sass & Compass
+
+Minha mudança para o Sass se deu por conta de 2 fatores: Compass e Rails.
+Percebi que estavam falando muito do tal do Compass e então descobri que era um framework para o Sass. Como estava num processo de transição do PHP para o Rails, acabei descobrindo todo o poder do Sass.
 
 ### Pre-conceito com o Stylus
 > "Sass fanboy"
