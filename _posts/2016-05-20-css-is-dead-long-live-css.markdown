@@ -31,8 +31,9 @@ Nunca gostei muito do Stylus, principalmente pela liberdade excessiva.
 ### Stylus
 > Não é tão ruim assim
 
-### Adeus pre-processadores
-> Farewell!
+### Adeus pré-processadores
+
+Hoje, com raras exceções, não uso mais pré-processedores. Os motivos são claros:
 
 ### PostCSS
 > <3
