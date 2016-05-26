@@ -1,2 +1,3 @@
 # lucas.ninja
-New website
+
+Thoughts and codes... and writing.
