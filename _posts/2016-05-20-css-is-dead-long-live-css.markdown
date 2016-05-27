@@ -40,6 +40,7 @@ Hoje, com raras exceções, não uso mais pré-processedores. Os motivos são cl
 
 ### PostCSS
 > <3
+> String
 
 ### CSS Modules
 > <3
