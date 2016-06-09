@@ -86,3 +86,7 @@ blockquote {
 .Post-meta {
   font-size: .875rem;
 }
+
+.Post-comments {
+  padding-top: 60px;
+}
