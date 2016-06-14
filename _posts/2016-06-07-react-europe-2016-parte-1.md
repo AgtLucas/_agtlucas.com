@@ -6,7 +6,7 @@ date:   2016-06-07 17:17:58 -0300
 categories: blog
 ---
 
-2016, segunda edição do ReactEurope, novamente em Paris tal qual foi em 2015. Neste ano, tive a oportunidade de poder participar do evento (de perto) e ajudar na organização como voluntário. Foi uma experiência incrível e, mesmo não sendo possível acompanhar todas as palestras, posso dizer que o evento foi acima da média!
+2016, segunda edição do ReactEurope, novamente em Paris tal qual foi em 2015. Neste ano, tive a oportunidade de poder participar do evento (de perto) e ajudar na organização como voluntário. Foi uma experiência incrível (talvez farei um post sobre) e, mesmo não sendo possível acompanhar todas as palestras, posso dizer que o evento foi acima da média!
 
 Como o próprio nome diz, é um evento focado em React, porém não! Tivemos uma variação legal de palestras, não ficando preso apenas ao React e ao React Native. Teve GraphQL, Flow, Falcor, Elm, entre outros!
 
@@ -62,6 +62,8 @@ Uma das palestras que estava mais aguardando para ver e a [Lin Clark](https://tw
 
 Atualmente as animações estão cada vez mais presentes nas aplicações, nesta palestra, [Krzysztof Magiera](https://twitter.com/kzzzf) mostra várias dicas de como manter as animações no React Native sempre em 60FPS!
 
+![Krzysztof Magiera](/img/react-europe-krzysztof-magiera.JPG)
+
 <div class="u-video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qgSMjYWqBk4" frameborder="0" allowfullscreen></iframe>
 </div>
@@ -113,3 +115,13 @@ Nesta palestra, [Bertrand Karerangabo](https://twitter.com/codenarian) e [Evan S
 <div class="u-video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MBTgiMLujek" frameborder="0" allowfullscreen></iframe>
 </div>
+
+### Lightning talks
+
+Ao final do primeiro dia (e do segundo), tivemos também várias Lightning talks, que como o próprio nome sugere, são palestras bem rápidas e objetivas. Destaco a palestra do criador do [Babel](https://babeljs.io/), [Sebastian McKenzie](https://twitter.com/sebmck) onde ele mostra seu mais novo experimento, uma ferramenta capaz de tornar a inicialização de aplicações JS até 3 vezes mais rápido! Infelizmente Sebastian não garantiu quando e se vai tornar este experimento open source...
+
+<div class="u-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xbZzahWakGs" frameborder="0" allowfullscreen></iframe>
+</div>
+
+E assim acabou o primeiro dia! Aguardem a continuação.
