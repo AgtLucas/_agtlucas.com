@@ -6,9 +6,142 @@
 </description>
     <link>https://lucas.ninja/</link>
     <atom:link href="https://lucas.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 16 May 2016 19:43:13 -0300</pubDate>
-    <lastBuildDate>Mon, 16 May 2016 19:43:13 -0300</lastBuildDate>
-    <generator>Jekyll v3.1.3</generator>
+    <pubDate>Tue, 14 Jun 2016 19:21:08 -0300</pubDate>
+    <lastBuildDate>Tue, 14 Jun 2016 19:21:08 -0300</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>ReactEurope 2016 - Parte 1</title>
+        <description>&lt;p&gt;2016, segunda edição do ReactEurope, novamente em Paris tal qual foi em 2015. Neste ano, tive a oportunidade de poder participar do evento (de perto) e ajudar na organização como voluntário. Foi uma experiência incrível (talvez farei um post sobre) e, mesmo não sendo possível acompanhar todas as palestras, posso dizer que o evento foi acima da média!&lt;/p&gt;
+
+&lt;p&gt;Como o próprio nome diz, é um evento focado em React, porém não! Tivemos uma variação legal de palestras, não ficando preso apenas ao React e ao React Native. Teve GraphQL, Flow, Falcor, Elm, entre outros!&lt;/p&gt;
+
+&lt;p&gt;Pouco mais de &lt;strong&gt;800 pessoas&lt;/strong&gt; estiveram presentes nos dois dias de evento, fora os dois dias de Workshop e também o Hackathon que aconteceu no dia 01/06/2016 na sede da Mozilla em Paris.&lt;/p&gt;
+
+&lt;p&gt;Vamos lá?!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Acatando a sugestão de um amigo, resolvi dividir o artigo em duas partes, esta é a primeira parte. Assim que a segunda parte estiver publicada, irei atualizar com o link aqui.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/react-europe-entrance.JPG&quot; alt=&quot;Entrance&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;dia-do-workshop-01062016&quot;&gt;2º dia do Workshop (01/06/2016)&lt;/h2&gt;
+
+&lt;p&gt;Tive a oportunidade de acompanhar o 2º dia do Workshop sobre React + Redux. Dan Abramov e &lt;a href=&quot;https://twitter.com/acdlite&quot;&gt;Andrew Clark&lt;/a&gt; guiaram aproximadamente 80 alunos no desenvolvimento de uma aplicação React + Redux. O Workshop foi bem completo, cobrindo vários tópicos importantes, tais como performance, testes, além de muitas dicas sobre ES2015/ES6.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/react-europe-workshop.JPG&quot; alt=&quot;Workshop&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ao final do Workshop (e do Hackathon que estava acontecendo na sede da Mozilla em Paris) todos foram convidados para um happy hour no já conhecido “React Bar”, mais precisamente no The Frog, próximo ao local do evento e Workshop. O happy hour fora patrocinado pela &lt;a href=&quot;https://red-badger.com/&quot;&gt;Red Badger&lt;/a&gt;, era só chegar lá, apresentar o ticket e aproveitar drinks de graça!&lt;/p&gt;
+
+&lt;h2 id=&quot;dia-02062016&quot;&gt;1º dia (02/06/2016)&lt;/h2&gt;
+
+&lt;p&gt;O primeiro dia do evento começou bem cedo, também pudera, mais de 800 pessoas para fazer check-in e entregar os brindes. Felizmente tudo correu bem, excelente trabalho em equipe de todo o pessoal que estava ajudando a organizar o evento. :)&lt;/p&gt;
+
+&lt;p&gt;Como todas as palestras foram gravadas, eu não vou entrar em detalhes, apenas um breve resumo e o video para acompanhar.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-redux-journey&quot;&gt;The Redux Journey&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/gaearon&quot;&gt;Dan Abramov&lt;/a&gt;, criador do (até 1 ano atrás desconhecido) Redux, conta como tem sido a jornada do Redux até agora, toda a sua evolução, os aprendizados no meio do caminho e como a comunidade tem ajudado a cultivar o ecosistema.&lt;/p&gt;
+
+&lt;div class=&quot;u-video&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/uvAXVMwHJXU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;native-navigation-for-every-platform&quot;&gt;Native Navigation for Every Platform&lt;/h3&gt;
+
+&lt;p&gt;Nesta palestra, &lt;a href=&quot;https://twitter.com/ericvicenti&quot;&gt;Eric Vlad&lt;/a&gt;, que trabalhou no primeiro app powered by React Native em produção; Facebook Groups demonstra como a nova API de navegação para o React Native (atualmente apelidada de Navigation Experimental) funciona e como ela pode ser usada até mesmo para web!&lt;/p&gt;
+
+&lt;div class=&quot;u-video&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/dOSwHABLvdM&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;a-cartoon-guide-to-performance-in-react&quot;&gt;A cartoon guide to performance in React&lt;/h3&gt;
+
+&lt;p&gt;Uma das palestras que estava mais aguardando para ver e a &lt;a href=&quot;https://twitter.com/linclark&quot;&gt;Lin Clark&lt;/a&gt; não me decepcionou! Sou um grande fã dela, principalmente pelo seu projeto &lt;a href=&quot;https://code-cartoons.com/&quot;&gt;Code Cartoons&lt;/a&gt; e nesta palestra ela deu dicas bem bacanas sobre como melhorar a performance da sua aplicação React. Bacana também foi saber sobre o projeto novo da Mozilla, o &lt;a href=&quot;http://mozilla.github.io/tofino/&quot;&gt;Project Tofino&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/react-europe-lin-clark.JPG&quot; alt=&quot;Link Clark&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;u-video&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-t8eOoRsJ7M&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;react-native-3-60fps----improving-react-native-animations&quot;&gt;React Native &amp;lt;3 60FPS – Improving React Native animations&lt;/h3&gt;
+
+&lt;p&gt;Atualmente as animações estão cada vez mais presentes nas aplicações, nesta palestra, &lt;a href=&quot;https://twitter.com/kzzzf&quot;&gt;Krzysztof Magiera&lt;/a&gt; mostra várias dicas de como manter as animações no React Native sempre em 60FPS!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/react-europe-krzysztof-magiera.JPG&quot; alt=&quot;Krzysztof Magiera&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;u-video&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qgSMjYWqBk4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;being-successful-at-open-source&quot;&gt;Being Successful at Open Source&lt;/h3&gt;
+
+&lt;p&gt;O Facebook tem se mostrado um grande celeiro open source com vários projetos de sucesso. &lt;a href=&quot;https://twitter.com/Vjeux&quot;&gt;Christopher Chedeau (aka.: Vjeux)&lt;/a&gt; conta sua experiência em diversos projetos open source pelos quais ele já trabalhou e dá dicas valiosas de como manter um projeto open source.&lt;/p&gt;
+
+&lt;div class=&quot;u-video&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/nRF0OVQL9Nw&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;graphql-at-facebook&quot;&gt;GraphQL at Facebook&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/dlschafer&quot;&gt;Dan Schafer&lt;/a&gt;, co-criador do GraphQL explica em detalhes como o projeto têm sido usado em produção no Facebook ao longo dos anos.&lt;/p&gt;
+
+&lt;div class=&quot;u-video&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/etax3aEe2dA&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;a-deepdive-into-flow&quot;&gt;A Deepdive Into Flow&lt;/h3&gt;
+
+&lt;p&gt;Flow é um “verificador” de tipagem, criado para rapidamente encontrar erros em aplicações JS. Como o próprio nome da palestra sugere, &lt;a href=&quot;https://twitter.com/lbljeffmo&quot;&gt;Jeff Morrison&lt;/a&gt; nos apresenta um grande overview de como o Flow realmente funciona e qual a sua importância nos dias atuais.&lt;/p&gt;
+
+&lt;div class=&quot;u-video&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VEaDsKyDxkY&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;debugging-flux-applications-in-production&quot;&gt;Debugging flux applications in production&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/mdiordiev&quot;&gt;Mihail Diordiev&lt;/a&gt; é o criador do &lt;a href=&quot;https://github.com/zalmoxisus/redux-devtools-extension&quot;&gt;Redux DevTools&lt;/a&gt; e nesta palestra ele explica como tornar o processo de debug muito mais fácil, vale muito a pena conferir!&lt;/p&gt;
+
+&lt;div class=&quot;u-video&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/cbXLohVbzNI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;on-the-spectrum-of-abstraction&quot;&gt;On the Spectrum of Abstraction&lt;/h3&gt;
+
+&lt;p&gt;Infelizmente não pude acompanhar a palestra do &lt;a href=&quot;https://twitter.com/_chenglou&quot;&gt;Cheng Lou&lt;/a&gt;, ainda bem que todas as palestras foram filmadas! Nesta palestra Cheng aborda como a comunidade React evoluiu com o passar dos anos e questiona diversos paradigmas usados pelas comunidades de desenvolvimento em geral.&lt;/p&gt;
+
+&lt;div class=&quot;u-video&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mVVNJKv9esE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;react-redux-analytics&quot;&gt;React Redux Analytics&lt;/h3&gt;
+
+&lt;p&gt;Nesta palestra, &lt;a href=&quot;https://twitter.com/codenarian&quot;&gt;Bertrand Karerangabo&lt;/a&gt; e &lt;a href=&quot;https://twitter.com/e_p82&quot;&gt;Evan Schultz&lt;/a&gt; abordam como usaram Redux middleware para analisar diversas métricas de uma aplicação React.&lt;/p&gt;
+
+&lt;div class=&quot;u-video&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/MBTgiMLujek&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;lightning-talks&quot;&gt;Lightning talks&lt;/h3&gt;
+
+&lt;p&gt;Ao final do primeiro dia (e do segundo), tivemos também várias Lightning talks, que como o próprio nome sugere, são palestras bem rápidas e objetivas. Destaco a palestra do criador do &lt;a href=&quot;https://babeljs.io/&quot;&gt;Babel&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/sebmck&quot;&gt;Sebastian McKenzie&lt;/a&gt; onde ele mostra seu mais novo experimento, uma ferramenta capaz de tornar a inicialização de aplicações JS até 3 vezes mais rápido! Infelizmente Sebastian não garantiu quando e se vai tornar este experimento open source…&lt;/p&gt;
+
+&lt;div class=&quot;u-video&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xbZzahWakGs&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;E assim acabou o primeiro dia! Aguardem a continuação.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 Jun 2016 17:17:58 -0300</pubDate>
+        <link>https://lucas.ninja/blog/2016/06/07/react-europe-2016-parte-1.html</link>
+        <guid isPermaLink="true">https://lucas.ninja/blog/2016/06/07/react-europe-2016-parte-1.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Brave New World again</title>
