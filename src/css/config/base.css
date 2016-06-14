@@ -58,6 +58,10 @@ blockquote {
   }
 }
 
+.Post-header {
+  margin-bottom: 1.875em;
+}
+
 .Post-item:not(:last-child) {
   margin-bottom: 4em;
 }

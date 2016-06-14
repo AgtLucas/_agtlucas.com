@@ -12,11 +12,25 @@ Como o próprio nome diz, é um evento focado em React, porém não! Tivemos uma
 
 Pouco mais de **800 pessoas** estiveram presentes nos dois dias de evento, fora os dois dias de Workshop e também o Hackathon que aconteceu no dia 01/06/2016 na sede da Mozilla em Paris.
 
-Vamos lá.
+Vamos lá?!
 
-![Mug](/img/react-europe-mug-1.JPG)
+> Acatando a sugestão de um amigo, resolvi dividir o artigo em duas partes, esta é a primeira parte. Assim que a segunda parte estiver publicada, irei atualizar com o link aqui.
+
+![Entrance](/img/react-europe-entrance.JPG)
+
+## 2º dia do Workshop (01/06/2016)
+
+Tive a oportunidade de acompanhar o 2º dia do Workshop sobre React + Redux. Dan Abramov e [Andrew Clark](https://twitter.com/acdlite) guiaram aproximadamente 80 alunos no desenvolvimento de uma aplicação React + Redux. O Workshop foi bem completo, cobrindo vários tópicos importantes, tais como performance, testes, além de muitas dicas sobre ES2015/ES6.
+
+![Workshop](/img/react-europe-workshop.JPG)
+
+Ao final do Workshop (e do Hackathon que estava acontecendo na sede da Mozilla em Paris) todos foram convidados para um happy hour no já conhecido "React Bar", mais precisamente no The Frog, próximo ao local do evento e Workshop. O happy hour fora patrocinado pela [Red Badger](https://red-badger.com/), era só chegar lá, apresentar o ticket e aproveitar drinks de graça!
 
 ## 1º dia (02/06/2016)
+
+O primeiro dia do evento começou bem cedo, também pudera, mais de 800 pessoas para fazer check-in e entregar os brindes. Felizmente tudo correu bem, excelente trabalho em equipe de todo o pessoal que estava ajudando a organizar o evento. :)
+
+Como todas as palestras foram gravadas, eu não vou entrar em detalhes, apenas um breve resumo e o video para acompanhar.
 
 ### The Redux Journey
 
@@ -37,6 +51,8 @@ Nesta palestra, [Eric Vlad](https://twitter.com/ericvicenti), que trabalhou no p
 ### A cartoon guide to performance in React
 
 Uma das palestras que estava mais aguardando para ver e a [Lin Clark](https://twitter.com/linclark) não me decepcionou! Sou um grande fã dela, principalmente pelo seu projeto [Code Cartoons](https://code-cartoons.com/) e nesta palestra ela deu dicas bem bacanas sobre como melhorar a performance da sua aplicação React. Bacana também foi saber sobre o projeto novo da Mozilla, o [Project Tofino](http://mozilla.github.io/tofino/).
+
+![Link Clark](/img/react-europe-lin-clark.JPG)
 
 <div class="u-video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-t8eOoRsJ7M" frameborder="0" allowfullscreen></iframe>
@@ -96,66 +112,4 @@ Nesta palestra, [Bertrand Karerangabo](https://twitter.com/codenarian) e [Evan S
 
 <div class="u-video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MBTgiMLujek" frameborder="0" allowfullscreen></iframe>
-</div>
-
-## Day 2
-
-### Evolving the Visual Programming Environment with React
-
-<div class="u-video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WjJdaDXN5Vs" frameborder="0" allowfullscreen></iframe>
-</div>
-
-### React Native Retrospective
-
-<div class="u-video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-vl57brMWNg" frameborder="0" allowfullscreen></iframe>
-</div>
-
-### The Evolution of React UI Development
-
-<div class="u-video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0IkWuXeKPV0" frameborder="0" allowfullscreen></iframe>
-</div>
-
-### Recomposing your React application
-
-<div class="u-video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zD_judE-bXk" frameborder="0" allowfullscreen></iframe>
-</div>
-
-### Falcor: One Model Everywhere
-
-<div class="u-video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nxQweyTUj5s" frameborder="0" allowfullscreen></iframe>
-</div>
-
-### JavaScript, React Native and Performance
-
-<div class="u-video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1oL_OJ3UePU" frameborder="0" allowfullscreen></iframe>
-</div>
-
-### Building li.st for Android with Exponent and React Native
-
-<div class="u-video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cI9bDvDEsYE" frameborder="0" allowfullscreen></iframe>
-</div>
-
-### GraphQL Future
-
-<div class="u-video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ViXL0YQnioU" frameborder="0" allowfullscreen></iframe>
-</div>
-
-### Building native mobile apps with GraphQL
-
-<div class="u-video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/z5rz3saDPJ8" frameborder="0" allowfullscreen></iframe>
-</div>
-
-### Q&A with core team members
-
-<div class="u-video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5pMDd1t2thc" frameborder="0" allowfullscreen></iframe>
 </div>
