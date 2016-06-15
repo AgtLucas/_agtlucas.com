@@ -102,7 +102,7 @@ Flow é um "verificador" de tipagem, criado para rapidamente encontrar erros em 
 
 ### On the Spectrum of Abstraction
 
-Infelizmente não pude acompanhar a palestra do [Cheng Lou](https://twitter.com/_chenglou), ainda bem que todas as palestras foram filmadas! Nesta palestra Cheng aborda como a comunidade React evoluiu com o passar dos anos e questiona diversos paradigmas usados pelas comunidades de desenvolvimento em geral.
+Infelizmente não pude acompanhar a palestra do [Cheng Lou](https://twitter.com/_chenglou), ainda bem que todas as palestras foram filmadas! Nesta palestra Cheng aborda como diversos paradigmas usados pelas comunidades de desenvolvimento em geral.
 
 <div class="u-video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mVVNJKv9esE" frameborder="0" allowfullscreen></iframe>
