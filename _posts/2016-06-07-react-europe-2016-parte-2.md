@@ -12,11 +12,15 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 ### Evolving the Visual Programming Environment with React
 
+Nesta palestra, [Jonas Gebhardt](https://twitter.com/jonasgebhardt) demonstra através de uma ferramenta de prototipagem bem legal como podemos tornar o ambiente de programação mais acessivo.
+
 <div class="u-video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WjJdaDXN5Vs" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ### React Native Retrospective
+
+Este ano (2016) React Native completou 1 ano de vida e [Bonnie Eisenman](https://twitter.com/brindelle) apresenta uma retrospectiva do mesmo. Polêmico desde o seu anúncio e lançamento em 2015, onde na época em questão tinha suporte apenas para iOS, passando até os dias atuais onde conta com suporte para Android e o que o futuro nos reserva com o recente anúncio da parceria com a Microsoft e Samsung para fazer uso do RN em seus respectivos devices e plataformas.
 
 <div class="u-video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-vl57brMWNg" frameborder="0" allowfullscreen></iframe>
@@ -24,11 +28,15 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 ### The Evolution of React UI Development
 
+Uma das palestras mais animadas do dia, [Max Stoiber](https://twitter.com/mxstbr) e [Nik Graf](https://twitter.com/nikgraf) fazem um review sobre o desenvolvimento de UI com React e apresentam seu mais novo projeto; [Carte Blanche](https://github.com/carteb/carte-blanche), que nada mais é que um espaço isolado de desenvolvimento que permite você desenvolver e testar componentes de uma maneira bem interessante. Vale a pena conferir!
+
 <div class="u-video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0IkWuXeKPV0" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ### Recomposing your React application
+
+[Andrew Clark](https://twitter.com/acdlite) discute diversas estratégias de como construir aplicações React preparadas para escalabilidade e reuso. Dica; [Recompose](https://github.com/acdlite/recompose).
 
 <div class="u-video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zD_judE-bXk" frameborder="0" allowfullscreen></iframe>
