@@ -16,7 +16,7 @@ Vamos lá?!
 
 > Acatando a sugestão de um amigo, resolvi dividir o artigo em duas partes, esta é a primeira parte. Assim que a segunda parte estiver publicada, irei atualizar com o link aqui.
 
-> Update: Parte 2 aqui => [https://lucas.ninja/blog/2016/06/07/react-europe-2016-parte-1.html](https://lucas.ninja/blog/2016/06/07/react-europe-2016-parte-1.html)
+> Update: Parte 2 aqui => [https://lucas.ninja/blog/2016/06/08/react-europe-2016-parte-2.html](https://lucas.ninja/blog/2016/06/08/react-europe-2016-parte-2.html)
 
 ![Entrance](/img/react-europe-entrance.JPG)
 
