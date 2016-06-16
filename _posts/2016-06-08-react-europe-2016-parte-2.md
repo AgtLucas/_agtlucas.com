@@ -116,4 +116,4 @@ E assim acabou mais um ReactEurope, de longe o melhor evento de tecnologia que p
 
 Agradeço a parceria de todo o pessoal do staff e em especial para o [Patrick](https://twitter.com/patcito) e para a [Katy](https://twitter.com/katy_gca) pela oportunidade de poder ajudar e participar de um evento sensacional como este. Obrigado!
 
-![Game over](/img/react-europe-me.JPG)
+![Game over](/img/react-europe-me.jpg)
