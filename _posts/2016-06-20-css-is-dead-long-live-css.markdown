@@ -28,7 +28,7 @@ Percebi que estavam falando muito do tal do Compass e então descobri que era um
 > Codekit
 > Grunt
 
-### Pre-conceito com o Stylus
+### Pré-conceito com o Stylus
 
 Nunca gostei muito do Stylus, principalmente pela liberdade excessiva.
 
