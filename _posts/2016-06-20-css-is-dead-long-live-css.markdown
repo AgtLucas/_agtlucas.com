@@ -22,7 +22,7 @@ Meu primeiro contato com Less foi através do blog [Loop Infinito](http://loopin
 
 ### Sass
 
-Minha mudança para o Sass se deu por conta de 2 fatores: Compass e Rails.
+Minha mudança para o lado Sass da força ocorreu por conta de 2 fatores: Compass e Rails.
 Percebi que estavam falando muito do tal do Compass e então descobri que era um framework para o Sass. Como estava num processo de transição do PHP para o Rails, acabei descobrindo todo o poder do Sass. Engraçado que muito se fala (e critica) hoje sobre escrever CSS no JS, mas vale lembrar que já escrevemos muito CSS no Ruby!
 
 > Codekit
