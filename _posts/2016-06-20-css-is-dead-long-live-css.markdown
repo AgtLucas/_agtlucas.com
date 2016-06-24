@@ -30,10 +30,7 @@ Percebi que estavam falando muito do tal do Compass e então descobri que era um
 
 ### Pré-conceito com o Stylus
 
-Nunca gostei muito do Stylus, principalmente pela liberdade excessiva.
-
-### Stylus
-> Não é tão ruim assim
+Nunca gostei muito do Stylus, principalmente pela liberdade excessiva (?).
 
 ### Adeus pré-processadores
 
