@@ -36,6 +36,9 @@ Nunca gostei muito do Stylus, principalmente pela liberdade excessiva (?).
 
 Hoje, com raras exceções, não uso mais pré-processedores. Os motivos são claros:
 
+* Apenas syntax-sugar
+* Não resolvem problemas mais importantes, tais qual escalabilidade
+
 ### PostCSS
 > <3
 > String
