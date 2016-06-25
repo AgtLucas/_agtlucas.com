@@ -2,7 +2,7 @@
 layout: post
 title:  "CSS is dead - Long live CSS"
 description: "Um breve relato e algumas opiniões sobre o futuro do CSS"
-date:   2016-05-20 17:17:58 -0300
+date:   2016-06-20 06:17:58 -0300
 categories: blog
 ---
 
