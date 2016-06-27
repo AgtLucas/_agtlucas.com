@@ -97,6 +97,8 @@ Apesar da sintaxe feia, variáveis nativas no CSS vão muito além do que atribu
 
 Demais features do cssnext => [http://cssnext.io/features/](http://cssnext.io/features/).
 
+![Not bad](/img/not-bad.gif)
+
 ## CSS Modules
 
 CSS Modules surgiu da necessidade de algum mecanismo de escopo no CSS.
@@ -133,6 +135,8 @@ Mesmo usando uma classe com nome tão comum como `title` não terei problemas de
 ```html
 <div class="_6kldcs">Foo</div>
 ```
+
+![Not bad](/img/clap-kim.gif)
 
 E caso eu tivesse um componente **Bar** com a mesma estrutura e mesmo nome de classe, a hash seria diferente.
 
