@@ -6,8 +6,8 @@
 </description>
     <link>https://lucas.ninja/</link>
     <atom:link href="https://lucas.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 27 Jun 2016 01:20:17 -0300</pubDate>
-    <lastBuildDate>Mon, 27 Jun 2016 01:20:17 -0300</lastBuildDate>
+    <pubDate>Mon, 27 Jun 2016 01:22:57 -0300</pubDate>
+    <lastBuildDate>Mon, 27 Jun 2016 01:22:57 -0300</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -109,6 +109,8 @@ Ruby Sass: 1042 ms (26.0 times slower)
 
 &lt;p&gt;Demais features do cssnext =&amp;gt; &lt;a href=&quot;http://cssnext.io/features/&quot;&gt;http://cssnext.io/features/&lt;/a&gt;.&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;/img/not-bad.gif&quot; alt=&quot;Not bad&quot; /&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;css-modules&quot;&gt;CSS Modules&lt;/h2&gt;
 
 &lt;p&gt;CSS Modules surgiu da necessidade de algum mecanismo de escopo no CSS.&lt;/p&gt;
@@ -147,6 +149,8 @@ Ruby Sass: 1042 ms (26.0 times slower)
 &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;_6kldcs&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Foo&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/clap-kim.gif&quot; alt=&quot;Not bad&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;E caso eu tivesse um componente &lt;strong&gt;Bar&lt;/strong&gt; com a mesma estrutura e mesmo nome de classe, a hash seria diferente.&lt;/p&gt;
 
