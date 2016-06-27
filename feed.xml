@@ -6,9 +6,162 @@
 </description>
     <link>https://lucas.ninja/</link>
     <atom:link href="https://lucas.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 Jun 2016 21:05:30 -0300</pubDate>
-    <lastBuildDate>Wed, 15 Jun 2016 21:05:30 -0300</lastBuildDate>
+    <pubDate>Mon, 27 Jun 2016 01:15:39 -0300</pubDate>
+    <lastBuildDate>Mon, 27 Jun 2016 01:15:39 -0300</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>CSS is dead - Long live (post)CSS</title>
+        <description>&lt;p&gt;Sejamos sinceros, “escrever” CSS é fácil se compararmos o quão difícil é manter e escalar o mesmo, mas felizmente temos muitas opções para tornar estas tarefas um pouco mais fáceis.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;O objetivo deste post é resumir de forma bem resumida o que é PostCSS.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Antes de prosseguir com o post, por determinação da W3C devemos sempre postar o gif abaixo quando o papo é CSS.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/css.gif&quot; alt=&quot;CSS...&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bom, como eu ia dizendo, hoje temos várias opções para nos facilitar a vida, infelizmente o tempo vem nos provando que nenhuma delas é adequada e na verdade, cabe a você e sua equipe decidirem qual é a que melhor atende as vossas necessidades.&lt;/p&gt;
+
+&lt;p&gt;Recentemente abandonei os pré-processadores e migrei para o &lt;a href=&quot;http://postcss.org/&quot;&gt;PostCSS&lt;/a&gt;, uma ferramenta que por padrão é muito útil e que não faz “nada”…&lt;/p&gt;
+
+&lt;p&gt;Antes de falarmos sobre PostCSS, vamos rever algumas soluções e metodologias que foram surgindo ao longo dos últimos anos e que foi moldando como escrevemos CSS atualmente.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/oh-boy.gif&quot; alt=&quot;Oh boy...&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;metodologias&quot;&gt;Metodologias&lt;/h2&gt;
+
+&lt;p&gt;Seja ela &lt;a href=&quot;https://suitcss.github.io/&quot;&gt;SUIT CSS&lt;/a&gt;, &lt;a href=&quot;https://en.bem.info/&quot;&gt;BEM&lt;/a&gt;, &lt;a href=&quot;http://oocss.org/&quot;&gt;OOCSS&lt;/a&gt;, &lt;a href=&quot;https://smacss.com/&quot;&gt;SMACSS&lt;/a&gt;, […] entre tantas outras, todas elas possuem pontos positivos e negativos, e como falei acima, cabe a você decidir.&lt;/p&gt;
+
+&lt;p&gt;De uma maneira geral, todas cumprem o que prometem, se fosse para escolher uma eu optaria pelo SUIT CSS que tem nas suas raízes o BEM.&lt;/p&gt;
+
+&lt;h2 id=&quot;pr-processadores&quot;&gt;Pré-processadores&lt;/h2&gt;
+
+&lt;p&gt;Resumindo os pré-processadores CSS: Syntax sugar e template language. Os pré-processadores tornaram a tarefa de escrever CSS muito mais fácil e ainda adicinou alguns “poderes” como loops, mixins, funções e mais um monte de coisas que raramente as pessoas usam para valer em projetos, mas que deveriam.&lt;/p&gt;
+
+&lt;h2 id=&quot;postcss&quot;&gt;PostCSS&lt;/h2&gt;
+
+&lt;p&gt;Ok, ao ponto principal do post, PostCSS.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/go-on.gif&quot; alt=&quot;Inside PostCSS&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;PostCSS nada mais é do que uma ferramenta que nos permite transformar CSS usando JS.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Conforme relatei acima, PostCSS por padrão é muito útil, porém não faz nada, pois o responsável pela transformação são os plugins e, como você pode imaginar, &lt;a href=&quot;http://postcss.parts/&quot;&gt;temos muitos plugins para os mais variados tipos de tarefas&lt;/a&gt;, existe até &lt;a href=&quot;https://github.com/postcss/postcss-use&quot;&gt;plugin para resolver problemas com plugins&lt;/a&gt;. 🤔&lt;/p&gt;
+
+&lt;p&gt;Basicamente uma chamada PostCSS é composta pelo Parser e pelo CSS Stringifier, conforme imagem abaixo:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/inside-postcss.png&quot; alt=&quot;Inside PostCSS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Em outras palavras, o Parser recebe uma string de CSS e transforma esta string em uma AST (Abstract Syntax Tree), enquanto que o CSS Stringifier faz justamente o contrário, ele transforma a AST (já modificada pelos plugins) em uma string CSS.&lt;/p&gt;
+
+&lt;p&gt;Deu pra perceber o quão poderoso isto é? Podemos fazer basicamente qualquer coisa com o CSS manipulando-o usando JS.&lt;/p&gt;
+
+&lt;p&gt;Mesmo com todo este poder, PostCSS é rápido, muito rápido! Veja o benchmark abaixo:&lt;/p&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;/* Results on node 5.0.0, Fedora 22, Intel 5Y70, 8 GB RAM and SSD::
+PostCSS:   40 ms
+Rework:    75 ms   (1.9 times slower)
+libsass:   76 ms   (1.9 times slower)
+Less:      147 ms  (3.7 times slower)
+Stylus:    166 ms  (4.1 times slower)
+Stylecow:  258 ms  (6.4 times slower)
+Ruby Sass: 1042 ms (26.0 times slower)
+*/&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Entretando, podemos notar que com exceção da versão em Ruby do compilador do Sass, todas as demais são rápidas o suficiente. O benchmark completo pode ser visto &lt;a href=&quot;https://github.com/postcss/benchmark&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Como este post é apenas um breve resumo, não vou entrar em detalhes de configurações, isto fica para o próximo post que será sobre &lt;strong&gt;CSS Modules e ReactJS&lt;/strong&gt;, mas apenas adiantando um pouco o assunto…&lt;/p&gt;
+
+&lt;h2 id=&quot;cssnext&quot;&gt;cssnext&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Não, não teremos CSS4 (assim como não temos CSS3, e sim CSS com seletores level 3).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;cssnext nos permite usar novas features do CSS (ex.: variáveis) hoje, ou seja, é como o Babel, só que “do css…”&lt;/p&gt;
+
+&lt;p&gt;Considere:&lt;/p&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;ul&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;py&quot;&gt;--itemColor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#08C&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;ol&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;py&quot;&gt;--itemColor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#655&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;/* Adivinha o que acontece?! */&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;li&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;var&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;--itemColor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;No exemplo acima, declaramos uma variável nativa do CSS e atribuímos 2 valores diferentes em 2 escopos diferentes; &lt;code class=&quot;highlighter-rouge&quot;&gt;ul&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;ol&lt;/code&gt;. Todo &lt;code class=&quot;highlighter-rouge&quot;&gt;li&lt;/code&gt; que estiver no escopo do &lt;code class=&quot;highlighter-rouge&quot;&gt;ul&lt;/code&gt; terá uma cor azul e aqueles que estiverem no escopo do &lt;code class=&quot;highlighter-rouge&quot;&gt;ol&lt;/code&gt; terão uma cor marrom. Bacana, não?&lt;/p&gt;
+
+&lt;p&gt;Apesar da sintaxe feia, variáveis nativas no CSS vão muito além do que atribuição de valores, se quiser saber mais recomendo ler &lt;a href=&quot;https://diessi.ca/blog/a-cascata-das-variaveis-do-css/&quot;&gt;este post escrito pela Diéssica&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Demais features do cssnext =&amp;gt; &lt;a href=&quot;http://cssnext.io/features/&quot;&gt;http://cssnext.io/features/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;css-modules&quot;&gt;CSS Modules&lt;/h2&gt;
+
+&lt;p&gt;CSS Modules surgiu da necessidade de algum mecanismo de escopo no CSS.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.w3.org/TR/css-scoping-1/&quot;&gt;Existe um draft sobre escopo nativo, porém ainda não passa de draft&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Com CSS Modules, tudo tem seu próprio escopo, ou seja local, dito isto não precisamos nos preocupar com nomes &amp;amp; prefixos de classes &amp;amp; conflitos.&lt;/p&gt;
+
+&lt;p&gt;Considere os seguintes componente &lt;strong&gt;Foo&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// Foo.js&lt;/span&gt;
+&lt;span class=&quot;kr&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Component&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;react&#39;&lt;/span&gt;
+&lt;span class=&quot;kr&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;styles&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;./foo.css&#39;&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;Class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Foo&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Component&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;render&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;className&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;styles&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Foo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/div&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
+&lt;/span&gt;    &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;/* Foo.css */&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.title&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#666&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Mesmo usando uma classe com nome tão comum como &lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt; não terei problemas de conflitos pois quando compilado, meu componente vai ter uma classe “escopada” com uma hash, algo do tipo:&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;_6kldcs&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Foo&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;E caso eu tivesse um componente &lt;strong&gt;Bar&lt;/strong&gt; com a mesma estrutura e mesmo nome de classe, a hash seria diferente.&lt;/p&gt;
+
+&lt;p&gt;No próximo post explicarei em detalhes como funciona o escopo local e global no CSS Modules.&lt;/p&gt;
+
+&lt;h3 id=&quot;continua-no-prximo-post&quot;&gt;Continua no próximo post.&lt;/h3&gt;
+</description>
+        <pubDate>Sat, 25 Jun 2016 06:17:58 -0300</pubDate>
+        <link>https://lucas.ninja/blog/2016/06/25/css-is-dead-long-live-css.html</link>
+        <guid isPermaLink="true">https://lucas.ninja/blog/2016/06/25/css-is-dead-long-live-css.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>ReactEurope 2016 - Parte 2</title>
