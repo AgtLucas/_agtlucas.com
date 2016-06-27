@@ -6,7 +6,9 @@ date:   2016-06-25 06:17:58 -0300
 categories: blog
 ---
 
-Sejamos sinceros, "escrever" CSS é fácil se compararmos o quão difícil é manter e escalar o mesmo em um projeto grande, mas felizmente temos muitas opções para tornar estas tarefas pelo menos mais fáceis.
+Sejamos sinceros, "escrever" CSS é fácil se compararmos o quão difícil é manter e escalar o mesmo, mas felizmente temos muitas opções para tornar estas tarefas um pouco mais fáceis.
+
+> O objetivo deste post é resumir de forma bem resumida o que é PostCSS.
 
 **Antes de prosseguir com o post, por determinação da W3C devemos sempre postar o gif abaixo quando o papo é CSS.**
 
@@ -28,73 +30,51 @@ De uma maneira geral, todas cumprem o que prometem, se fosse para escolher uma e
 
 ## Pré-processadores
 
-Resumindo os pré-processadores CSS: Syntax sugar e template language. Os pré-processadores tornaram a tarefa de escrever CSS muito mais fácil e ainda adicinou alguns "poderes" como loops de repetição, mixins, funções e mais um monte de coisas que raramente as pessoas usam para valer em projetos, mas que deveriam.
+Resumindo os pré-processadores CSS: Syntax sugar e template language. Os pré-processadores tornaram a tarefa de escrever CSS muito mais fácil e ainda adicinou alguns "poderes" como loops, mixins, funções e mais um monte de coisas que raramente as pessoas usam para valer em projetos, mas que deveriam.
 
 ## PostCSS
 
-Ok, ao ponto principal do artigo, PostCSS.
+Ok, ao ponto principal do post, PostCSS.
 
-PostCSS nada mais é do que uma ferramenta que nos permite transformar CSS usando JS. Simples e direto. Conforme relatei acima, PostCSS por padrão é muito útil, porém não faz nada, pois o responsável pela transformação são os plugins e, como você pode imaginar, [temos muitos plugins para os mais variados tipos de tarefas](http://postcss.parts/), existe até [plugin para resolver problemas com plugins](https://github.com/postcss/postcss-use). 🤔
+![Inside PostCSS](/img/go-on.gif)
+
+> **PostCSS nada mais é do que uma ferramenta que nos permite transformar CSS usando JS.**
+
+Conforme relatei acima, PostCSS por padrão é muito útil, porém não faz nada, pois o responsável pela transformação são os plugins e, como você pode imaginar, [temos muitos plugins para os mais variados tipos de tarefas](http://postcss.parts/), existe até [plugin para resolver problemas com plugins](https://github.com/postcss/postcss-use). 🤔
 
 Basicamente uma chamada PostCSS é composta pelo Parser e pelo CSS Stringifier, conforme imagem abaixo:
 
 ![Inside PostCSS](/img/inside-postcss.png)
 
-Em outras palavras, o Parser recebe uma string de CSS e transforma esta string em uma AST (Abstract Syntax Tree), enquanto que o CSS Stringifier faz justamente o contrário, ele transforma a AST (já modificada pelos plugins) em uma string CSS. Simples assim.
+Em outras palavras, o Parser recebe uma string de CSS e transforma esta string em uma AST (Abstract Syntax Tree), enquanto que o CSS Stringifier faz justamente o contrário, ele transforma a AST (já modificada pelos plugins) em uma string CSS.
 
-Porém como quase tudo nesta vida é mutável,
+Deu pra perceber o quão poderoso isto é? Podemos fazer basicamente qualquer coisa com o CSS manipulando-o usando JS.
 
-Dito isto, este post perde o sentido, ora, se não existe bala de prata, por qual motivo devo continuar lendo se nenhuma solução é perfeita, não é mesmo? Não, não é mesmo! Não
+Mesmo com todo este poder, PostCSS é rápido, muito rápido! Veja o benchmark abaixo:
 
-CSS, um dos pilares da web, quem nunca teve algum problema com ele que atire a primeira pedra. Este ano o CSS completa 20 anos, (17 de Dezembro), e para comemorar (ou não) escrevo este post onde relato minha breve experiência com o mesmo.
+```css
+/* Results on node 5.0.0, Fedora 22, Intel 5Y70, 8 GB RAM and SSD::
+PostCSS:   40 ms
+Rework:    75 ms   (1.9 times slower)
+libsass:   76 ms   (1.9 times slower)
+Less:      147 ms  (3.7 times slower)
+Stylus:    166 ms  (4.1 times slower)
+Stylecow:  258 ms  (6.4 times slower)
+Ruby Sass: 1042 ms (26.0 times slower)
+*/
+```
 
-Não sou nenhum dinossauro neste mundo de web, comecei brincando com blogspot em 2009, minha ideia era fazer um blog pois todo mundo tinha um blog e era "cool", anyway, o objetivo deste post (como já falei no paragráfo anterior) é outro, então, voltando ao assunto.
+Entretando, podemos notar que com exceção da versão em Ruby do compilador do Sass, todas as demais são rápidas o suficiente. O benchmark completo pode ser visto [aqui](https://github.com/postcss/benchmark).
 
-### CSS.
+Como este post é apenas um breve resumo, não vou entrar em detalhes de configurações, isto fica para o próximo post que será sobre **CSS Modules e ReactJS**, mas apenas adiantando um pouco o assunto...
 
-Ok, na época que comecei a brincar com web o CSS já estava um pouco mais estabilizado, (in)felizmente não peguei a época onde as tabelas comandavam os layouts, entre outras coisas...
+## cssnext
 
-### Less
+> Não, não teremos CSS4 (assim como não temos CSS3, e sim CSS com seletores level 3).
 
-Meu primeiro contato com Less foi através do blog [Loop Infinito](http://loopinfinito.com.br/). Lembro que fuçando o site encontrei um projeto de tradução do site do Less.
+cssnext nos permite usar novas features do CSS (ex.: variáveis) hoje, ou seja, é como o Babel, só que "do css..."
 
-> ...
-
-### Sass
-
-Minha mudança para o lado Sass da força ocorreu por conta de 2 fatores: Compass e Rails.
-Percebi que estavam falando muito do tal do Compass e então descobri que era um framework para o Sass. Como estava num processo de transição do PHP para o Rails, acabei descobrindo todo o poder do Sass. Engraçado que muito se fala (e critica) hoje sobre escrever CSS no JS, mas vale lembrar que já escrevemos muito CSS no Ruby!
-
-> Codekit
-> Grunt
-
-### Pré-conceito com o Stylus
-
-Nunca gostei muito do Stylus, principalmente pela liberdade excessiva (?).
-
-### Adeus pré-processadores
-
-Hoje, com raras exceções, não uso mais pré-processedores. Os motivos são claros:
-
-* Apenas syntax-sugar
-* Não resolvem problemas mais importantes, tais qual escalabilidade
-
-### PostCSS
-> <3
-> String
-
-### CSS Modules
-> <3
-Sass/Stylus/Less ajudam a escrever CSS mais facilmente
-CSS Modules ajuda escrever CSS escalável
-
-### CSS4? Não!
-> <3
-
-### Futuro!
-> Far beyond...
-> https://drafts.csswg.org/cssom/
-> Make CSS great again
+Considere:
 
 ```css
 ul {
@@ -110,3 +90,52 @@ li {
   color: var(--itemColor);
 }
 ```
+
+No exemplo acima, declaramos uma variável nativa do CSS e atribuímos 2 valores diferentes em 2 escopos diferentes; `ul` e `ol`. Todo `li` que estiver no escopo do `ul` terá uma cor azul e aqueles que estiverem no escopo do `ol` terão uma cor marrom. Bacana, não?
+
+Apesar da sintaxe feia, variáveis nativas no CSS vão muito além do que atribuição de valores, se quiser saber mais recomendo ler [este post escrito pela Diéssica](https://diessi.ca/blog/a-cascata-das-variaveis-do-css/).
+
+Demais features do cssnext => [http://cssnext.io/features/](http://cssnext.io/features/).
+
+## CSS Modules
+
+CSS Modules surgiu da necessidade de algum mecanismo de escopo no CSS.
+
+> [Existe um draft sobre escopo nativo, porém ainda não passa de draft](https://www.w3.org/TR/css-scoping-1/).
+
+Com CSS Modules, tudo tem seu próprio escopo, ou seja local, dito isto não precisamos nos preocupar com nomes & prefixos de classes & conflitos.
+
+Considere os seguintes componente **Foo**:
+
+```js
+// Foo.js
+import React, { Component } from 'react'
+import styles from './foo.css'
+
+Class Foo extends Component {
+  render () {
+    return (
+      <div className={styles.title}>Foo</div>
+    )
+  }
+}
+```
+
+```css
+/* Foo.css */
+.title {
+  color: #666;
+}
+```
+
+Mesmo usando uma classe com nome tão comum como `title` não terei problemas de conflitos pois quando compilado, meu componente vai ter uma classe "escopada" com uma hash, algo do tipo:
+
+```html
+<div class="_6kldcs">Foo</div>
+```
+
+E caso eu tivesse um componente **Bar** com a mesma estrutura e mesmo nome de classe, a hash seria diferente.
+
+No próximo post explicarei em detalhes como funciona o escopo local e global no CSS Modules.
+
+### Continua no próximo post.
