@@ -1,10 +1,50 @@
 ---
 layout: post
-title:  "CSS is dead - Long live CSS"
-description: "Um breve relato e algumas opiniões sobre o futuro do CSS"
-date:   2016-06-20 06:17:58 -0300
+title:  "CSS is dead - Long live (post)CSS"
+description: "Make CSS great again!"
+date:   2016-06-25 06:17:58 -0300
 categories: blog
 ---
+
+Sejamos sinceros, "escrever" CSS é fácil se compararmos o quão difícil é manter e escalar o mesmo em um projeto grande, mas felizmente temos muitas opções para tornar estas tarefas pelo menos mais fáceis.
+
+**Antes de prosseguir com o post, por determinação da W3C devemos sempre postar o gif abaixo quando o papo é CSS.**
+
+![CSS...](/img/css.gif)
+
+Bom, como eu ia dizendo, hoje temos várias opções para nos facilitar a vida, infelizmente o tempo vem nos provando que nenhuma delas é adequada e na verdade, cabe a você e sua equipe decidirem qual é a que melhor atende as vossas necessidades.
+
+Recentemente abandonei os pré-processadores e migrei para o [PostCSS](http://postcss.org/), uma ferramenta que por padrão é muito útil e que não faz "nada"...
+
+Antes de falarmos sobre PostCSS, vamos rever algumas soluções e metodologias que foram surgindo ao longo dos últimos anos e que foi moldando como escrevemos CSS atualmente.
+
+![Oh boy...](/img/oh-boy.gif)
+
+## Metodologias
+
+Seja ela [SUIT CSS](https://suitcss.github.io/), [BEM](https://en.bem.info/), [OOCSS](http://oocss.org/), [SMACSS](https://smacss.com/), [...] entre tantas outras, todas elas possuem pontos positivos e negativos, e como falei acima, cabe a você decidir.
+
+De uma maneira geral, todas cumprem o que prometem, se fosse para escolher uma eu optaria pelo SUIT CSS que tem nas suas raízes o BEM.
+
+## Pré-processadores
+
+Resumindo os pré-processadores CSS: Syntax sugar e template language. Os pré-processadores tornaram a tarefa de escrever CSS muito mais fácil e ainda adicinou alguns "poderes" como loops de repetição, mixins, funções e mais um monte de coisas que raramente as pessoas usam para valer em projetos, mas que deveriam.
+
+## PostCSS
+
+Ok, ao ponto principal do artigo, PostCSS.
+
+PostCSS nada mais é do que uma ferramenta que nos permite transformar CSS usando JS. Simples e direto. Conforme relatei acima, PostCSS por padrão é muito útil, porém não faz nada, pois o responsável pela transformação são os plugins e, como você pode imaginar, [temos muitos plugins para os mais variados tipos de tarefas](http://postcss.parts/), existe até [plugin para resolver problemas com plugins](https://github.com/postcss/postcss-use). 🤔
+
+Basicamente uma chamada PostCSS é composta pelo Parser e pelo CSS Stringifier, conforme imagem abaixo:
+
+![Inside PostCSS](/img/inside-postcss.png)
+
+Em outras palavras, o Parser recebe uma string de CSS e transforma esta string em uma AST (Abstract Syntax Tree), enquanto que o CSS Stringifier faz justamente o contrário, ele transforma a AST (já modificada pelos plugins) em uma string CSS. Simples assim.
+
+Porém como quase tudo nesta vida é mutável,
+
+Dito isto, este post perde o sentido, ora, se não existe bala de prata, por qual motivo devo continuar lendo se nenhuma solução é perfeita, não é mesmo? Não, não é mesmo! Não
 
 CSS, um dos pilares da web, quem nunca teve algum problema com ele que atire a primeira pedra. Este ano o CSS completa 20 anos, (17 de Dezembro), e para comemorar (ou não) escrevo este post onde relato minha breve experiência com o mesmo.
 

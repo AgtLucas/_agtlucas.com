@@ -4,6 +4,8 @@ p {
 
 img {
   max-width: 100%;
+  display: block;
+  margin: 1.875em auto;
 }
 
 a {
