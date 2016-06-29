@@ -114,7 +114,7 @@ Considere os seguintes componente **Foo**:
 import React, { Component } from 'react'
 import styles from './foo.css'
 
-Class Foo extends Component {
+class Foo extends Component {
   render () {
     return (
       <div className={styles.title}>Foo</div>
