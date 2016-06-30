@@ -2,6 +2,7 @@
 @import 'config/code';
 @import 'config/global';
 @import 'config/base';
+@import 'config/utilities';
 
 @import 'layout/shared';
 
