@@ -1,6 +1,7 @@
 /* By Simurai: https://github.com/simurai/simurai.github.io/blob/master/_sass/code.scss */
 /* Code ----------------------------------------- */
 code {
+  font-family: 'Fira Mono', monospace;
   font-size: .9em;
   padding: .1em .4em;
   color: hsl(44, 25%, 50%);
