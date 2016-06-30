@@ -49,13 +49,3 @@ blockquote {
   margin: 1em 0;
   padding: 1em;
 }
-
-.Post {
-  .Post-meta {
-    margin-top: 0;
-  }
-
-  h2, h3 {
-    margin: 1.2em 0;
-  }
-}
