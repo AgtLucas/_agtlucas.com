@@ -1,0 +1,7 @@
+.Nav--header {
+  display: none;
+
+  @media (--medium-up) {
+    display: block;
+  }
+}

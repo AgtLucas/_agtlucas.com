@@ -25,8 +25,8 @@ blockquote {
   border-left: 4px solid #cccccc;
 }
 
-.Header,
-.Main {
+.Main,
+.Header > div {
   padding: 2em;
 
   @media (--medium-up) {

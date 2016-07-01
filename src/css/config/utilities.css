@@ -16,3 +16,11 @@
     left: 0;
   }
 }
+
+.u-taCenter {
+  text-align: center;
+}
+
+.u-taRight {
+  text-align: right;
+}
