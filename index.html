@@ -6,7 +6,7 @@ layout: default
 
   <ul class="Post-list">
     {% for post in site.posts %}
-      <li class="Post-item">
+      <li class="Post-item" id="post-{{ post.title | slugify }}">
 
         <h2>
           <a class="Post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
