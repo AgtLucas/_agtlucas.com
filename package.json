@@ -6,9 +6,10 @@
   "scripts": {
     "start": "npm-run-all --parallel jekyll gulp browsersync",
     "gulp": "gulp",
-    "jekyll": "jekyll server",
+    "jekyll": "jekyll server --drafts",
+    "build": "jekyll build",
     "browsersync": "browser-sync start --proxy localhost:4000 --files='_site'",
-    "deploy": "node deploy"
+    "deploy": "npm run build && node deploy"
   },
   "repository": {
     "type": "git",
