@@ -7,3 +7,5 @@
 @import 'layout/shared';
 
 @import 'components/post';
+@import 'components/header';
+@import 'components/footer';

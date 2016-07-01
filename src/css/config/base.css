@@ -43,9 +43,3 @@ blockquote {
 .Main {
   flex: 1;
 }
-
-.Footer {
-  position: relative;
-  margin: 1em 0;
-  padding: 1em;
-}
