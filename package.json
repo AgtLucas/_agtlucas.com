@@ -2,7 +2,7 @@
   "name": "lucas.ninja",
   "version": "1.0.0",
   "description": "Lucas new blog",
-  "main": "gulpfile.js",
+  "main": "deploy.js",
   "scripts": {
     "start": "npm-run-all --parallel jekyll gulp browsersync",
     "gulp": "gulp",
