@@ -1,10 +1,9 @@
 <header class="Header">
 
   <nav class="Nav Nav--header u-taRight">
-    <a href="/about" class="Nav-item">About</a>
-    <a href="https://github.com/AgtLucas" class="Nav-item">GitHub</a>
-    <a href="https://linkedin.com/in/agtlucas" class="Nav-item">LinkedIn</a>
-    <a href="https://twitter.com/_agtlucas" class="Nav-item">Twitter</a>
+    {% for item in site.data.social %}
+    <a href="{{ item.url }}" class="Nav-item">{{ item.name }}</a>
+    {% endfor %}
   </nav>
 
   <div>
