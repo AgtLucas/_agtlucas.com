@@ -3,7 +3,7 @@ const path = require('path')
 const chalk = require('chalk')
 
 const error = chalk.bold.red
-const success = chalk.bold.blue
+const success = chalk.bold.green
 
 gh.publish(path.join(__dirname, '_site'), (err) => {
   if (err) {
