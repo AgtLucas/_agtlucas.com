@@ -26,9 +26,9 @@
     "suitcss-base": "^2.0.0"
   },
   "devDependencies": {
-    "browser-sync": "^2.16.0",
+    "browser-sync": "^2.17.2",
     "css-mqpacker": "^5.0.1",
-    "cssnano": "^3.7.5",
+    "cssnano": "^3.7.7",
     "gh-pages": "^0.11.0",
     "gulp": "^3.9.1",
     "gulp-postcss": "^6.2.0",
@@ -39,6 +39,6 @@
     "postcss-font-magician": "^1.4.0",
     "postcss-import": "^8.1.2",
     "postcss-nested": "^1.0.0",
-    "postcss-scss": "^0.3.0"
+    "postcss-scss": "^0.3.1"
   }
 }
