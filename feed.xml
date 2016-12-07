@@ -6,9 +6,9 @@
 </description>
     <link>https://lucas.ninja/</link>
     <atom:link href="https://lucas.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 22 Aug 2016 15:36:28 -0300</pubDate>
-    <lastBuildDate>Mon, 22 Aug 2016 15:36:28 -0300</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
+    <pubDate>Wed, 07 Dec 2016 00:26:16 -0200</pubDate>
+    <lastBuildDate>Wed, 07 Dec 2016 00:26:16 -0200</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
     
       <item>
         <title>CSS is dead - Long live (post)CSS</title>
@@ -36,7 +36,7 @@
 
 &lt;p&gt;De uma maneira geral, todas cumprem o que prometem, se fosse para escolher uma eu optaria pelo SUIT CSS que tem nas suas raízes o BEM.&lt;/p&gt;
 
-&lt;h2 id=&quot;pr-processadores&quot;&gt;Pré-processadores&lt;/h2&gt;
+&lt;h2 id=&quot;pré-processadores&quot;&gt;Pré-processadores&lt;/h2&gt;
 
 &lt;p&gt;Resumindo os pré-processadores CSS: Syntax sugar e template language. Os pré-processadores tornaram a tarefa de escrever CSS muito mais fácil e ainda adicinou alguns “poderes” como loops, mixins, funções e mais um monte de coisas que raramente as pessoas usam para valer em projetos, mas que deveriam.&lt;/p&gt;
 
@@ -156,7 +156,7 @@ Ruby Sass: 1042 ms (26.0 times slower)
 
 &lt;p&gt;No próximo post explicarei em detalhes como funciona o escopo local e global no CSS Modules.&lt;/p&gt;
 
-&lt;h3 id=&quot;continua-no-prximo-post&quot;&gt;Continua no próximo post.&lt;/h3&gt;
+&lt;h3 id=&quot;continua-no-próximo-post&quot;&gt;Continua no próximo post.&lt;/h3&gt;
 </description>
         <pubDate>Sat, 25 Jun 2016 06:17:58 -0300</pubDate>
         <link>https://lucas.ninja/blog/2016/06/25/css-is-dead-long-live-css.html</link>
@@ -183,7 +183,7 @@ Ruby Sass: 1042 ms (26.0 times slower)
 
 &lt;p&gt;&lt;img src=&quot;/img/react-europe-mug-2.JPG&quot; alt=&quot;Mug&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;dia-03062016&quot;&gt;2º dia (03/06/2016)&lt;/h2&gt;
+&lt;h2 id=&quot;2º-dia-03062016&quot;&gt;2º dia (03/06/2016)&lt;/h2&gt;
 
 &lt;p&gt;Depois de um primeiro dia bem agitado por conta do check-in/credenciamento e entrega dos brindes, o segundo dia foi bem mais tranquilo…&lt;/p&gt;
 
@@ -316,7 +316,7 @@ Ruby Sass: 1042 ms (26.0 times slower)
 
 &lt;p&gt;&lt;img src=&quot;/img/react-europe-entrance.JPG&quot; alt=&quot;Entrance&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;dia-do-workshop-01062016&quot;&gt;2º dia do Workshop (01/06/2016)&lt;/h2&gt;
+&lt;h2 id=&quot;2º-dia-do-workshop-01062016&quot;&gt;2º dia do Workshop (01/06/2016)&lt;/h2&gt;
 
 &lt;p&gt;Tive a oportunidade de acompanhar o 2º dia do Workshop sobre React + Redux. Dan Abramov e &lt;a href=&quot;https://twitter.com/acdlite&quot;&gt;Andrew Clark&lt;/a&gt; guiaram aproximadamente 80 alunos no desenvolvimento de uma aplicação React + Redux. O Workshop foi bem completo, cobrindo vários tópicos importantes, tais como performance, testes, além de muitas dicas sobre ES2015/ES6.&lt;/p&gt;
 
@@ -324,7 +324,7 @@ Ruby Sass: 1042 ms (26.0 times slower)
 
 &lt;p&gt;Ao final do Workshop (e do Hackathon que estava acontecendo na sede da Mozilla em Paris) todos foram convidados para um happy hour no já conhecido “React Bar”, mais precisamente no The Frog, próximo ao local do evento e Workshop. O happy hour fora patrocinado pela &lt;a href=&quot;https://red-badger.com/&quot;&gt;Red Badger&lt;/a&gt;, era só chegar lá, apresentar o ticket e aproveitar drinks de graça!&lt;/p&gt;
 
-&lt;h2 id=&quot;dia-02062016&quot;&gt;1º dia (02/06/2016)&lt;/h2&gt;
+&lt;h2 id=&quot;1º-dia-02062016&quot;&gt;1º dia (02/06/2016)&lt;/h2&gt;
 
 &lt;p&gt;O primeiro dia do evento começou bem cedo, também pudera, mais de 800 pessoas para fazer check-in e entregar os brindes. Felizmente tudo correu bem, excelente trabalho em equipe de todo o pessoal que estava ajudando a organizar o evento. :)&lt;/p&gt;
 
@@ -356,7 +356,7 @@ Ruby Sass: 1042 ms (26.0 times slower)
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-t8eOoRsJ7M&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-&lt;h3 id=&quot;react-native-3-60fps----improving-react-native-animations&quot;&gt;React Native &amp;lt;3 60FPS – Improving React Native animations&lt;/h3&gt;
+&lt;h3 id=&quot;react-native-3-60fps--improving-react-native-animations&quot;&gt;React Native &amp;lt;3 60FPS – Improving React Native animations&lt;/h3&gt;
 
 &lt;p&gt;Atualmente as animações estão cada vez mais presentes nas aplicações, nesta palestra, &lt;a href=&quot;https://twitter.com/kzzzf&quot;&gt;Krzysztof Magiera&lt;/a&gt; mostra várias dicas de como manter as animações no React Native sempre em 60FPS!&lt;/p&gt;
 
