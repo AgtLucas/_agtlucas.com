@@ -26,7 +26,7 @@
     "suitcss-base": "^2.0.0"
   },
   "devDependencies": {
-    "browser-sync": "^2.18.2",
+    "browser-sync": "^2.18.3",
     "css-mqpacker": "^5.0.1",
     "cssnano": "^3.8.2",
     "gh-pages": "^0.12.0",
