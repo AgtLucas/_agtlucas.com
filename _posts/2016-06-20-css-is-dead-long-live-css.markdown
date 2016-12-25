@@ -142,4 +142,4 @@ E caso eu tivesse um componente **Bar** com a mesma estrutura e mesmo nome de cl
 
 No próximo post explicarei em detalhes como funciona o escopo local e global no CSS Modules.
 
-### Continua no próximo post.
+### Continua no próximo episódio.
