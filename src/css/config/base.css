@@ -35,7 +35,7 @@ blockquote {
   padding: 2em;
 
   @media (--medium-up) {
-    padding: 2em calc(50% - 360px);
+    padding: 2em calc(50% - 330px);
   }
 }
 
