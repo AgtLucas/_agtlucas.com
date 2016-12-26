@@ -1,7 +1,11 @@
-.Nav--header {
-  display: none;
+.Avatar {
+  width: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
 
-  @media (--medium-up) {
-    display: block;
-  }
+.Headline {
+  font-size: 0,875rem;
+  font-style: italic;
+  text-align: center;
 }

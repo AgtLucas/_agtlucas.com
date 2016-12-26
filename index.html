@@ -14,7 +14,16 @@ layout: default
 
         <time class="Post-meta Post-date" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
 
-        {{ post.excerpt }}
+        {{ post.excerpt | strip_html | truncate: 300 }}
+
+        {% if post.excerpt | size > 300 %}
+          <a
+            class="Read-more"
+            href="{{ post.url | prepend: site.baseurl }}"
+          >
+            <strong>Read more →</strong>
+          </a>
+        {% endif %}
       </li>
     {% endfor %}
   </ul>

@@ -48,3 +48,8 @@ blockquote {
 .Main {
   flex: 1;
 }
+
+.Read-more {
+  color: #000;
+  font-style: italic;
+}
