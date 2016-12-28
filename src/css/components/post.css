@@ -19,7 +19,7 @@
 .Post-item {
   .Post-meta {
     display: block;
-    margin: .5em 0;
+    margin: 0.5em 0;
   }
 }
 
@@ -32,13 +32,13 @@
     margin-left: 1.1em;
     list-style: disc;
     li {
-      margin: .5em 0;
+      margin: 0.5em 0;
     }
   }
 }
 
 .Post-meta {
-  font-size: .875rem;
+  font-size: 0.875rem;
 }
 
 .Post-comments {

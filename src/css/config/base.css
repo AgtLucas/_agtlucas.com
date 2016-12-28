@@ -25,9 +25,9 @@ blockquote {
   margin: 1.5em 0;
   padding: 0 1em;
   font-size: 1em;
-  color: #8f8f8f;
+  color: #8F8F8F;
   border-radius: 0 6px 6px 0;
-  border-left: 4px solid #cccccc;
+  border-left: 4px solid #CCC;
 }
 
 .Main,
@@ -50,6 +50,6 @@ blockquote {
 }
 
 .Read-more {
-  color: #000;
+  color: #2B2B2B;
   font-style: italic;
 }
