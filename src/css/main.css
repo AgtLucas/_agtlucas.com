@@ -1,5 +1,4 @@
 @import 'suitcss-base';
-@import 'config/code';
 @import 'config/global';
 @import 'config/base';
 @import 'config/utilities';
@@ -9,3 +8,5 @@
 @import 'components/post';
 @import 'components/header';
 @import 'components/footer';
+
+@import 'config/code';
