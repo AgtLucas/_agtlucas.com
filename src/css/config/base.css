@@ -17,7 +17,7 @@ a {
 
   &:focus {
     color: #FFF;
-    background: #2B2B2B;
+    background-color: #2B2B2B;
   }
 }
 

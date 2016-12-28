@@ -1,6 +1,8 @@
 :root {
-  background: #FEFEFE;
-  color: #222;
+  --navy: #001F3F;
+
+  background-color: #FEFEFE;
+  color: #001F3F;
   font-family: Avenir Next, Helvetica, Roboto, monospace, sans-serif;
   font-size: 100%;
   line-height: 1.5;
