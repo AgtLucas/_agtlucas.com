@@ -1,0 +1,23 @@
+.Main,
+.Header > div {
+  padding: 2em;
+
+  @media (--medium-up) {
+    padding: 2em calc(50% - 330px);
+  }
+}
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Main {
+  flex: 1;
+}
+
+.Read-more {
+  color: var(--navy);
+  font-style: italic;
+}

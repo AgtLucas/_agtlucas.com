@@ -3,10 +3,9 @@
 @import 'config/base';
 @import 'config/utilities';
 
-@import 'layout/shared';
-
-@import 'components/post';
 @import 'components/header';
+@import 'layout/page';
+@import 'components/post';
 @import 'components/footer';
 
 @import 'config/code';
