@@ -3,7 +3,7 @@
   padding: 1.5em;
 
   @media (--medium-up) {
-    padding: 2em calc(50% - 340px);
+    padding: 2em calc(50% - 330px);
   }
 }
 

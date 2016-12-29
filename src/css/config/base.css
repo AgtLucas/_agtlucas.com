@@ -16,11 +16,6 @@ a {
     color: var(--navyBlue);
   }
 
-  /*&:link,
-  &:visited {
-    color: var(--blue);
-  }*/
-
   &:focus {
     background: var(--navy);
     color: var(--bg);
