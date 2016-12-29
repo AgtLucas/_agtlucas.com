@@ -15,5 +15,7 @@ exclude: ['node_modules', 'package.json', 'gulpfile.js', 'src', '.DS_Store', '.s
 kramdown:
   input: GFM
 
+permalink: pretty
+
 compress_html:
   clippings: all
