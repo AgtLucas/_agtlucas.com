@@ -3,15 +3,3 @@
   margin: 1em 0;
   padding: 1em;
 }
-
-.Nav-item {
-  font-size: 0.875rem;
-  color: var(--secondaryGray);
-  margin: 1em;
-  padding: 0 0.5em;
-  display: block;
-
-  @media (--medium-up) {
-    display: inline-block;
-  }
-}
