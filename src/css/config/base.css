@@ -9,15 +9,15 @@ img {
 }
 
 a {
-  color: #08C;
+  color: var(--blue);
   text-decoration: none;
   &:hover {
-    color: #2B2B2B;
+    color: var(--navy);
   }
 
   &:focus {
     color: #FFF;
-    background-color: #2B2B2B;
+    background-color: var(--navy);
   }
 }
 
@@ -25,9 +25,9 @@ blockquote {
   margin: 1.5em 0;
   padding: 0 1em;
   font-size: 1em;
-  color: #8F8F8F;
+  color: var(--secondaryGray);
   border-radius: 0 6px 6px 0;
-  border-left: 4px solid #CCC;
+  border-left: 4px solid var(--gray);
 }
 
 .Main,
@@ -50,6 +50,6 @@ blockquote {
 }
 
 .Read-more {
-  color: #2B2B2B;
+  color: var(--navy);
   font-style: italic;
 }

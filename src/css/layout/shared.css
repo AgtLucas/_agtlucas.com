@@ -1,8 +1,8 @@
 .Nav-item {
-  font-size: .875rem;
-  color: #5F6161;
+  font-size: 0.875rem;
+  color: var(--secondaryGray);
   margin: 1em;
-  padding: 0 .5em;
+  padding: 0 0.5em;
   display: block;
 
   @media (--medium-up) {

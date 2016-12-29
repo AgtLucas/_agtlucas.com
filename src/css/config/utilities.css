@@ -17,6 +17,14 @@
   }
 }
 
+.u-relative {
+  position: relative;
+}
+
+.u-absolute {
+  position: absolute;
+}
+
 .u-taCenter {
   text-align: center;
 }
