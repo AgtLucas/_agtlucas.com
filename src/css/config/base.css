@@ -9,15 +9,22 @@ img {
 }
 
 a {
-  color: var(--blue);
-  text-decoration: none;
+  transition: color 0.4s;
+  color: var(--navy);
+
   &:hover {
-    color: var(--navy);
+    color: var(--navyBlue);
   }
 
+  /*&:link,
+  &:visited {
+    color: var(--blue);
+  }*/
+
   &:focus {
-    color: #FFF;
-    background-color: var(--navy);
+    background: var(--navy);
+    color: var(--bg);
+    outline: 0;
   }
 }
 

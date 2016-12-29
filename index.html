@@ -3,20 +3,15 @@ layout: default
 ---
 
 <div class="Home">
-
   <ul class="Post-list">
     {% for post in site.posts %}
       <li class="Post-item" id="post-{{ post.title | slugify }}">
-
-        <a class="Post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-
+        <a class="Post-link u-tdNone" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         <time class="Post-meta Post-date" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
-
         <p>{{ post.excerpt | strip_html | truncate: 300 }}</p>
-
         {% if post.excerpt %}
           <a
-            class="Read-more"
+            class="Read-more u-tdNone"
             href="{{ post.url | prepend: site.baseurl }}"
           >
             Read more...
@@ -25,5 +20,4 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-
 </div>
