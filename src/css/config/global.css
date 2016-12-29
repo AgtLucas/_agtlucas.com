@@ -7,7 +7,10 @@
 
   background-color: var(--bg);
   color: var(--navy);
-  font-family: Avenir Next, Helvetica, Roboto, monospace, sans-serif;
+  font-family: -apple-system, Avenir Next, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   font-size: 100%;
   line-height: 1.5;
 }
