@@ -8,9 +8,7 @@ layout: default
     {% for post in site.posts %}
       <li class="Post-item" id="post-{{ post.title | slugify }}">
 
-        <h2>
-          <a class="Post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        <a class="Post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 
         <time class="Post-meta Post-date" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
 
@@ -21,7 +19,7 @@ layout: default
             class="Read-more"
             href="{{ post.url | prepend: site.baseurl }}"
           >
-            <strong>Read more →</strong>
+            Read more...
           </a>
         {% endif %}
       </li>

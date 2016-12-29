@@ -1,9 +1,9 @@
 .Main,
 .Header > div {
-  padding: 2em;
+  padding: 1.5em;
 
   @media (--medium-up) {
-    padding: 2em calc(50% - 330px);
+    padding: 2em calc(50% - 340px);
   }
 }
 
@@ -19,5 +19,10 @@
 
 .Read-more {
   color: var(--navy);
+  font-weight: 600;
   font-style: italic;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
