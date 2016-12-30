@@ -17,6 +17,15 @@
   flex: 1;
 }
 
+.Home-about {
+  margin-bottom: 4.375em;
+  border-bottom: thin solid var(--gray);
+  p {
+    font-size: 1.875rem;
+    font-weight: 500;
+  }
+}
+
 .Read-more {
   color: var(--navy);
   font-weight: 600;
