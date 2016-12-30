@@ -6,8 +6,8 @@
 </description>
     <link>https://lucas.ninja/</link>
     <atom:link href="https://lucas.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 29 Dec 2016 21:45:43 -0200</pubDate>
-    <lastBuildDate>Thu, 29 Dec 2016 21:45:43 -0200</lastBuildDate>
+    <pubDate>Fri, 30 Dec 2016 20:41:37 -0200</pubDate>
+    <lastBuildDate>Fri, 30 Dec 2016 20:41:37 -0200</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -47,7 +47,7 @@
 &lt;p&gt;&lt;img src=&quot;/img/go-on.gif&quot; alt=&quot;Inside PostCSS&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;PostCSS nada mais é do que uma ferramenta que nos permite transformar CSS usando JS.&lt;/strong&gt;&lt;/p&gt;
+  &lt;p&gt;PostCSS nada mais é do que uma ferramenta que nos permite transformar CSS usando JS.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Conforme relatei acima, PostCSS por padrão é muito útil, porém não faz nada, pois o responsável pela transformação são os plugins e, como você pode imaginar, &lt;a href=&quot;http://postcss.parts/&quot;&gt;temos muitos plugins para os mais variados tipos de tarefas&lt;/a&gt;, existe até &lt;a href=&quot;https://github.com/postcss/postcss-use&quot;&gt;plugin para resolver problemas com plugins&lt;/a&gt;. 🤔&lt;/p&gt;
