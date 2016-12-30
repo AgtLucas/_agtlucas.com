@@ -14,7 +14,7 @@ layout: default
             class="Read-more u-tdNone"
             href="{{ post.url | prepend: site.baseurl }}"
           >
-            Read more...
+            Read more <span class="u-visuallyHidden">about {{ post.title }}</span>
           </a>
         {% endif %}
       </li>
