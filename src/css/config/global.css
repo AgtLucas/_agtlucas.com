@@ -9,8 +9,12 @@
   background-color: var(--bg);
   color: var(--navy);
   font-family: Avenir Next, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  font-size: 100%;
+  font-size: 90%;
   line-height: 1.5;
+
+  @media (--medium-up) {
+    font-size: 100%;
+  }
 }
 
 @custom-media --medium-up (width >= 40em);

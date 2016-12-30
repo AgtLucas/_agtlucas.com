@@ -39,7 +39,7 @@ Ok, ao ponto principal do post, PostCSS.
 
 ![Inside PostCSS](/img/go-on.gif)
 
-> **PostCSS nada mais é do que uma ferramenta que nos permite transformar CSS usando JS.**
+> PostCSS nada mais é do que uma ferramenta que nos permite transformar CSS usando JS.
 
 Conforme relatei acima, PostCSS por padrão é muito útil, porém não faz nada, pois o responsável pela transformação são os plugins e, como você pode imaginar, [temos muitos plugins para os mais variados tipos de tarefas](http://postcss.parts/), existe até [plugin para resolver problemas com plugins](https://github.com/postcss/postcss-use). 🤔
 
