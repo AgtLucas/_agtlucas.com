@@ -4,6 +4,7 @@ title:  "ReactEurope 2016 - Parte 1"
 description: "Um evento inspirador!"
 date:   2016-06-07 17:17:58 -0300
 categories: blog
+comments: true
 ---
 
 2016, segunda edição do ReactEurope, novamente em Paris tal qual foi em 2015. Neste ano, tive a oportunidade de poder participar do evento (de perto) e ajudar na organização como voluntário. Foi uma experiência incrível (talvez farei um post sobre) e, mesmo não sendo possível acompanhar todas as palestras, posso dizer que o evento foi acima da média!

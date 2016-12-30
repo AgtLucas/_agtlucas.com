@@ -4,6 +4,7 @@ title:  "CSS is dead - Long live (post)CSS"
 description: "Make CSS great again!"
 date:   2016-06-25 06:17:58 -0300
 categories: blog
+comments: true
 ---
 
 Sejamos sinceros, "escrever" CSS é fácil se compararmos o quão difícil é manter e escalar o mesmo, mas felizmente temos muitas opções para tornar estas tarefas um pouco mais fáceis.
