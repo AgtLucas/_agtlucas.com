@@ -1,3 +1,9 @@
-<footer class="Footer u-taCenter">
-  <small>&copy; 2016 - Lucas da Silva</small>
+<footer class="Footer">
+  <div>
+    <div class="Footer-contact">
+      {% for item in site.data.social %}
+        <a class="u-tdNone" href="{{ item.url }}">{{ item.name }}</a>
+      {% endfor %}
+    </div>
+  </div>
 </footer>

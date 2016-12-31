@@ -3,3 +3,24 @@
   margin: 1em 0;
   padding: 1em;
 }
+
+
+.Footer-contact {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  a {
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 0.5em 1.5em;
+
+    @media (--medium-up) {
+      padding: 0.5em 1.5em 0.5em 0;
+    }
+  }
+
+  @media (--medium-up) {
+    flex-direction: row;
+  }
+}

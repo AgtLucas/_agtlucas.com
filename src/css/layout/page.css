@@ -1,5 +1,6 @@
 .Main,
-.Nav--header {
+.Nav--header,
+.Footer > div {
   padding: 1.5em;
 
   @media (--medium-up) {
