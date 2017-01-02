@@ -7,6 +7,7 @@ layout: default
     <h1>About me</h1>
     <p>Hi! I'm Lucas da Silva, a Front End Developer from Brazil who loves to solve UI problems.</p>
   </div>
+  <h2 class="u-visuallyHidden">Recent Posts</h2>
   <ul class="Post-list">
     {% for post in site.posts %}
       <li class="Post-item" id="post-{{ post.title | slugify }}">
