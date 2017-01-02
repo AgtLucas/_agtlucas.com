@@ -7,22 +7,26 @@ layout: default
     <h1>About me</h1>
     <p>Hi! I'm Lucas da Silva, a Front End Developer from Brazil who loves to solve UI problems.</p>
   </div>
-  <h2 class="u-visuallyHidden">Recent Posts</h2>
-  <ul class="Post-list">
-    {% for post in site.posts %}
-      <li class="Post-item" id="post-{{ post.title | slugify }}">
-        <a class="Post-link u-tdNone" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        <time class="Post-meta Post-date" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
-        <p>{{ post.excerpt | strip_html | truncate: 300 }}</p>
-        {% if post.excerpt %}
-          <a
-            class="Read-more u-tdNone"
-            href="{{ post.url | prepend: site.baseurl }}"
-          >
-            Read more <span class="u-visuallyHidden">about {{ post.title }}</span>
-          </a>
-        {% endif %}
-      </li>
-    {% endfor %}
-  </ul>
+  <div class="Posts-list">
+    <h2>Recent Posts</h2>
+    <ul aria-label="articles/posts by date, newest first">
+      {% for post in site.posts %}
+        <li class="Post-item" id="post-{{ post.title | slugify }}">
+          <h3>
+            <a class="Post-link u-tdNone" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h3>
+          <time class="Post-meta Post-date" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
+          <p>{{ post.excerpt | strip_html | truncate: 300 }}</p>
+          {% if post.excerpt %}
+            <a
+              class="Read-more u-tdNone"
+              href="{{ post.url | prepend: site.baseurl }}"
+            >
+              Read more <span class="u-visuallyHidden">about {{ post.title }}</span>
+            </a>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
