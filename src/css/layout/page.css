@@ -36,3 +36,10 @@
     text-decoration: underline;
   }
 }
+
+.Post,
+.Page-content {
+  h2, h3 {
+    margin: 1.2em 0;
+  }
+}
