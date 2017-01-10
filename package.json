@@ -36,7 +36,7 @@
     "postcss-bg": "^1.0.5",
     "postcss-cssnext": "^2.9.0",
     "postcss-focus": "^1.0.0",
-    "postcss-import": "^9.0.0",
+    "postcss-import": "^9.1.0",
     "postcss-nested": "^1.0.0",
     "postcss-scss": "^0.4.0"
   }
