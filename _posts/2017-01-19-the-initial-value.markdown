@@ -21,7 +21,7 @@ a {
 }
 ```
 
-If, by whatever crazy reason I need to reset the color value to its initial value, which will be `#000`, I can use the `initial` keyword, like so:
+If, by whatever crazy reason I need to reset the color value to its initial value, which in this case will be `#000`, I can use the `initial` keyword, like so:
 
 ```css
 a {
