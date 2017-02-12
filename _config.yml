@@ -9,7 +9,7 @@ twitter_username: _agtlucas
 github_username:  AgtLucas
 disqus_username: lucasninja
 
-exclude: ['node_modules', 'package.json', 'gulpfile.js', 'src', '.DS_Store', '.sass-cache', 'README.md', 'npm-debug.log', 'LICENSE', 'deploy.js']
+exclude: ['node_modules', 'package.json', 'gulpfile.js', 'src', '.DS_Store', '.sass-cache', 'README.md', 'npm-debug.log', 'LICENSE', 'deploy.js', 'Gemfile', 'Gemfile.lock']
 
 # Build settings
 kramdown:
