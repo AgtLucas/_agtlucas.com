@@ -36,3 +36,14 @@
     left: 0;
   }
 }
+
+.u-hr {
+  &:after {
+    display: block;
+    content: '';
+    width: 150px;
+    height: 2px;
+    margin: 22px 0;
+    background: #D1D1D1;
+  }
+}

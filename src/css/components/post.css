@@ -6,6 +6,10 @@
   .Post-meta {
     margin-top: 0;
   }
+
+  h2, h3 {
+    margin: 1.2em 0;
+  }
 }
 
 .Post-header {
