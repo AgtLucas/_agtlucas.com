@@ -17,9 +17,7 @@ a {
   }
 
   &:focus {
-    background: var(--navy);
-    color: var(--bg);
-    outline: 0;
+    outline: thin dotted;
   }
 }
 

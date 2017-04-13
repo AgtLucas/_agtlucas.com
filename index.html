@@ -19,7 +19,7 @@ layout: default
           <p>{{ post.excerpt | strip_html | truncate: 300 }}</p>
           {% if post.excerpt %}
             <a
-              class="Read-more u-visuallyHidden"
+              class="Read-more"
               href="{{ post.url | prepend: site.baseurl }}"
             >
               Read more <span class="u-visuallyHidden">about {{ post.title }}</span>
