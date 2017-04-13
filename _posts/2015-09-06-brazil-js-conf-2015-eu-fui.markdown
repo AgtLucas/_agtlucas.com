@@ -3,6 +3,7 @@ layout: post
 title:  "BrazilJS Conf 2015 — eu fui!"
 date:   2015-09-06 06:57:58 -0300
 categories: blog
+language: pt-BR
 ---
 Já se passou mais de uma semana do maior evento de JS desse universo (ouvi dizer que há outro universo em que há outro evento de JS ainda maior), chega a hora de escrever (ou acabar de escrever?) um post sobre o mesmo.
 

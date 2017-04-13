@@ -42,3 +42,11 @@
 .Post-comments {
   padding-top: 3.75em;
 }
+
+.Post-language {
+  position: relative;
+  font-size: 10px;
+  font-weight: 300;
+  top: -2px;
+  left: 5px;
+}
