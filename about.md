@@ -19,3 +19,5 @@ Also, you can find my résumé [here](/resume.pdf).
 ## About this site
 
 This site is powered by [Jekyll](https://jekyllrb.com/) and you can found the source code [here](https://github.com/AgtLucas/lucas.ninja).
+
+*PS: I'm not a ninja. I bought this domain a few years ago, at that time I thought it was cool, but nowadays I'm not so sure... 🤔 😂 Tweet me what you think!*
