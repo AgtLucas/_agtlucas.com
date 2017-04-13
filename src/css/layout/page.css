@@ -19,7 +19,9 @@
 }
 
 .Home-about {
-  border-bottom: thin solid var(--navy);
+  border-top: thin solid var(--gray);
+  border-bottom: thin solid var(--gray);
+  margin-bottom: 70px;
 
   p {
     font-size: 1.875rem;
