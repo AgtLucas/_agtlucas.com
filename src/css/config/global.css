@@ -1,5 +1,6 @@
 :root {
   --bg: #FEFEFE;
+  --dark: #24292E;
   --navy: #001F3F;
   --blue: #08C;
   --navyBlue: #265C83;
@@ -7,8 +8,8 @@
   --secondaryGray: #8F8F8F;
 
   background-color: var(--bg);
-  color: var(--navy);
-  font-family: Avenir Next, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  color: var(--dark);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-size: 90%;
   line-height: 1.5;
 

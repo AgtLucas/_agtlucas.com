@@ -10,7 +10,7 @@ img {
 
 a {
   transition: color 0.4s;
-  color: var(--navy);
+  color: var(--dark);
 
   &:hover {
     color: var(--navyBlue);
