@@ -7,7 +7,7 @@ categories: blog
 comments: true
 ---
 
-> TL: DR; Don't care too much about tools, care about yourself!
+> Don't care too much about tools, care about yourself!
 
 ## The problem
 
@@ -32,4 +32,4 @@ I believe that before adopting any approach or methodology to increase productiv
 * Tools are not that important
 * Know yourself
 
-Yep, that simple, it doesn't matter your tool, if you don't have auto control, none of this really matter.
+It doesn't matter your tool, if you don't have auto control, none of this really matter, none of this will work.
