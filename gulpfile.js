@@ -8,10 +8,19 @@ const atImport = require('postcss-import')
 const focus = require('postcss-focus')
 const postcss = require('gulp-postcss')
 
+const cssnextConfig = {
+  browsers: ['last 2 versions'],
+  features: {
+    customProperties: {
+      preserve: true
+    }
+  }
+}
+
 gulp.task('css', () => {
   var processors = [
     atImport,
-    cssnext({ browsers: ['last 2 versions'] }),
+    cssnext(cssnextConfig),
     focus,
     nested,
     mqpacker,
