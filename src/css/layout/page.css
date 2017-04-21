@@ -31,8 +31,8 @@
 }
 
 .Read-more {
-  font-weight: 600;
-  font-style: italic;
+  font-size: calc((14 / 16)rem);
+  font-weight: 500;
 
   &:hover {
     text-decoration: underline;

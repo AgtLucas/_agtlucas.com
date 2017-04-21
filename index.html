@@ -19,10 +19,10 @@ layout: default
           <p>{{ post.excerpt | strip_html | truncate: 300 }}</p>
           {% if post.excerpt %}
             <a
-              class="Read-more"
+              class="Read-more u-tdNone"
               href="{{ post.url | prepend: site.baseurl }}"
             >
-              Read more <span class="u-visuallyHidden">about {{ post.title }}</span>
+              Read more <span class="u-visuallyHidden">about {{ post.title }}</span>→
             </a>
           {% endif %}
         </li>
