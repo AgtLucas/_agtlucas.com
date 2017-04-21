@@ -41,7 +41,8 @@
 }
 
 .Post-meta {
-  font-size: 0.875rem;
+  font-size: calc((12 / 16)rem);
+  color: var(--secondaryGray);
 }
 
 .Post-comments {

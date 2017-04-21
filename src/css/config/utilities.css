@@ -47,3 +47,11 @@
     background: #D1D1D1;
   }
 }
+
+.u-action {
+  display: inline-block;
+  font-size: calc((12 / 16)rem);
+  font-weight: 300;
+  text-transform: uppercase;
+  color: var(--secondaryGray);
+}
