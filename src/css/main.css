@@ -5,6 +5,7 @@
 
 @import 'components/header';
 @import 'layout/page';
+@import 'layout/archive';
 @import 'components/post';
 @import 'components/footer';
 
