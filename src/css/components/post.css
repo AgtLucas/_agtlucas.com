@@ -31,6 +31,9 @@
 }
 
 .Post-content {
+  border-bottom: thin solid #F1F1F1;
+  padding-bottom: 25px;
+
   ul {
     list-style: disc;
     li {
@@ -55,4 +58,20 @@
   font-weight: 300;
   top: -2px;
   left: 5px;
+}
+
+.Post-others {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0 0;
+
+  @media (--medium-up) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  a {
+    margin: 10px 0;
+  }
 }
