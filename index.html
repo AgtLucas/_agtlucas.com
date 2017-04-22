@@ -9,7 +9,7 @@ layout: default
   <div class="Posts-list">
     <h2>Recent Posts</h2>
     <ul aria-label="articles/posts by date, newest first">
-      {% for post in site.posts | limit: 5 %}
+      {% for post in site.posts limit: 5 %}
         <li class="Post-item" id="post-{{ post.title | slugify }}">
           <h3>
             <a class="Post-link u-tdNone" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
