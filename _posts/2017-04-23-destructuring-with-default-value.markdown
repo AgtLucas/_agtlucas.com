@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Destructuring with default values"
+title:  "Destructuring with default value"
 description: "Learning one thing new everyday!"
 date:   2017-04-23 10:00:00 -0300
 categories: blog
@@ -8,7 +8,7 @@ tags: [js, es6]
 comments: true
 ---
 
-If you're familiar with ES6/ES2015, you probably have heard about `Destructuring`, right? Me too, but there's one thing I wasn't aware of. Destructuring with default values!
+If you're familiar with ES6/ES2015, you probably have heard about `Destructuring`, right? Me too, but there's one thing I wasn't aware of. Destructuring with default value!
 
 ## Destructuring
 
@@ -35,7 +35,7 @@ console.log(foo) // 123
 console.log(bar) // 456
 ```
 
-## Default values
+## Default value
 
 But what if the property we would like is undefined, or if is not defined at all? 🤔
 
