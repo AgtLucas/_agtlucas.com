@@ -21,7 +21,7 @@
 }
 
 .Archive-date {
-  font-family: 'Menlo', monospace;
+  font-family: var(--codeFont);
   font-size: calc((12 / 16)rem);
   font-style: italic;
   text-transform: uppercase;
