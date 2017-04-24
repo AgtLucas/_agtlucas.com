@@ -23,13 +23,8 @@
 .Archive-date {
   font-family: var(--codeFont);
   font-size: calc((12 / 16)rem);
-  font-style: italic;
   text-transform: uppercase;
   margin-right: 15px;
-
-  @media (--medium-up) {
-    font-style: normal;
-  }
 }
 
 .Archive-link {
