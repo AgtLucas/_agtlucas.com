@@ -6,11 +6,11 @@
 
 .Archive-item {
   display: flex;
-  align-items: baseline;
   flex-direction: column;
   margin: 30px 0;
 
   @media (--medium-up) {
+    align-items: center;
     flex-direction: row;
     margin: 10px 0;
   }
@@ -21,10 +21,23 @@
 }
 
 .Archive-date {
+  display: flex;
+  align-items: center;
   font-family: var(--codeFont);
   font-size: calc((12 / 16)rem);
   text-transform: uppercase;
-  margin-right: 15px;
+
+  &:after {
+    @media (--medium-up) {
+      display: inline-block;
+      content: '';
+      width: 4px;
+      height: 4px;
+      margin: 0 15px;
+      border-radius: 50%;
+      background-color: var(--dark);
+    }
+  }
 }
 
 .Archive-link {
