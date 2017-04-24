@@ -12,7 +12,7 @@ Recently I've been playing with mobile apps, both iOS and Android using React Na
 
 ## Get in touch
 
-Follow me on [Twitter](https://twitter.com/_agtlucas), [GitHub](https://github.com/AgtLucas) and [Instagram](https://www.instagram.com/_agtlucas/) or get in touch through [agtlucas@me.com](mailto:agtlucas@me.com).
+Follow me on [Twitter](https://twitter.com/_agtlucas), [GitHub](https://github.com/AgtLucas) and [Instagram](https://www.instagram.com/_agtlucas/) or drop me an email: [agtlucas@me.com](mailto:agtlucas@me.com).
 
 Also, you can find my résumé [here](/resume.pdf).
 
