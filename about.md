@@ -8,7 +8,7 @@ permalink: /about/
 
 Howdy, as you might know, my name's **Lucas da Silva** (people call me **AgtLucas**, sometimes), a self-taught, dedicated and highly motivated Front End Developer with seven years of experience in Web application development with the focus on Web performance and accessibility.
 
-Recently I've been playing with mobile apps, both iOS and Android using React Native in my current job at [Garage Born](https://www.garageborn.com/), where we are building [Matters](https://mtt.rs), a news aggregator app/website.
+I've been playing with mobile apps, both iOS and Android using React Native  since my last job at [Garage Born](https://www.garageborn.com/), where I helped them build "[Matters](https://mtt.rs)", a news aggregator app/website.
 
 ## Get in touch
 
