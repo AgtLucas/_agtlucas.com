@@ -13,10 +13,11 @@
   a {
     font-size: 1rem;
     font-weight: 600;
-    padding: 0.5em 1.5em;
+    margin: 5px 0;
+    padding: 3px 5px;
 
     @media (--medium-up) {
-      padding: 0.5em 1.5em 0.5em 0;
+      margin: 8px 25px 0 0;
     }
   }
 
