@@ -10,6 +10,8 @@ Howdy, as you might know, my name's **Lucas da Silva** (people call me **AgtLuca
 
 I've been playing with mobile apps, both iOS and Android using React Native  since my last job at [Garage Born](https://www.garageborn.com/), where I helped them build "[Matters](https://mtt.rs)", a news aggregator app/website.
 
+Currently I'm working as a Front End Developer at [HelloFresh](https://hellofresh.com).
+
 ## Get in touch
 
 Follow me on [Twitter](https://twitter.com/_agtlucas), [GitHub](https://github.com/AgtLucas) and [Instagram](https://www.instagram.com/_agtlucas/) or drop me an email: [agtlucas@me.com](mailto:agtlucas@me.com).
