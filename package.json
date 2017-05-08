@@ -35,7 +35,7 @@
     "npm-run-all": "^4.0.2",
     "postcss-bg": "^1.0.5",
     "postcss-cssnext": "^2.10.0",
-    "postcss-focus": "^1.0.0",
+    "postcss-focus": "^2.0.0",
     "postcss-import": "^9.1.0",
     "postcss-nested": "^2.0.0",
     "postcss-scss": "^1.0.0"
