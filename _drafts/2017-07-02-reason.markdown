@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "Reason, um pequeno guia"
+description: "Afinal, o que é Reason e como começar?"
+date:   2017-07-02 08:17:58 +0200
+categories: blog
+comments: true
+language: pt-BR
+---
+
+Nos últimos meses o nome Reason tem ganhado força na comunidade JavaScript, principalmente após a última ReactConf (2017), [onde fora anunciado](https://www.youtube.com/watch?v=_0T5OSSzxms) o ReasonReact; bindings do ReactJS para o Reason. Na ocasião, também foi citado que estão convertendo o [messenger.com](https://messenger.com) para Reason/ReasonReact.
+
+Mas afinal, o que diabos é Reason/ReasonReact? OCaml? 🤔
+
+## Reason
+
+![Reason](/img/reason.png)
+
+O conceito do Reason teve papel importante no primeiro protótipo do ReactJS.
+OCaml com syntax simplificada.
+Facebook usa OCaml em projetos como [HACK](http://hacklang.org/) e [Flow](https://flow.org/).
+Usa o compilador do OCaml.
+Roda no browser, usando BuckleScript compila para JS, criado pelo Bloomberg.
+
+## Metalinguagem
+
+Linguagem e metalinguagem
+Linguagem é o código por si só.
+Metalinguagem seria tudo relacionado à linguagem; comentários, testes, documentação, etc.
+Quando trazemos e incorporamos características antes apenas disponíveis na metalinguagem, a linguagem em si se torna mais poderosa.
+
+
+## Exemplo
+
+```ocaml
+let component = ReasonReact.statelessComponent "App";
+
+let make _ => {
+  ...component,
+  render: fun () _self => {
+    <div> (ReasonReact.stringToElement "Hello, ReasonReact!") </div>
+  }
+};
+```
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Should you start using <a href="https://twitter.com/reasonml">@reasonml</a> today in your project? <a href="https://twitter.com/_chenglou">@_chenglou</a> answers. Whole Q&amp;A&#39;s here <a href="https://t.co/hclSduwFwx">https://t.co/hclSduwFwx</a> <a href="https://t.co/eAViwyglJR">pic.twitter.com/eAViwyglJR</a></p>&mdash; react-europe (@ReactEurope) <a href="https://twitter.com/ReactEurope/status/872171762099859458">June 6, 2017</a></blockquote>
+
+Abaixo um pequeno video de como o Facebook têm usado Reason internamente.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">How is Facebook using <a href="https://twitter.com/reasonml">@reasonml</a> and how is it going? <a href="https://twitter.com/_chenglou">@_chenglou</a> answers again. <a href="https://t.co/NyeAOfxkFI">pic.twitter.com/NyeAOfxkFI</a></p>&mdash; react-europe (@ReactEurope) <a href="https://twitter.com/ReactEurope/status/872187305985015808">June 6, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
