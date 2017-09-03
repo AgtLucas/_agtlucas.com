@@ -19,6 +19,7 @@ layout: default
           <p>{{ post.excerpt | strip_html | truncate: 300 }}</p>
           {% if post.excerpt %}
             <a
+              tabindex="-1"
               class="Read-more u-tdNone"
               href="{{ post.url | prepend: site.baseurl }}"
             >
