@@ -7,7 +7,6 @@
     "start": "npm run css && npm-run-all -p css-watch jekyll",
     "css": "postcss assets/css/main.css -o _includes/main.css",
     "css-watch": "npm run css -- -w true",
-    "gulp": "gulp",
     "jekyll": "jekyll server --drafts",
     "build": "jekyll build",
     "browsersync": "browser-sync start --proxy localhost:4000 --files='_site'",
