@@ -23,7 +23,7 @@
   border-bottom: thin solid var(--gray);
   margin-bottom: 70px;
 
-  p {
+  & p {
     font-size: 1.875rem;
     font-weight: 500;
     margin: 2rem 0;
@@ -40,7 +40,8 @@
 }
 
 .Page-content {
-  h2, h3 {
+  & h2,
+  & h3 {
     margin: 1em 0;
   }
 }

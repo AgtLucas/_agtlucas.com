@@ -4,13 +4,12 @@
   padding: 1em;
 }
 
-
 .Footer-contact {
   display: flex;
   align-items: center;
   flex-direction: column;
 
-  a {
+  & a {
     font-size: 1rem;
     font-weight: 600;
     margin: 5px 0;

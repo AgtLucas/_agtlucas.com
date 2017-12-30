@@ -4,7 +4,9 @@
   "description": "Lucas new blog",
   "main": "deploy.js",
   "scripts": {
-    "start": "npm-run-all --parallel jekyll gulp browsersync",
+    "start": "npm run css && npm-run-all -p css-watch jekyll",
+    "css": "postcss assets/css/main.css -o _includes/main.css",
+    "css-watch": "npm run css -- -w true",
     "gulp": "gulp",
     "jekyll": "jekyll server --drafts",
     "build": "jekyll build",
@@ -30,14 +32,10 @@
     "css-mqpacker": "^6.0.1",
     "cssnano": "^3.10.0",
     "gh-pages": "^1.0.0",
-    "gulp": "^3.9.1",
-    "gulp-postcss": "^7.0.0",
     "npm-run-all": "^4.0.2",
-    "postcss-bg": "^1.0.5",
+    "postcss-cli": "^4.1.1",
     "postcss-cssnext": "^2.11.0",
     "postcss-focus": "^2.0.0",
-    "postcss-import": "^10.0.0",
-    "postcss-nested": "^2.0.2",
-    "postcss-scss": "^1.0.0"
+    "postcss-import": "^10.0.0"
   }
 }

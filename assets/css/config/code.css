@@ -14,7 +14,7 @@ code {
   line-height: 1.2;
   overflow-x: auto;
 
-  code {
+  & code {
     /* reset styles when wrapped */
     padding: 0;
     border-radius: 0;
@@ -26,14 +26,14 @@ code {
     margin: 0;
   }
 
-  em {
+  & em {
     color: #545454;
     font-weight: bold;
   }
 }
 
 p {
-  code {
+  & code {
     background-color: #EEE;
   }
 }

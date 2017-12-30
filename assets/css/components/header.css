@@ -5,7 +5,7 @@
     margin-right: 1.5em;
     background-color: var(--dark);
 
-    a {
+    & a {
       padding: 2px 5px;
       font-size: 1.25rem;
       font-weight: 500;
@@ -17,14 +17,14 @@
       background-color: var(--navyBlue);
     }
   }
+}
 
-  &:not(:first-child) {
-    margin-right: 1em;
+.Header-item:not(:first-child) {
+  margin-right: 1em;
 
-    a {
-      @media (--medium-up) {
-        padding: 0.5em;
-      }
+  & a {
+    @media (--medium-up) {
+      padding: 0.5em;
     }
   }
 }

@@ -1,5 +1,5 @@
 .Archive {
-  .u-action {
+  & .u-action {
     margin-top: 50px;
   }
 }
