@@ -24,7 +24,7 @@
   display: flex;
   align-items: center;
   font-family: var(--codeFont);
-  font-size: calc((12 / 16)rem);
+  font-size: 0.75rem; /* 12 / 16 */
   text-transform: uppercase;
 
   &:after {

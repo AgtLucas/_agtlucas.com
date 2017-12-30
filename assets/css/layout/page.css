@@ -31,7 +31,7 @@
 }
 
 .Read-more {
-  font-size: calc((14 / 16)rem);
+  font-size: 0.875rem; /* 14 / 16 */
   font-weight: 500;
 
   &:hover {

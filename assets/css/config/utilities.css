@@ -50,7 +50,7 @@
 
 .u-action {
   display: inline-block;
-  font-size: calc((12 / 16)rem);
+  font-size: 0.75rem; /* 12 / 16 */
   font-weight: 300;
   text-transform: uppercase;
   color: var(--secondaryGray);
