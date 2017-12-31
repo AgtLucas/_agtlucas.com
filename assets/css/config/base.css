@@ -30,3 +30,7 @@ blockquote {
   border-radius: 0 6px 6px 0;
   border-left: 3px solid var(--navy);
 }
+
+.instagram-media {
+  margin: 20px 0 !important;
+}
