@@ -1,0 +1,51 @@
+.Main,
+.Nav--header,
+.Footer > div {
+  padding: 1.5em;
+
+  @media (--medium-up) {
+    padding: 2em calc(50% - 330px);
+  }
+}
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Main {
+  flex: 1;
+}
+
+.Hero {
+  border-top: thin solid var(--gray);
+  border-bottom: thin solid var(--gray);
+  margin-bottom: 70px;
+
+  & p {
+    font-size: 1.875rem;
+    font-weight: 500;
+    margin: 2rem 0;
+  }
+}
+
+.Read-more {
+  font-size: 0.875rem; /* 14 / 16 */
+  font-weight: 500;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.Page-content {
+  & h2,
+  & h3 {
+    margin: 1em 0;
+  }
+}
+
+.twitter-tweet {
+  margin: auto;
+}
