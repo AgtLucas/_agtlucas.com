@@ -43,11 +43,7 @@ print name
 myFunction x = x
 ```
 
-You can also load your code from a Haskell file, just create a Haskell file (`filename.hs`) and load it up with `ghci` by typing:
-
-```sh
-:l filename.hs
-```
+You can also load your code from a Haskell file, just create a Haskell file (`filename.hs`) and load it up with `ghci` by typing: `:l filename.hs` in the `ghci`.
 
 After that you have full access to all the code in that file.
 
