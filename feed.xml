@@ -6,8 +6,8 @@
 </description>
     <link>https://lucas.ninja/</link>
     <atom:link href="https://lucas.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 Jan 2018 21:51:59 -0200</pubDate>
-    <lastBuildDate>Thu, 04 Jan 2018 21:51:59 -0200</lastBuildDate>
+    <pubDate>Thu, 04 Jan 2018 21:55:09 -0200</pubDate>
+    <lastBuildDate>Thu, 04 Jan 2018 21:55:09 -0200</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -49,10 +49,7 @@
 &lt;span class=&quot;n&quot;&gt;myFunction&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;You can also load your code from a Haskell file, just create a Haskell file (&lt;code class=&quot;highlighter-rouge&quot;&gt;filename.hs&lt;/code&gt;) and load it up with &lt;code class=&quot;highlighter-rouge&quot;&gt;ghci&lt;/code&gt; by typing:&lt;/p&gt;
-
-&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;:l filename.hs
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;You can also load your code from a Haskell file, just create a Haskell file (&lt;code class=&quot;highlighter-rouge&quot;&gt;filename.hs&lt;/code&gt;) and load it up with &lt;code class=&quot;highlighter-rouge&quot;&gt;ghci&lt;/code&gt; by typing: &lt;code class=&quot;highlighter-rouge&quot;&gt;:l filename.hs&lt;/code&gt; in the &lt;code class=&quot;highlighter-rouge&quot;&gt;ghci&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;After that you have full access to all the code in that file.&lt;/p&gt;
 
