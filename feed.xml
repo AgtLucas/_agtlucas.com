@@ -6,9 +6,140 @@
 </description>
     <link>https://lucas.ninja/</link>
     <atom:link href="https://lucas.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 03 Jan 2018 22:12:25 -0200</pubDate>
-    <lastBuildDate>Wed, 03 Jan 2018 22:12:25 -0200</lastBuildDate>
+    <pubDate>Thu, 04 Jan 2018 21:51:59 -0200</pubDate>
+    <lastBuildDate>Thu, 04 Jan 2018 21:51:59 -0200</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Learning Haskell</title>
+        <description>&lt;p&gt;Lately I’ve been studying &lt;a href=&quot;https://www.haskell.org/&quot;&gt;Haskell&lt;/a&gt;, because, well, why not?&lt;/p&gt;
+
+&lt;h2 id=&quot;why-haskell&quot;&gt;Why Haskell?&lt;/h2&gt;
+
+&lt;p&gt;I want to understand better about &lt;a href=&quot;https://en.wikipedia.org/wiki/Functional_programming&quot;&gt;Functional programming&lt;/a&gt; and everything related to it, its patterns, best practices, advantages, disadvantages… Haskell is a pure functional language and has a lot of cool features, such as strong and static typings, etc.&lt;/p&gt;
+
+&lt;p&gt;Right now I’m reading this book: &lt;a href=&quot;https://www.manning.com/books/get-programming-with-haskell&quot;&gt;Get Programming with Haskell&lt;/a&gt;, which I believe it’s a good book (at least so far). There’s also a really famous book about Haskell; &lt;a href=&quot;http://learnyouahaskell.com/&quot;&gt;Learn You a Haskell for Great Good&lt;/a&gt; which is free to read online. :)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I didn’t started learning about the Haskell typing system yet!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;So far, I’ve learned the very basics of Haskell and this post is for me to keep tracking my learnings.&lt;/p&gt;
+
+&lt;h2 id=&quot;installing-haskell&quot;&gt;Installing Haskell&lt;/h2&gt;
+
+&lt;p&gt;Haskell is pretty easy to install, just go to &lt;a href=&quot;https://www.haskell.org/downloads&quot;&gt;Haskell Downloads page&lt;/a&gt; and follow the instructions for your OS of choice.&lt;/p&gt;
+
+&lt;p&gt;Once the installation is finished, you’ll have access to the following tools:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cabal package manager&lt;/li&gt;
+  &lt;li&gt;GHC (Glasgow Haskell Compiler)&lt;/li&gt;
+  &lt;li&gt;GHCi (interactive interpreter)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;using-ghci&quot;&gt;Using GHCi&lt;/h2&gt;
+
+&lt;p&gt;To start playing with Haskell, you can use the GHCi, just type &lt;code class=&quot;highlighter-rouge&quot;&gt;ghci&lt;/code&gt; in your terminal after you finished the installation.&lt;/p&gt;
+
+&lt;p&gt;You can try almost everything in &lt;code class=&quot;highlighter-rouge&quot;&gt;ghci&lt;/code&gt;, like, creating functions, variables, etc:&lt;/p&gt;
+
+&lt;div class=&quot;language-haskell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Lucas&quot;&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;myFunction&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You can also load your code from a Haskell file, just create a Haskell file (&lt;code class=&quot;highlighter-rouge&quot;&gt;filename.hs&lt;/code&gt;) and load it up with &lt;code class=&quot;highlighter-rouge&quot;&gt;ghci&lt;/code&gt; by typing:&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;:l filename.hs
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;After that you have full access to all the code in that file.&lt;/p&gt;
+
+&lt;h2 id=&quot;haskell-syntax-and-our-first-function&quot;&gt;Haskell syntax and our first function&lt;/h2&gt;
+
+&lt;p&gt;At first, if you are familiar with JavaScript or other C based language, you can find Haskell syntax very weird.&lt;/p&gt;
+
+&lt;p&gt;Consider this simple function in JavaScript:&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;printSomething&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;something&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;something&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;printSomething&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Hello, JavaScript!'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Hello, JavaScript!&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now, take a look at the same thing but in Haskell:&lt;/p&gt;
+
+&lt;div class=&quot;language-haskell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;printSomething&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;something&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;something&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;-- Usage:&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;printSomething&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello, Haskell!&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;-- Hello, Haskell&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;No &lt;code class=&quot;highlighter-rouge&quot;&gt;const&lt;/code&gt;/&lt;code class=&quot;highlighter-rouge&quot;&gt;let&lt;/code&gt;/&lt;code class=&quot;highlighter-rouge&quot;&gt;var&lt;/code&gt; declaration, no return, no nothing, just the name of the function and its arguments, based on that, you can guess that &lt;code class=&quot;highlighter-rouge&quot;&gt;printSomething&lt;/code&gt; is the name of the function, &lt;code class=&quot;highlighter-rouge&quot;&gt;something&lt;/code&gt; is the argument and everything after the &lt;code class=&quot;highlighter-rouge&quot;&gt;=&lt;/code&gt; signal is the function logic, the return is implied.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;All functions in Haskell must take at least one (1) argument and they must return a value. Also, if a function is called with the same argument, it must return the same value.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;variables&quot;&gt;“Variables”&lt;/h2&gt;
+
+&lt;p&gt;Do declare a variable in Haskell, you just need the name and a value, like so:&lt;/p&gt;
+
+&lt;div class=&quot;language-haskell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;But variables in Haskell aren’t actually variables, they are more like &lt;code class=&quot;highlighter-rouge&quot;&gt;constants&lt;/code&gt;  so you can’t reassign a “variable” in Haskell:&lt;/p&gt;
+
+&lt;div class=&quot;language-haskell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;-- 2&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;-- error&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; &lt;em&gt;You can reassign a variable in Haskell only in the Haskell REPL (GHCi).&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;where-keyword-variables-inside-functions&quot;&gt;where keyword (“variables” inside functions?)&lt;/h2&gt;
+
+&lt;p&gt;In Haskell, we can use the &lt;code class=&quot;highlighter-rouge&quot;&gt;where&lt;/code&gt; keyword inside a function, to create a “variable” like…&lt;/p&gt;
+
+&lt;p&gt;Consider this function:&lt;/p&gt;
+
+&lt;div class=&quot;language-haskell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;calcChange&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;owed&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;given&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;
+  &lt;span class=&quot;kr&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;given&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;owed&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+  &lt;span class=&quot;kr&quot;&gt;then&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;given&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;owed&lt;/span&gt;
+  &lt;span class=&quot;kr&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Let’s use &lt;code class=&quot;highlighter-rouge&quot;&gt;where&lt;/code&gt; to make the function cleaner and avoid repetition:&lt;/p&gt;
+
+&lt;div class=&quot;language-haskell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;calcChange&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;owed&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;given&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;
+  &lt;span class=&quot;kr&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;change&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+  &lt;span class=&quot;kr&quot;&gt;then&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;change&lt;/span&gt;
+  &lt;span class=&quot;kr&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+  &lt;span class=&quot;kr&quot;&gt;where&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;change&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;given&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;owed&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Better, right?&lt;/p&gt;
+
+&lt;p&gt;Did you noticed that we declared the &lt;code class=&quot;highlighter-rouge&quot;&gt;where&lt;/code&gt; keyword in the end of the function, instead of the beginning like almost all the other languages? In non-functional languages where we can reassign our variables, the order of the declaration matters because you can reassign the value of something after you assigned it. As we cannot do that in Haskell, we declare our &lt;code class=&quot;highlighter-rouge&quot;&gt;where&lt;/code&gt; keyword in the end of the function.&lt;/p&gt;
+
+&lt;p&gt;–&lt;/p&gt;
+
+&lt;p&gt;And that’s all for now! I’ll publish more about my learning in Haskell soon. :)&lt;/p&gt;
+</description>
+        <pubDate>Thu, 04 Jan 2018 08:00:00 -0200</pubDate>
+        <link>https://lucas.ninja/blog/2018/01/04/learning-haskell/</link>
+        <guid isPermaLink="true">https://lucas.ninja/blog/2018/01/04/learning-haskell/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>&lt;2017 /&gt;</title>
