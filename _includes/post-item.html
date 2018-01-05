@@ -1,7 +1,7 @@
 <li class="Post-item" id="post-{{ post.title | slugify }}">
   <h3>
     <a class="Post-link u-tdNone" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    <small class="Post-language">{{ post.language }}</small>
+    <small class="Post-language" id="post-language">{{ post.language }}</small>
   </h3>
   <time class="Post-meta Post-date" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
   <p>{{ post.excerpt | strip_html | truncate: 300 }}</p>
