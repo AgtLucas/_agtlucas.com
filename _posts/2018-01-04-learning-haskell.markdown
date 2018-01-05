@@ -80,7 +80,7 @@ No `const`/`let`/`var` declaration, no return, no nothing, just the name of the 
 
 ## "Variables"
 
-Do declare a variable in Haskell, you just need the name and a value, like so:
+To declare a variable in Haskell, you just need the name and a value, like so:
 
 ```haskell
 x = 2
