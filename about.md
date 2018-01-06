@@ -6,9 +6,9 @@ permalink: /about/
 
 ## Bio
 
-Hi, as you might know, my name's **Lucas da Silva** a self-taught, dedicated and highly motivated Software Developer with seven years of experience in Web application development with the focus on Web performance and accessibility.
+Hi, my name's **Lucas da Silva** a self-taught, dedicated and highly motivated Software Developer with seven years of experience in Web application development with the focus on Web performance and accessibility.
 
-Currently I'm living in Berlin working as a Front End Developer at [HelloFresh](https://hellofresh.com).
+Currently I'm living in Berlin, working as a Front End Developer at [HelloFresh](https://hellofresh.com).
 
 ## Get in touch
 
@@ -18,4 +18,4 @@ Also, you can find my résumé [here](/resume.pdf).
 
 ## About this site
 
-This site is powered by [Jekyll](https://jekyllrb.com/) and you can found the source code [here](https://github.com/AgtLucas/lucas.ninja).
+This site is powered by [Jekyll](https://jekyllrb.com/) and you can found the source code [here](https://github.com/AgtLucas/lucas.ninja). MIT License.
