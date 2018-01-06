@@ -1,10 +1,10 @@
 # Site settings
-title: Lucas da Silva - Front-End Developer
-email: lucas@lucas.ninja
+title: Lucas da Silva - Software Developer
+email: agtlucas@me.com
 description: >
-  Front-End Developer
+  A Software Developer who lives in Berlin
 baseurl: ""
-url: "https://lucas.ninja"
+url: "https://lcs.sh"
 twitter_username: _agtlucas
 github_username:  AgtLucas
 disqus_username: lucasninja
