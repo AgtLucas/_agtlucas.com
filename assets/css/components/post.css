@@ -21,6 +21,10 @@
 .Post-item {
   margin-top: 3.125rem;
 
+  & p {
+    margin: 10px 0;
+  }
+
   & .Post-meta {
     display: block;
   }
