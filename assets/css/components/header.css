@@ -11,6 +11,10 @@
       font-weight: 600;
       letter-spacing: 2px;
       color: var(--light);
+
+      &:focus {
+        background-color: var(--navyBlue);
+      }
     }
 
     &:hover {
