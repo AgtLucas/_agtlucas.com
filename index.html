@@ -7,7 +7,7 @@ layout: default
     <p>Hey, I'm Lucas, a Software Developer living in Berlin.</p>
   </div>
   <div class="Posts-list">
-    <h2>Recent posts</h2>
+    <h2 class="u-hr">Recent posts</h2>
     <ul aria-label="articles/posts by date, newest first">
       {% for post in site.posts limit: 5 %}
         {% include post-item.html post=post %}
