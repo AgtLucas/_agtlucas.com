@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Learning Haskell - part 2"
+title:  "Learning Haskell - Lambda functions"
 description: "Let's take a look at Lambda functions"
 date:   2018-01-22 07:00:00 -0300
 categories: blog
