@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Vestibular disorders and Reduce Motion"
-description: ""
+title:  "Detect Reduce Motion on the Web and iOS"
+description: "Making accessible applications for people with vestibular disorders"
 date:   2018-01-28 20:00:00 +0100
 categories: blog
 comments: true
