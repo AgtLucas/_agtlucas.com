@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Detect Reduce Motion on the Web and iOS"
+title:  "Vestibular disorders and Reduce Motion"
 description: ""
 date:   2018-01-28 20:00:00 +0100
 categories: blog
