@@ -9,6 +9,12 @@ comments: true
 
 In Haskell (and functional programming in general), the most important data structure are Lists. One of the reasons is that lists are inherently recursive.
 
+> Read the other posts of this serie:
+
+* [Part 1](/blog/2018/01/04/learning-haskell/)
+* [Part 2 - Lambda functions](/blog/2018/01/22/learning-haskell-part-2/)
+* [Part 3 - First-class functions](/blog/2018/01/27/learning-haskell-part-3/)
+
 ## Anatomy of a List
 
 A list can be an element followed by another list or an empty list. The ability of taking apart and building lists are fundamental tools for many functional programming techniques.
