@@ -7,10 +7,10 @@ code {
 
 .highlight {
   display: block;
-  background-color: #F4F1ED;
+  background-color: #F3F3F3;
   position: relative;
-  margin: 1.5em 0;
-  padding: 0.75rem;
+  margin: 2em 0;
+  padding: 0.625rem;
   line-height: 1.2;
   overflow-x: auto;
 
