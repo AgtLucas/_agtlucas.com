@@ -9,11 +9,11 @@ comments: true
 
 Picture this, you are at home, “surfing the Web” and for no reason, your mouse stops working…
 
-What can I do? Well, I can buy a mouse on Amazon for instance. But, can I buy a mouse without a mouse on Amazon? Well, let's find out, but first, let's talk a little about disability and Inclusive Design.
+What can you do? Well, you could buy a mouse on Amazon for instance. But, can you buy a mouse without a mouse on Amazon? Well, let's find out, but first, let's talk a little about disability and Inclusive Design.
 
 ## Disability
 
-It's wrong to conclude that all disabilities are a permanent. If your arm is broke, you have a temporary disability. If you are at the center of a loud crowd, you have a situational disability.
+It's wrong to conclude that all disabilities are permanent. If your arm is broke, you have a temporary disability. If you are at the center of a loud crowd, you have a situational disability.
 
 > "Disability is not just a health problem. It is a complex phenomenon, reflecting the interaction between features of a person’s body and features of the society in which he or she lives." - World Health organization
 
@@ -73,7 +73,7 @@ I chose the **Logitech B100**, it's cheap and seems like a good choice (I hope s
 
 The product page contains all the product details and a lot of options, it was so pleasant to be able to access all of the options using my only working tool at the moment, the mighty keyboard.
 
-All the links has focus (even if the browsers' default) except the share options, so if you intend to share that product, you'll need to guess which option is selected. Good luck, I guess.
+All the links have focus (even if the browsers' default) except the share options, so if you intend to share that product, you'll need to guess which option is selected. Good luck, I guess.
 
 <figure>
   <picture>
@@ -128,7 +128,7 @@ Similar to the previous step, here we can easily select an existing payment meth
 
 ## Step 7 - Review and buy!
 
-And, after a lot of `tab`'s hits, we finally arrive in the last page of the checkout, using only the keyboard. In this step we could select the quantity, the select component was operable via keyboard too.
+And, after a lot of `tab` hits, we finally arrive in the last page of the checkout, using only the keyboard. In this step we could select the quantity, the select component was operable via keyboard too.
 
 <figure>
   <picture>
@@ -151,15 +151,15 @@ Ok, answering the post's title; **Can you buy a mouse without a mouse?** The ans
   </figcaption>
 </figure>
 
-The Amazon's website respect the [operable principle](https://webaim.org/articles/pour/operable), which is one of the four Web Accessibility principles, I strongly encourage everyone to learn more about the four principles, [POUR (Perceivable, Operable, Understandable, Robust)](https://webaim.org/articles/pour/).
+The Amazon's website respects the [operable principle](https://webaim.org/articles/pour/operable), which is one of the four Web Accessibility principles, I strongly encourage everyone to learn more about the four principles, [POUR (Perceivable, Operable, Understandable, Robust)](https://webaim.org/articles/pour/).
 
-As I said in the beginning of this post, not all disabilities are permanent, in my case, I had a situational disability, my mouse weren't working.
+As I said in the beginning of this post, not all disabilities are permanent. In my case, I had a situational disability, my mouse weren't working.
 
-Of course we are talking about Amazon, a huge company with infinity money, but that's not an excuse, there are a lot of other huge and small companies out there that aren't paying attention to Web Accessibility. It's our duty as developers, designers, (everyone really) to [report issues](https://issues.a11y.rocks/) and to spread the importance of a inclusive Web.
+Of course we are talking about Amazon, a huge company with infinite money, but that's not an excuse, there are a lot of other huge and small companies out there that aren't paying attention to Web Accessibility. It's our duty as developers, designers, (everyone really) to [report issues](https://issues.a11y.rocks/) and to spread the importance of a inclusive Web.
 
 ## Cancelling the order
 
-Speaking of not working, you not gonna believe, but my mouse is working normally now, how come? Well, I have no clue, but let's repeat the process and try to cancel my order.
+Speaking of not working, you are not gonna believe, but my mouse is working normally now, how come? Well, I have no clue, but let's repeat the process and try to cancel my order.
 
 <figure>
   <picture>
