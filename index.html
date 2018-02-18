@@ -10,7 +10,10 @@ layout: default
     <h2 class="u-hr">Recent posts</h2>
     <ul aria-label="articles/posts by date, newest first">
       {% for post in site.posts limit: 5 %}
+      {% if post.hidden %}
+      {% else if %}
         {% include post-item.html post=post %}
+      {% endif %}
       {% endfor %}
     </ul>
   </div>

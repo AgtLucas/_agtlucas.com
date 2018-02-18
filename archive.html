@@ -5,6 +5,8 @@ layout: default
 <div class="Archive">
   <h2 class="u-hr">Archive</h2>
   {% for post in site.posts %}
+  {% if post.hidden %}
+  {% else if %}
     {% assign currentdate = post.date | date: "%Y" %}
     {% if currentdate != date %}
     {% unless forloop.first %}</ul>{% endunless %}
@@ -27,6 +29,7 @@ layout: default
     {% if forloop.last %}
     </ul>
     {% endif %}
+  {% endif %}
   {% endfor %}
   <a class="u-action u-tdNone" href="/">← back to home</a>
 </div>
