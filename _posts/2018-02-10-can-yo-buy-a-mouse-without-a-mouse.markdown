@@ -19,7 +19,7 @@ It's wrong to conclude that all disabilities are permanent. If your arm is broke
 
 <figure>
   <picture>
-    <img src="/img/disabilities.jpg" alt="Image contains a table showing the differences between disabilities (permanent, temporary, situational)" />
+    <img src="/img/disabilities.jpg" alt="A table showing the differences between disabilities (permanent, temporary, situational)" />
   </picture>
   <figcaption>
     The Persona Spectrum, by <a href="https://www.microsoft.com/en-us/design/inclusive">Microsoft Inclusive Toolkit</a>.
@@ -60,7 +60,7 @@ After searching for `mouse`, I was redirected to the results page, which I was a
 
 <figure>
   <picture>
-    <img class="u-special-image u-bordered-image" src="/img/gifs-post-mouse/02-search-result.gif" alt="Image contains animated gif of a mouse search's result on Amazon." />
+    <img class="u-special-image u-bordered-image" src="/img/gifs-post-mouse/02-search-result.gif" alt="Contains animated gif of a mouse search's result on Amazon." />
   </picture>
   <figcaption>
     Over 200.000 results, not bad.
@@ -92,7 +92,7 @@ Order placed, now it's time to go to the checkout page.
 
 <figure>
   <picture>
-    <img class="u-special-image u-bordered-image" src="/img/gifs-post-mouse/04-added-to-basket.gif" alt="" />
+    <img class="u-special-image u-bordered-image" src="/img/gifs-post-mouse/04-added-to-basket.gif" alt="Last step before going to checkout page" />
   </picture>
   <figcaption>
   </figcaption>
@@ -144,7 +144,7 @@ Ok, answering the post's title; **Can you buy a mouse without a mouse?** The ans
 
 <figure>
   <picture>
-    <img class="u-special-image u-bordered-image" src="/img/gifs-post-mouse/08-success.gif" alt="" />
+    <img class="u-special-image u-bordered-image" src="/img/gifs-post-mouse/08-success.gif" alt="Order placed, success" />
   </picture>
   <figcaption>
     We did it!
@@ -163,7 +163,7 @@ Speaking of not working, you are not gonna believe, but my mouse is working norm
 
 <figure>
   <picture>
-    <img class="u-special-image u-bordered-image" src="/img/gifs-post-mouse/09-cancel.gif" alt="" />
+    <img class="u-special-image u-bordered-image" src="/img/gifs-post-mouse/09-cancel.gif" alt="Animated gif showing the cancellation order page" />
   </picture>
   <figcaption>
   </figcaption>
