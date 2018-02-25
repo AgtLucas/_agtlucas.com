@@ -83,3 +83,16 @@
     margin: 10px 0;
   }
 }
+
+ruby {
+  font-size: 3rem;
+}
+
+.some-ruby-sample {
+  padding: 5px;
+
+  & .ruby-text {
+    background-color: #BC002D;
+    color: #FFF;
+  }
+}
