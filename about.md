@@ -12,7 +12,7 @@ Currently I'm living in Berlin, working as a Front End Developer at [HelloFresh]
 
 ## Get in touch
 
-Follow me on [Twitter](https://twitter.com/_agtlucas), [GitHub](https://github.com/AgtLucas) and [Instagram](https://www.instagram.com/_agtlucas/) or drop me an email: [agtlucas@me.com](mailto:agtlucas@me.com).
+Follow me on [Twitter](https://twitter.com/_agtlucas), [GitHub](https://github.com/AgtLucas) or drop me an email: [agtlucas@me.com](mailto:agtlucas@me.com).
 
 Also, you can find my résumé [here](/resume.pdf).
 
