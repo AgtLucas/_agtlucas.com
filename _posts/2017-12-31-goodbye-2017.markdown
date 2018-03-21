@@ -68,7 +68,7 @@ Ah, London, what can I say? Beautiful city, an amazing experience was that one w
     <img class="u-special-image" src="/img/goodbye-2017/06-hyde-park-london.jpg" alt="Hyde Park - London" />
   </picture>
   <figcaption>
-    One of the most beautiful park I've been
+    One of the most beautiful park I've ever been
   </figcaption>
 </figure>
 
