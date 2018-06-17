@@ -66,6 +66,8 @@ I do miss some things from macOS, such as better font rendering and of course, a
 
 That's all!
 
+PS: BTW, this post was created on Windows 10 + WSL
+
 ![](/img/cat-trex.gif)
 
 ## References:
