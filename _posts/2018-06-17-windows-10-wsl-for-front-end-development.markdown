@@ -7,7 +7,7 @@ categories: blog
 comments: true
 ---
 
-Since the past few weeks I've been using Windows 10 + [WSL (Windows Subsystem for Linux)](https://docs.microsoft.com/en-us/windows/wsl/about) for Front-End Development and so far the experience has been quite pleasant. It seems that more and more developers are migrating from macOS to Windows recently, mainly because tons of issues with the last version of MacBook Pro, if you are on Twitter, you will problem see someone complaining about something with their Mac. Well, lucky I'm not one of those people, I just want to try a different OS experience.
+Since the past few weeks I've been using Windows 10 + [WSL (Windows Subsystem for Linux)](https://docs.microsoft.com/en-us/windows/wsl/about) for Front-End Development and so far the experience has been quite pleasant. It seems that more and more developers are migrating from macOS to Windows recently, mainly because tons of issues with the last version of MacBook Pro, if you are on Twitter, you will probably see someone complaining about something with their Mac. Well, lucky I'm not one of those people, I just want to try a different OS experience.
 
 I've been a macOS user since earlier 2012, when I officially started my career as developer. I still own a MacBook Pro and I have nothing to complain, Apple OS ecosystem it is still the best for my use, I still use it everyday at work, but this year I bought a desktop and now I have Windows 10 and Ubuntu at home as well. The last Windows I've used was Windows 7 in the end of 2011, so for me Windows 10 it's quite an improvement in a lot of ways.
 
