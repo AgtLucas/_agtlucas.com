@@ -6,7 +6,7 @@ permalink: /about/
 
 ## Bio
 
-Hi, my name's **Lucas da Silva** a self-taught, dedicated and highly motivated Software Developer with seven years of experience in Web application development with the focus on Web performance and accessibility.
+Hi, my name's **Lucas da Silva** a self-taught, dedicated and highly motivated Software Developer with seven years of experience in Web application development with the focus on Web accessibility and performance.
 
 Currently I'm living in Berlin, working as a Front End Developer at [HelloFresh](https://hellofresh.com).
 
