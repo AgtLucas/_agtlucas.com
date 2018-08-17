@@ -4,7 +4,6 @@ title:  "Learning Haskell - Introducing types"
 description: ""
 date: 2018-03-02 09:00:00 +0100
 categories: blog
-comments: true
 ---
 
 One of the main reasons for my interest in learning Haskell is its type system.

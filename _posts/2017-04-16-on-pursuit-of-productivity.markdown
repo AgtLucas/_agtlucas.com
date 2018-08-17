@@ -4,7 +4,6 @@ title:  "On pursuit of productivity"
 description: "In the end of the day, it doesn't matter what tool or methodology you use, sure tools and methodologies can help us, but if you don't have discipline/self-control, none of this really matter, none of this will work."
 date:   2017-04-16 10:00:00 -0300
 categories: blog
-comments: true
 ---
 
 > Don't care too much about productivity tools, care about yourself!
@@ -32,4 +31,4 @@ I believe that before adopting any approach or methodology to increase productiv
 * Tools are not that important.
 * Know yourself.
 
-In the end of the day, it doesn't matter what tool or methodology you use, sure tools and methodologies can help us, but if you don't have discipline/self-control, none of this really matter, none of this will work. 
+In the end of the day, it doesn't matter what tool or methodology you use, sure tools and methodologies can help us, but if you don't have discipline/self-control, none of this really matter, none of this will work.

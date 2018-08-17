@@ -4,7 +4,6 @@ title:  "Ruby"
 description: "Not that Ruby though"
 date:   2018-02-25 09:00:00 +0100
 categories: blog
-comments: true
 ---
 
 I still remember the day I discovered the `<ruby />` HTML tag, I thought; "WTF, can we run Ruby code with that?" and I tried a simple hello world:

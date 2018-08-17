@@ -4,7 +4,6 @@ title:  "CSS - The initial value"
 description: "Reset all the things!"
 date:   2017-01-19 10:00:00 -0300
 categories: blog
-comments: true
 ---
 
 Every once and awhile, you're reading the CSS spec and then you encounter some not so known features or other interesting things, right? Have you heard about `initial` value?

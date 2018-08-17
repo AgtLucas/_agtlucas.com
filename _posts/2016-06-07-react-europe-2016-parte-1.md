@@ -4,7 +4,6 @@ title:  "ReactEurope 2016 - Parte 1"
 description: "Um evento inspirador!"
 date:   2016-06-07 17:17:58 -0300
 categories: blog
-comments: true
 language: pt-BR
 ---
 

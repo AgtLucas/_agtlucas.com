@@ -4,7 +4,6 @@ title:  "Detect Reduce Motion on the Web and iOS"
 description: "Making accessible applications for people with vestibular disorders"
 date:   2018-01-28 20:00:00 +0100
 categories: blog
-comments: true
 ---
 
 Have you ever felt nauseous or dizzy while navigating through a website or using an app with too much aggressive animation, or parallax effects? Well, maybe you suffer from a vestibular disorder...

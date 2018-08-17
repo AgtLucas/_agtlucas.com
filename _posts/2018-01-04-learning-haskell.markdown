@@ -4,7 +4,6 @@ title:  "Learning Haskell"
 description: "An awesome language to learn more about functional programming"
 date:   2018-01-04 07:00:00 -0300
 categories: blog
-comments: true
 ---
 
 Lately I’ve been studying [Haskell](https://www.haskell.org/), because, well, why not?

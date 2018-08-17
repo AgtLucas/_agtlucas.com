@@ -4,7 +4,6 @@ title:  "Learning Haskell - Rules for recursion"
 description: "Don't be afraid of something recursive"
 date:   2018-02-04 09:00:00 +0100
 categories: blog
-comments: true
 ---
 
 In functional programming, our data is immutable (we don't have state changes). We also don't have common looping functions that rely on state changes, like `for`, `while`. To solve iteration problems, we need to use recursive approaches.

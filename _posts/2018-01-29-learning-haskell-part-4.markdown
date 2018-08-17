@@ -4,7 +4,6 @@ title:  "Learning Haskell - Lists"
 description: "Lists FTW"
 date:   2018-01-29 09:00:00 +0100
 categories: blog
-comments: true
 ---
 
 In Haskell (and functional programming in general), the most important data structure are Lists. One of the reasons is that lists are inherently recursive.

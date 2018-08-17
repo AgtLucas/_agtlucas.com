@@ -4,7 +4,6 @@ title:  "Can you buy a mouse without a mouse?"
 description: "Because temporary disabilities is real"
 date:   2018-02-10 09:00:00 +0100
 categories: blog
-comments: true
 ---
 
 Picture this, you are at home, “surfing the Web” and for no reason, your mouse stops working…

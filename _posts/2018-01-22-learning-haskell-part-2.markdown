@@ -4,7 +4,6 @@ title:  "Learning Haskell - Lambda functions"
 description: "Let's take a look at Lambda functions"
 date:   2018-01-22 07:00:00 -0300
 categories: blog
-comments: true
 ---
 
 In the last post, we explored the basics of Haskell, how to install Haskell, "variables", functions, etc. In part 2 of "Learning Haskell", we are going to explore a little bit about Lambda functions.
