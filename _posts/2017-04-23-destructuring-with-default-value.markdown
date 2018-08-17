@@ -5,7 +5,6 @@ description: "Learning one thing new everyday!"
 date:   2017-04-23 10:00:00 -0300
 categories: blog
 tags: [js, es6]
-comments: true
 ---
 
 If you're familiar with ES6/ES2015, you probably have heard about `Destructuring`, right? Me too, but there's one thing I wasn't aware of. Destructuring with default value!

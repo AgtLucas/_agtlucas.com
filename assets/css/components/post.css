@@ -56,10 +56,6 @@
   color: var(--secondaryGray);
 }
 
-.Post-comments {
-  padding-top: 3.75em;
-}
-
 .Post-language {
   position: relative;
   font-size: 10px;

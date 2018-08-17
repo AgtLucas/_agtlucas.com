@@ -4,7 +4,6 @@ title:  "Using Windows 10 + WSL for Front-End Development"
 description: "Well, why not?"
 date: 2018-06-17 09:00:00 +0100
 categories: blog
-comments: true
 ---
 
 Since the past few weeks I've been using Windows 10 + [WSL (Windows Subsystem for Linux)](https://docs.microsoft.com/en-us/windows/wsl/about) for Front-End Development and so far the experience has been quite pleasant. It seems that more and more developers are migrating from macOS to Windows recently, mainly because tons of issues with the last version of MacBook Pro, if you are on Twitter, you will probably see someone complaining about something with their Mac. Well, lucky I'm not one of those people, I just want to try a different OS experience.

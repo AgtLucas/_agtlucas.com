@@ -4,7 +4,6 @@ title:  "CSS is dead - Long live (post)CSS"
 description: "Make CSS great again!"
 date:   2016-06-25 06:17:58 -0300
 categories: blog
-comments: true
 language: pt-BR
 ---
 

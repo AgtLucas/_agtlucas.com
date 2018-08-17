@@ -4,7 +4,6 @@ title:  "Learning Haskell - First-class functions"
 description: "Functions FTW"
 date:   2018-01-27 09:00:00 +0100
 categories: blog
-comments: true
 ---
 
 Continuing my journey on exploring and learning Haskell, let's take a look at the concept of first-class functions that we can use in Haskell, and in other languages like Python, JavaScript.

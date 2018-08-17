@@ -4,7 +4,6 @@ title:  "Learning Haskell - Common types"
 description: ""
 date: 2018-03-04 09:00:00 +0100
 categories: blog
-comments: true
 ---
 
 In the previous post, we introduce Haskell types, now let's take a closer look at some common types Haskell provides us out of the box.

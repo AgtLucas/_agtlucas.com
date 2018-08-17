@@ -4,7 +4,6 @@ title:  "Learning Haskell - Pattern matching"
 description: ""
 date:   2018-02-17 09:00:00 +0100
 categories: blog
-comments: true
 ---
 
 In my [last post](/blog/2018/02/04/learning-haskell-part-5/) about Learning Haskell, I've explained a little bit about the rules for recursion, and as an example, a `factorial` recursive function. We can implement that `factorial` function in many ways, for instance, with `Pattern Matching`.
