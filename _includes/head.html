@@ -7,17 +7,19 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   <meta name="author" content="Lucas da Silva">
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta itemprop="name" content="Lucas da Silva - Software Developer">
   <meta itemprop="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta itemprop="image" content="https://lcs.sh//img/cover.png">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@_agtlucas">
   <meta name="twitter:creator" content="@_agtlucas">
-  <meta name="twitter:image" content="/img/cover.png">
+  <meta name="twitter:image" content="https://lcs.sh/img/cover.png">
   <meta name="twitter:title" content="{{ page.title }}" />
   <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:url" content="https://lcs.sh{{ page.url }}">
   <meta property="og:type" content="website" />
   <meta property="og:title" content="{{ page.title }}" />
-  <meta property="og:image" content="/img/cover.png">
+  <meta property="og:image" content="https://lcs.sh/img/cover.png">
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   {% include favicon.html %}
