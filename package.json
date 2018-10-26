@@ -23,18 +23,16 @@
   },
   "homepage": "https://github.com/AgtLucas/lucas.ninja#readme",
   "dependencies": {
-    "chalk": "^2.3.0",
     "suitcss-base": "^4.0.0"
   },
   "devDependencies": {
     "browser-sync": "^2.23.1",
-    "css-mqpacker": "^6.0.1",
-    "cssnano": "^3.10.0",
-    "gh-pages": "^1.0.0",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.7",
     "npm-run-all": "^4.1.2",
-    "postcss-cli": "^4.1.1",
-    "postcss-cssnext": "^3.0.2",
-    "postcss-focus": "^3.0.0",
-    "postcss-import": "^11.0.0"
+    "postcss-cli": "^6.0.1",
+    "postcss-focus": "^4.0.0",
+    "postcss-import": "^12.0.1",
+    "postcss-preset-env": "^6.2.0"
   }
 }
