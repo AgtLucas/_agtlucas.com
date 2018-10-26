@@ -1,5 +1,5 @@
 const cssnano = require('cssnano')
-const cssnext = require('postcss-cssnext')
+const postcssPresetEnv = require('postcss-preset-env')
 const atImport = require('postcss-import')
 const mqpacker = require('css-mqpacker')
 const focus = require('postcss-focus')
@@ -16,7 +16,9 @@ const cssnextConfig = {
 module.exports = {
   plugins: [
     atImport,
-    cssnext(cssnextConfig),
+    postcssPresetEnv({
+      stage: 0
+    }),
     focus,
     mqpacker,
     cssnano({ autoprefixer: false })
