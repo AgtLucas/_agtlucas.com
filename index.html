@@ -19,17 +19,3 @@ layout: default
   </div>
   <a class="u-action u-tdNone" href="/archive">Archive →</a>
 </div>
-
-<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
-<script type="text/javascript">
-  (function() {
-    const URL_TOKEN = window.location.hash.substr(1);
-    const SECRET_COOKIE = 'mi6_';
-
-    if (!!URL_TOKEN) {
-      Cookies.set(SECRET_COOKIE, URL_TOKEN);
-      window.location.href = '/not-so-secret-page';
-    }
-
-  })();
-</script>
