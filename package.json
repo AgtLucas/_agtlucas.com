@@ -26,7 +26,7 @@
     "suitcss-base": "^4.0.0"
   },
   "devDependencies": {
-    "browser-sync": "^2.23.1",
+    "browser-sync": "^2.26.3",
     "css-mqpacker": "^7.0.0",
     "cssnano": "^4.1.7",
     "npm-run-all": "^4.1.2",

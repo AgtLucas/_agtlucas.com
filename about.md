@@ -8,7 +8,7 @@ permalink: /about/
 
 Hi, my name's **Lucas da Silva** a self-taught, dedicated and highly motivated Software Developer with seven years of experience in Web application development with the focus on Web accessibility and performance.
 
-Currently I'm working as a Front End Developer at [HelloFresh](https://hellofresh.com).
+Currently I'm looking for new opportunities, if you are hiring get in touch. :) Previously, I worked as a Front End Developer at [HelloFresh](https://hellofresh.com) in Berlin.
 
 ## Get in touch
 
