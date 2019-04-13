@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "On learning Swift; things I like the most about it"
+title: "One simple thing I like the most about Swift"
 description: "Spoiler alert: functions parameters flexibility"
 date: 2019-04-13 09:00:00 -0300
 categories: blog
