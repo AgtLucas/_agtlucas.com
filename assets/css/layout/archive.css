@@ -17,7 +17,11 @@
 }
 
 .Archive-list {
-  margin: 30px 0;
+  margin: 20px 0;
+
+  @media (--medium-up) {
+    margin: 30px 0;
+  }
 }
 
 .Archive-date {
