@@ -6,7 +6,7 @@ date: 2019-04-13 09:00:00 -0300
 categories: blog
 ---
 
-So, lately I've been learning [Swift](https://swift.org), it's such a joy to use this language that I decided to write this short post about a simple thing (or things) in the language, that it makes a huge difference (at least for me) when you are reading code. This thing is functions parameters.
+So, lately I've been learning [Swift](https://swift.org), it's such a joy to use this language that I decided to write this short post about a simple thing (or things) in the language that makes a huge difference (at least for me) when you are reading code. This thing is functions parameters.
 
 Yeah, I told you, it's simple, but here's the deal, in Swift, functions parameters are labeled by default, meaning when you call a function, you need to provide the name of the parameter and then the value of it, like so:
 
