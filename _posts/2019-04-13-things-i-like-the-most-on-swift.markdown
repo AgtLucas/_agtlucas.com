@@ -19,7 +19,7 @@ greet(name: "Scarlet Witch")
 // Hello, Scarlet Witch!
 ```
 
-Coming from a The Web spectrum, with JavaScript, if you wanted something like that you would have to pass an object with a key `name` on it I really like this small detail of Swift.
+Coming from The Web spectrum, with JavaScript, if you wanted something like that you would have to pass an object with a key `name` on it I really like this small detail of Swift.
 
 But that's not all!
 
