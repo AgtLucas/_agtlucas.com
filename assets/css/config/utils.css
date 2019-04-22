@@ -1,0 +1,11 @@
+.lcs-d-b {
+  display: block;
+}
+
+.lcs-d-ib {
+  display: inline-block;
+}
+
+.lcs-d-f {
+  display: flex;
+}

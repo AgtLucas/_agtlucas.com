@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/AgtLucas/lucas.ninja#readme",
   "dependencies": {
-    "suitcss-base": "^4.0.0"
+    "suitcss-base": "^5.0.0"
   },
   "devDependencies": {
     "browser-sync": "^2.26.3",

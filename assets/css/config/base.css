@@ -1,42 +1,10 @@
-p {
-  margin: 1em 0;
-}
+body {
+  background-color: var(--lcs-bg);
+  color: var(--lcs-color);
 
-img {
-  max-width: 100%;
-  display: block;
-  margin: 1.875em auto;
+  font-size: var(--lcs-font-size-3);
 }
 
 a {
-  transition: color 0.4s;
-  color: var(--dark);
-
-  &:hover {
-    color: var(--navyBlue);
-  }
-
-  &:focus {
-    outline: thin dotted !important;
-  }
-}
-
-blockquote {
-  margin: 1.5em 0;
-  padding: 0 1em;
-  font-size: 1.125rem;
-  font-weight: 600;
-  font-style: italic;
-  border-radius: 0 6px 6px 0;
-  border-left: 3px solid var(--navy);
-}
-
-figure {
-  text-align: center;
-}
-
-figcaption {
-  font-size: 0.875rem;
-  font-style: italic;
-  margin-bottom: 1.875em;
+  color: var(--lcs-border)
 }
