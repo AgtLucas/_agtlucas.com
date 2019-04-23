@@ -24,10 +24,10 @@ On macOS, choose Apple menu > System Preferences, click Accessibility, click Dis
 
 ## Detect Reduce Motion on iOS
 
-On iOS, we can use `UIAccessibilityIsReduceMotionEnabled` function, which returns true if a user has the reduced motion enabled. You can find more information in the [UIKit documentation](can check if a user has the reduced motion enabled with the).
+On iOS, we can use `UIAccessibilityIsReduceMotionEnabled` function, which returns true if a user has the reduced motion enabled. You can find more information in the [UIKit documentation](https://developer.apple.com/documentation/uikit/1615133-uiaccessibilityisreducemotionena).
 
 ```swift
-if (UIAccessibilityIsReduceMotionEnabled()) {
+if UIAccessibilityIsReduceMotionEnabled() == true {
   // Your reduced motion code here
 }
 ```

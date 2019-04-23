@@ -1,5 +1,5 @@
-<li class="Post-item" id="post-{{ post.title | slugify }}">
-  <a class="Post-link u-tdNone" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+<li id="post-{{ post.title | slugify }}">
+  <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
   {% if post.language %}<small class="Post-language">{{ post.language }}</small>{% endif %}
-  <time class="Post-meta Post-date" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
+  <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
 </li>

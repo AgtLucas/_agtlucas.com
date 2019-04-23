@@ -1,24 +1,26 @@
 ---
 layout: default
 ---
-<article class="Post Wrapper" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="Post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="Post-header">
-    <h1 class="Post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="Post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-  </header>
+  <div class="PostWrapper">
+    <header class="PostHeader">
+      <h1 class="lcs-subheadline" itemprop="name headline">{{ page.title }}</h1>
+      <p class="PostMeta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+    </header>
 
-  <div class="Post-content" itemprop="articleBody">
-    {{ content }}
-  </div>
+    <div class="PostContent" itemprop="articleBody">
+      {{ content }}
+    </div>
 
-  <div class="Post-others">
-    {% if page.previous.url %}
-    <a class="u-action u-tdNone" href="{{ page.previous.url }}">← {{ page.previous.title }}</a>
-    {% endif %}
-    {% if page.next.url %}
-    <a class="u-action u-tdNone" href="{{ page.next.url }}">{{ page.next.title }} →</a>
-    {% endif %}
+    <div class="PostOthers">
+      {% if page.previous.url %}
+      <a class="lcs-td-n" href="{{ page.previous.url }}">← {{ page.previous.title }}</a>
+      {% endif %}
+      {% if page.next.url %}
+      <a class="lcs-td-n" href="{{ page.next.url }}">{{ page.next.title }} →</a>
+      {% endif %}
+    </div>
   </div>
 
 </article>

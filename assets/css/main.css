@@ -6,7 +6,7 @@
 @import 'components/header';
 /* @import 'layout/page'; */
 /* @import 'layout/archive'; */
-/* @import 'components/post'; */
+@import 'pages/post';
 @import 'components/footer';
 
 @import 'config/code';

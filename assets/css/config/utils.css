@@ -15,8 +15,29 @@
 }
 
 .lcs-subheadline {
-  font-size: var(--lcs-font-size-subheadline);
+  font-size: var(--lcs-font-size-2);
   line-height: var(--lcs-line-height-title);
+
+  @media (--large) {
+    font-size: var(--lcs-font-size-subheadline);
+  }
+}
+
+.lcs-headline {
+  font-size: var(--lcs-font-size-1);
+  line-height: var(--lcs-line-height-title);
+
+  @media (--large) {
+    font-size: var(--lcs-font-size-headline);
+  }
+}
+
+.lcs-section {
+  margin: var(--lcs-spacing-l) 0;
+
+  @media (--large) {
+    margin: var(--lcs-spacing-xxl) 0;
+  }
 }
 
 .Wrapper {

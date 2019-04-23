@@ -2,13 +2,16 @@
 layout: default
 ---
 
-<div class="Posts-list Wrapper">
-  <ul aria-label="articles/posts by date, newest first">
-    {% for post in site.posts %}
-    {% if post.hidden %}
-    {% else if %}
-    {% include post-item.html post=post %}
-    {% endif %}
-    {% endfor %}
-  </ul>
-</div>
+<section class="lcs-section Blog">
+  <div class="Wrapper">
+    <h1 class="lcs-subheadline">Blog</h1>
+    <ul class="PostsList" aria-label="articles/posts by date, newest first">
+      {% for post in site.posts %}
+      {% if post.hidden %}
+      {% else if %}
+      {% include post-item.html post=post %}
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</section>
