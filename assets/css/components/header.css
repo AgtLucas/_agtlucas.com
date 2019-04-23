@@ -1,0 +1,12 @@
+.Header {
+  padding: var(--lcs-spacing-m) 0;
+}
+
+.HeaderItem {
+  margin-right: var(--lcs-spacing-l);
+}
+
+.HeaderItemLogo {
+  font-size: var(--lcs-font-size-3);
+  font-weight: var(--lcs-font-weight-b);
+}

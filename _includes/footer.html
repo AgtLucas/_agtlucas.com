@@ -1,1 +1,11 @@
-This is the footer
+<footer class="Footer">
+  <div class="Wrapper">
+    <ul>
+      {% for item in site.data.social %}
+      <li class="lcs-d-ib FooterItem">
+        <a class="CustomLinks lcs-td-n" href="{{ item.url }}" target="_blank" rel="noopener" noreferrer>{{ item.name }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</footer>

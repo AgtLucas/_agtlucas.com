@@ -9,3 +9,28 @@
 .lcs-d-f {
   display: flex;
 }
+
+.lcs-td-n {
+  text-decoration: none;
+}
+
+.lcs-subheadline {
+  font-size: var(--lcs-font-size-subheadline);
+  line-height: var(--lcs-line-height-title);
+}
+
+.Wrapper {
+  width: 80rem;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 var(--lcs-spacing-m);
+}
+
+.CustomLinks {
+  color: var(--lcs-color);
+
+  &:focus,
+  &:hover {
+    color: var(--lcs-border);
+  }
+}

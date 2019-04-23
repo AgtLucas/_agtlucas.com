@@ -1,0 +1,11 @@
+.Footer {
+  padding: var(--lcs-spacing-xl) 0;
+}
+
+.FooterItem {
+  margin-right: var(--lcs-spacing-m);
+
+  @media (--large) {
+    margin-right: var(--lcs-spacing-l);
+  }
+}

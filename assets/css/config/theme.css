@@ -32,14 +32,18 @@
   --lcs-line-height-title: 1.15;
   --lcs-line-height-copy: 1.5;
 
-  --lcs-parent-bg: #E0E3F0;
-  --lcs-color: #FDF1E7;
-  --lcs-bg: #1D1F20;
-  --lcs-border: #DA304C;
+  --lcs-parent-bg: #3366CC;
+  --lcs-color: #000000;
+  --lcs-bg: #FFFCF5;
+  --lcs-border: #268BD2;
 
   --lcs-code-font: 'Menlo', monospace;
 
   font-family: Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Ubuntu", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: var(--lcs-line-height-copy);
+  background-color: var(--lcs-bg);
+  color: var(--lcs-color);
 }
 
 @custom-media --not-small screen and (min-width: 48em);

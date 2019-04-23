@@ -3,10 +3,10 @@
 @import 'config/base';
 @import 'config/utils';
 
-/* @import 'components/header'; */
+@import 'components/header';
 /* @import 'layout/page'; */
 /* @import 'layout/archive'; */
 /* @import 'components/post'; */
-/* @import 'components/footer'; */
+@import 'components/footer';
 
-/* @import 'config/code'; */
+@import 'config/code';

@@ -1,10 +1,67 @@
-body {
-  background-color: var(--lcs-bg);
-  color: var(--lcs-color);
-
-  font-size: var(--lcs-font-size-3);
-}
-
 a {
-  color: var(--lcs-border)
+  color: var(--lcs-border);
+  transition: color 0.4s;
 }
+
+p {
+  font-size: var(--lcs-font-size-5);
+  margin-bottom: var(--lcs-spacing-m);
+}
+
+h3 {
+  font-size: var(--lcs-font-size-2);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.Site {
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.Main {
+  flex: 1;
+}
+
+.HomeSection {
+  margin: var(--lcs-spacing-xxl) 0;
+}
+
+.Hero {
+  font-weight: var(--lcs-font-weight-6);
+
+  & p {
+    font-size: var(--lcs-font-size-2);
+    margin: var(--lcs-spacing-n);
+  }
+}
+
+.Work {
+  background-color: var(--lcs-parent-bg);
+  color: var(--lcs-bg);
+  padding: var(--lcs-spacing-l) var(--lcs-spacing-m);
+
+  & p {
+    font-size: var(--lcs-font-size-4);
+  }
+
+  & a {
+    color: inherit;
+  }
+
+  @media (--large) {
+    padding: var(--lcs-spacing-xxl);
+    width: 80em;
+    max-width: 100%;
+    margin: auto;
+  }
+}
+
+.WorkItem {
+  margin: var(--lcs-spacing-xl) 0;
+}
+
+
