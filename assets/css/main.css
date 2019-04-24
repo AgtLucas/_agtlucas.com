@@ -1,7 +1,7 @@
 @import 'suitcss-base';
 @import 'config/theme';
-@import 'config/base';
 @import 'config/utils';
+@import 'config/base';
 
 @import 'components/header';
 @import 'layout/post';

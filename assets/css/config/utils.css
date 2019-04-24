@@ -41,10 +41,18 @@
 }
 
 .lcs-section {
-  margin: var(--lcs-spacing-l) 0;
+  margin: var(--lcs-spacing-xl) auto;
+
+  @media (--not-small) {
+    margin: var(--lcs-spacing-xxl) auto;
+  }
+
+  @media (--medium) {
+    margin: var(--lcs-spacing-xxl) auto;
+  }
 
   @media (--large) {
-    margin: var(--lcs-spacing-xxl) 0;
+    margin: var(--lcs-spacing-xxl) auto;
   }
 }
 

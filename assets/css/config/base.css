@@ -18,7 +18,11 @@ p {
 }
 
 h3 {
-  font-size: var(--lcs-font-size-2);
+  font-size: var(--lcs-font-size-3);
+
+  @media (--not-small) {
+    font-size: var(--lcs-font-size-2);
+  }
 }
 
 img {
@@ -45,22 +49,6 @@ figcaption {
   flex: 1;
 }
 
-.HomeSection {
-  margin: var(--lcs-spacing-xl) 0;
-
-  @media (--not-small) {
-    margin: var(--lcs-spacing-xxl) 0;
-  }
-
-  @media (--medium) {
-    margin: var(--lcs-spacing-xxl) 0;
-  }
-
-  @media (--large) {
-    margin: var(--lcs-spacing-xxl) 0;
-  }
-}
-
 .Hero {
   font-weight: var(--lcs-font-weight-6);
 
@@ -77,11 +65,7 @@ figcaption {
 .Work {
   background-color: var(--lcs-color);
   color: var(--lcs-bg);
-  padding: var(--lcs-spacing-l) var(--lcs-spacing-m);
-
-  @media (--not-small) {
-    padding: var(--lcs-spacing-xxl) 0;
-  }
+  padding: var(--lcs-spacing-xl) var(--lcs-spacing-m);
 
   @media (--medium) {
     padding: var(--lcs-spacing-xl);
@@ -113,11 +97,7 @@ figcaption {
 }
 
 .WorkItem {
-  margin: var(--lcs-spacing-m) 0;
-
-  @media (--medium) {
-    margin: var(--lcs-spacing-l) 0;
-  }
+  margin: var(--lcs-spacing-l) 0;
 
   @media (--large) {
     margin: var(--lcs-spacing-xl) 0;
