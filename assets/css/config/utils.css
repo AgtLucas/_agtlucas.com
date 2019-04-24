@@ -51,7 +51,8 @@
 .lcs-action {
   display: inline-block;
   font-size: var(--lcs-font-size-5);
-  color: var(--lcs-border);
+  margin: var(--lcs-spacing-s) 0;
+  color: inherit;
 }
 
 .u-video {
@@ -80,6 +81,13 @@
   padding: 0 var(--lcs-spacing-m);
 }
 
+.InnerWrapper {
+  width: 60em;
+  max-width: 100%;
+  margin: auto;
+  padding: 0 var(--lcs-spacing-m);
+}
+
 .InnerContent {
   & li,
   & p {
@@ -93,14 +101,6 @@
 
 .InnerHeader {
   margin-bottom: var(--lcs-spacing-l);
-}
-
-
-.InnerWrapper {
-  width: 60em;
-  max-width: 100%;
-  margin: auto;
-  padding: 0 var(--lcs-spacing-l);
 }
 
 .CustomLinks {

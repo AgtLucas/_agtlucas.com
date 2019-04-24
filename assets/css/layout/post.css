@@ -8,7 +8,7 @@
 
 .PostContent {
   padding-bottom: var(--lcs-spacing-xxl);
-  border-bottom: 1px solid var(--lcs-color);
+  border-bottom: thin solid var(--lcs-color);
 
   & ul {
     list-style: disc;
@@ -53,9 +53,5 @@
   @media (--not-small) {
     flex-direction: row;
     justify-content: space-between;
-  }
-
-  & a {
-    margin: var(--lcs-spacing-s) 0;
   }
 }
