@@ -75,7 +75,7 @@ figcaption {
 }
 
 .Work {
-  background-color: var(--lcs-parent-bg);
+  background-color: var(--lcs-color);
   color: var(--lcs-bg);
   padding: var(--lcs-spacing-l) var(--lcs-spacing-m);
 
@@ -107,7 +107,7 @@ figcaption {
 
     &:focus,
     &:hover {
-      color: var(--lcs-color);
+      color: var(--lcs-border);
     }
   }
 }

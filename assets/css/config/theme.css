@@ -49,3 +49,12 @@
 @custom-media --not-small screen and (min-width: 48em);
 @custom-media --medium screen and (min-width: 48em) and (max-width: 64em);
 @custom-media --large screen and (min-width: 64em);
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --lcs-parent-bg: #B6590D;
+    --lcs-color: #F7F7F8;
+    --lcs-bg: #1D1F20;
+    --lcs-border: #E06D10;
+  }
+}

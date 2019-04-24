@@ -52,7 +52,6 @@
   display: inline-block;
   font-size: var(--lcs-font-size-5);
   margin: var(--lcs-spacing-s) 0;
-  color: inherit;
 }
 
 .u-video {
