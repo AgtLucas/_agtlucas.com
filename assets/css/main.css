@@ -4,9 +4,7 @@
 @import 'config/utils';
 
 @import 'components/header';
-/* @import 'layout/page'; */
-/* @import 'layout/archive'; */
-@import 'pages/post';
+@import 'layout/post';
 @import 'components/footer';
 
 @import 'config/code';

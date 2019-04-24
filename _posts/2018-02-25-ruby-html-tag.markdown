@@ -110,6 +110,17 @@ You can also provide styles for each tags showed above, given the previous `rtc`
 </style>
 ```
 
+<style>
+.some-ruby-sample {
+  padding: 5px;
+}
+
+.ruby-text {
+  background-color: #BC002D;
+  color: #FFF;
+}
+</style>
+
 <ruby class="some-ruby-sample" id="some-id">
   <rb>日本</rb><rt class="ruby-text">Nippon</rt>
   <rtc>Japan</rtc>

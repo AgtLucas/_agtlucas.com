@@ -18,6 +18,10 @@
   font-size: var(--lcs-font-size-2);
   line-height: var(--lcs-line-height-title);
 
+  @media (--medium) {
+    font-size: var(--lcs-font-size-1);
+  }
+
   @media (--large) {
     font-size: var(--lcs-font-size-subheadline);
   }
@@ -26,6 +30,10 @@
 .lcs-headline {
   font-size: var(--lcs-font-size-1);
   line-height: var(--lcs-line-height-title);
+
+  @media (--medium) {
+    font-size: var(--lcs-font-size-subheadline);
+  }
 
   @media (--large) {
     font-size: var(--lcs-font-size-headline);
@@ -40,11 +48,59 @@
   }
 }
 
+.lcs-action {
+  display: inline-block;
+  font-size: var(--lcs-font-size-5);
+  color: var(--lcs-border);
+}
+
+.u-video {
+  position: relative;
+  width: 100%;
+  margin: var(--lcs-spacing-l) 0;
+  padding-bottom: 56.25%;
+
+  & iframe,
+  & object,
+  & embed {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
 .Wrapper {
   width: 80rem;
   max-width: 100%;
   margin: 0 auto;
   padding: 0 var(--lcs-spacing-m);
+}
+
+.InnerContent {
+  & li,
+  & p {
+    font-size: var(--lcs-font-size-4);
+  }
+
+  & h2 {
+    font-size: var(--lcs-font-size-1);
+  }
+}
+
+.InnerHeader {
+  margin-bottom: var(--lcs-spacing-l);
+}
+
+
+.InnerWrapper {
+  width: 60em;
+  max-width: 100%;
+  margin: auto;
+  padding: 0 var(--lcs-spacing-l);
 }
 
 .CustomLinks {

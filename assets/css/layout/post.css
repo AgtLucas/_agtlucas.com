@@ -1,0 +1,61 @@
+.Post {
+  margin: var(--lcs-spacing-l) 0;
+
+  @media (--large) {
+    margin: var(--lcs-spacing-xxl) 0;
+  }
+}
+
+.PostContent {
+  padding-bottom: var(--lcs-spacing-xxl);
+  border-bottom: 1px solid var(--lcs-color);
+
+  & ul {
+    list-style: disc;
+    & li {
+      list-style: square;
+      margin: var(--lcs-spacing-s) 0;
+    }
+  }
+}
+
+.PostWrapper {
+  width: 60em;
+  max-width: 100%;
+  margin: auto;
+  padding: 0 var(--lcs-spacing-l);
+}
+
+.PostHeader {
+  text-align: center;
+  margin-bottom: var(--lcs-spacing-l);
+
+  @media (--not-small) {
+    margin-bottom: var(--lcs-spacing-xl);
+  }
+}
+
+.PostItem {
+  font-size: var(--lcs-font-size-4);
+  margin: var(--lcs-spacing-m) 0;
+
+  @media (--not-small) {
+    font-size: var(--lcs-font-size-3);
+  }
+}
+
+.PostOthers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--lcs-spacing-xxl) 0 0;
+
+  @media (--not-small) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  & a {
+    margin: var(--lcs-spacing-s) 0;
+  }
+}

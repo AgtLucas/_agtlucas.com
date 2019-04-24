@@ -3,22 +3,22 @@ layout: default
 ---
 <article class="Post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <div class="PostWrapper">
+  <div class="InnerWrapper">
     <header class="PostHeader">
       <h1 class="lcs-subheadline" itemprop="name headline">{{ page.title }}</h1>
       <p class="PostMeta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
     </header>
 
-    <div class="PostContent" itemprop="articleBody">
+    <div class="PostContent InnerContent" itemprop="articleBody">
       {{ content }}
     </div>
 
-    <div class="PostOthers">
+    <div class="PostOthers lcs-d-f">
       {% if page.previous.url %}
-      <a class="lcs-td-n" href="{{ page.previous.url }}">← {{ page.previous.title }}</a>
+      <a class="lcs-td-n lcs-action" href="{{ page.previous.url }}">← {{ page.previous.title }}</a>
       {% endif %}
       {% if page.next.url %}
-      <a class="lcs-td-n" href="{{ page.next.url }}">{{ page.next.title }} →</a>
+      <a class="lcs-td-n lcs-action" href="{{ page.next.url }}">{{ page.next.title }} →</a>
       {% endif %}
     </div>
   </div>

@@ -1,11 +1,20 @@
+time, a, p,
+h2, h3 {
+  margin-bottom: var(--lcs-spacing-m);
+}
+
 a {
   color: var(--lcs-border);
   transition: color 0.4s;
+
+  &:focus,
+  &:hover {
+    color: var(--lcs-color);
+  }
 }
 
 p {
   font-size: var(--lcs-font-size-5);
-  margin-bottom: var(--lcs-spacing-m);
 }
 
 h3 {
@@ -15,6 +24,16 @@ h3 {
 img {
   max-width: 100%;
   height: auto;
+}
+
+figure {
+  text-align: center;
+}
+
+figcaption {
+  font-size: var(--lcs-font-size-6);
+  font-style: italic;
+  margin-bottom: var(--lcs-spacing-l);
 }
 
 .Site {
@@ -27,7 +46,15 @@ img {
 }
 
 .HomeSection {
-  margin: var(--lcs-spacing-l) 0;
+  margin: var(--lcs-spacing-xl) 0;
+
+  @media (--not-small) {
+    margin: var(--lcs-spacing-xxl) 0;
+  }
+
+  @media (--medium) {
+    margin: var(--lcs-spacing-xxl) 0;
+  }
 
   @media (--large) {
     margin: var(--lcs-spacing-xxl) 0;
@@ -51,34 +78,49 @@ img {
   background-color: var(--lcs-parent-bg);
   color: var(--lcs-bg);
   padding: var(--lcs-spacing-l) var(--lcs-spacing-m);
-  margin: 0 var(--lcs-spacing-m);
 
-  & p {
-    font-size: var(--lcs-font-size-5);
-
-    @media (--large) {
-      font-size: var(--lcs-font-size-4);
-      margin: 0;
-    }
+  @media (--not-small) {
+    padding: var(--lcs-spacing-xxl) 0;
   }
 
-  & a {
-    color: inherit;
+  @media (--medium) {
+    padding: var(--lcs-spacing-xl);
   }
 
   @media (--large) {
     padding: var(--lcs-spacing-xxl);
     width: 80em;
     max-width: 100%;
-    margin: auto;
+    margin: var(--lcs-spacing-xxl) auto;
+  }
+
+  & p {
+    font-size: var(--lcs-font-size-5);
+
+    @media (--large) {
+      font-size: var(--lcs-font-size-4);
+    }
+  }
+
+  & a {
+    color: inherit;
+
+    &:focus,
+    &:hover {
+      color: var(--lcs-color);
+    }
   }
 }
 
 .WorkItem {
   margin: var(--lcs-spacing-m) 0;
+
+  @media (--medium) {
+    margin: var(--lcs-spacing-l) 0;
+  }
+
   @media (--large) {
     margin: var(--lcs-spacing-xl) 0;
   }
 }
-
 
