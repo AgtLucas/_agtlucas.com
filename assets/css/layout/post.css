@@ -12,6 +12,7 @@
 
   & ul {
     list-style: disc;
+    padding-left: var(--lcs-spacing-s);
     & li {
       list-style: square;
       margin: var(--lcs-spacing-s) 0;
