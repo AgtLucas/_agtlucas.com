@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<section class="lcs-section Blog">
+  <div class="InnerWrapper">
+    <header class="InnerHeader">
+      <h1 class="lcs-subheadline">Blog</h1>
+    </header>
+    <ul class="PostsList" aria-label="articles/posts by date, newest first">
+      {% for post in site.posts %}
+      {% if post.hidden %}
+      {% else if %}
+      {% include post-item.html post=post %}
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</section>

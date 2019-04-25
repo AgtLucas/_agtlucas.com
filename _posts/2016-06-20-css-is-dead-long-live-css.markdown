@@ -13,7 +13,7 @@ Sejamos sinceros, "escrever" CSS é fácil se compararmos o quão difícil é ma
 
 **Antes de prosseguir com o post, por determinação da W3C devemos sempre postar o gif abaixo quando o papo é CSS.**
 
-![CSS...](/img/css.gif)
+![](/img/css.gif)
 
 Bom, como eu ia dizendo, hoje temos várias opções para nos facilitar a vida, infelizmente o tempo vem nos provando que nenhuma delas é adequada e na verdade, cabe a você e sua equipe decidirem qual é a que melhor atende as vossas necessidades.
 
@@ -21,7 +21,7 @@ Recentemente abandonei os pré-processadores e migrei para o [PostCSS](http://po
 
 Antes de falarmos sobre PostCSS, vamos rever algumas soluções e metodologias que foram surgindo ao longo dos últimos anos e que foi moldando como escrevemos CSS atualmente.
 
-![Oh boy...](/img/oh-boy.gif)
+![](/img/oh-boy.gif)
 
 ## Metodologias
 
@@ -37,7 +37,7 @@ Resumindo os pré-processadores CSS: Syntax sugar e template language. Os pré-p
 
 Ok, ao ponto principal do post, PostCSS.
 
-![Inside PostCSS](/img/go-on.gif)
+![](/img/go-on.gif)
 
 > PostCSS nada mais é do que uma ferramenta que nos permite transformar CSS usando JS.
 
@@ -45,7 +45,7 @@ Conforme relatei acima, PostCSS por padrão é muito útil, porém não faz nada
 
 Basicamente uma chamada PostCSS é composta pelo Parser e pelo CSS Stringifier, conforme imagem abaixo:
 
-![Inside PostCSS](/img/inside-postcss.png)
+![](/img/inside-postcss.png)
 
 Em outras palavras, o Parser recebe uma string de CSS e transforma esta string em uma AST (Abstract Syntax Tree), enquanto que o CSS Stringifier faz justamente o contrário, ele transforma a AST (já modificada pelos plugins) em uma string CSS.
 
@@ -98,7 +98,7 @@ Apesar da sintaxe feia, variáveis nativas no CSS vão muito além do que atribu
 
 Demais features do cssnext => [http://cssnext.io/features/](http://cssnext.io/features/).
 
-![Not bad](/img/not-bad.gif)
+![](/img/not-bad.gif)
 
 ## CSS Modules
 

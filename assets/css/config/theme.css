@@ -1,0 +1,121 @@
+:root {
+  --lcs-font-size-headline: 6rem;
+  --lcs-font-size-subheadline: 5rem;
+  --lcs-font-size-1: 3rem;
+  --lcs-font-size-2: 2.25rem;
+  --lcs-font-size-3: 1.5rem;
+  --lcs-font-size-4: 1.25rem;
+  --lcs-font-size-5: 1rem;
+  --lcs-font-size-6: 0.875rem;
+
+  --lcs-font-weight-n: normal;
+  --lcs-font-weight-b: bold;
+  --lcs-font-weight-1: 100;
+  --lcs-font-weight-3: 300;
+  --lcs-font-weight-4: 400;
+  --lcs-font-weight-6: 600;
+  --lcs-font-weight-9: 900;
+
+  --lcs-spacing-n: 0;
+  --lcs-spacing-xs: 0.25rem;
+  --lcs-spacing-s: 0.5rem;
+  --lcs-spacing-m: 1rem;
+  --lcs-spacing-l: 2rem;
+  --lcs-spacing-xl: 4rem;
+  --lcs-spacing-xxl: 8rem;
+  --lcs-spacing-xxxl: 16rem;
+
+  --lcs-measure-default: 30em;
+  --lcs-measure-wide: 34em;
+  --lcs-measure-narrow: 20em;
+
+  --lcs-line-height-title: 1.15;
+  --lcs-line-height-copy: 1.5;
+
+  --lcs-parent-bg: #3366CC;
+  --lcs-color: #000000;
+  --lcs-bg: #FFFCF5;
+  --lcs-border: #268BD2;
+
+  --lcs-code-font: 'Monaco', monospace;
+
+  font-family: Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Ubuntu", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: var(--lcs-line-height-copy);
+  background-color: var(--lcs-bg);
+  color: var(--lcs-color);
+}
+
+@custom-media --not-small screen and (min-width: 48em);
+@custom-media --medium screen and (min-width: 48em) and (max-width: 64em);
+@custom-media --large screen and (min-width: 64em);
+
+[data-theme="classic"] {
+  --lcs-parent-bg: #3366CC;
+  --lcs-color: #000000;
+  --lcs-bg: #FFFCF5;
+  --lcs-border: #268BD2;
+
+  & .Work {
+    background-color: var(--lcs-parent-bg);
+
+    & a:hover {
+      color: var(--lcs-color);
+    }
+  }
+}
+
+[data-theme="ocean"] {
+  --lcs-color: #FFFFFF;
+  --lcs-bg: #0067B9;
+  --lcs-border: #CCCCCC;
+}
+
+[data-theme="halloween"] {
+  --lcs-color: #F7F7F8;
+  --lcs-bg: #1D1F20;
+  --lcs-border: #E06D10;
+}
+
+[data-theme="time-stone"] {
+  --lcs-color: #F7F7F8;
+  --lcs-bg: #1D1F20;
+  --lcs-border: #2BB18E;
+}
+
+[data-theme="fear-of-the-dark"] {
+  --lcs-color: #EAEBEB;
+  --lcs-bg: #000000;
+  --lcs-border: #92979B;
+}
+
+[data-theme="drifter"] {
+  --lcs-color: #FFFFFF;
+  --lcs-bg: #222222;
+  --lcs-border: #0067B9;
+}
+
+[data-theme="prowler"] {
+  --lcs-color: #E9F7F9;
+  --lcs-bg: #0C2231;
+  --lcs-border: #DA304C;
+}
+
+[data-theme="moonchild"] {
+  --lcs-color: #FDF1E7;
+  --lcs-bg: #1D1F20;
+  --lcs-border: #DA304C;
+}
+
+[data-theme="hope"] {
+  --lcs-parent-bg: #E0E3F0;
+  --lcs-color: #2C365E;
+  --lcs-bg: #FDF1E7;
+  --lcs-border: #0C2427;
+
+  & .Work {
+    & a:hover {
+      color: var(--lcs-parent-bg);
+    }
+  }
+}

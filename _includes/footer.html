@@ -1,9 +1,12 @@
 <footer class="Footer">
-  <div>
-    <div class="Footer-contact">
+  <div class="Wrapper">
+    <ul>
       {% for item in site.data.social %}
-        <a class="u-tdNone" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.name }}</a>
+      <li class="lcs-d-ib FooterItem">
+        <a class="CustomLinks lcs-td-n" href="{{ item.url }}" target="_blank" rel="noopener" noreferrer>{{ item.name }}</a>
+      </li>
       {% endfor %}
-    </div>
+      <li class="lcs-d-ib">Content &copy; <a class="CustomLinks lcs-td-n" href="https://lcs.sh">Lucas da Silva</a>, {{ site.time | date: '%Y' }}</li>
+    </ul>
   </div>
 </footer>

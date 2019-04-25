@@ -1,34 +1,34 @@
-p {
-  margin: 1em 0;
-}
-
-img {
-  max-width: 100%;
-  display: block;
-  margin: 1.875em auto;
+time, a, p,
+h2, h3 {
+  margin-bottom: var(--lcs-spacing-m);
 }
 
 a {
+  color: var(--lcs-border);
   transition: color 0.4s;
-  color: var(--dark);
 
+  &:focus,
   &:hover {
-    color: var(--navyBlue);
-  }
-
-  &:focus {
-    outline: thin dotted !important;
+    color: var(--lcs-color);
   }
 }
 
-blockquote {
-  margin: 1.5em 0;
-  padding: 0 1em;
-  font-size: 1.125rem;
-  font-weight: 600;
-  font-style: italic;
-  border-radius: 0 6px 6px 0;
-  border-left: 3px solid var(--navy);
+p {
+  font-size: var(--lcs-font-size-5);
+}
+
+h3 {
+  font-size: var(--lcs-font-size-3);
+
+  @media (--not-small) {
+    font-size: var(--lcs-font-size-2);
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 figure {
@@ -36,7 +36,92 @@ figure {
 }
 
 figcaption {
-  font-size: 0.875rem;
+  font-size: var(--lcs-font-size-6);
   font-style: italic;
-  margin-bottom: 1.875em;
+  margin-bottom: var(--lcs-spacing-l);
 }
+
+button {
+  cursor: pointer;
+
+  &:focus {
+    outline: 1px dotted var(--lcs-border);
+  }
+}
+
+blockquote {
+  padding: var(--lcs-spacing-l);
+  margin: var(--lcs-spacing-l) 0;
+  border-left: 10px solid var(--lcs-border);
+  background-color: var(--lcs-color);
+  color: var(--lcs-bg);
+
+  & p {
+    margin: 0;
+  }
+}
+
+.Site {
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.Main {
+  flex: 1;
+}
+
+.Hero {
+  font-weight: var(--lcs-font-weight-6);
+
+  & p {
+    font-size: var(--lcs-font-size-4);
+    margin: var(--lcs-spacing-n);
+
+    @media (--large) {
+      font-size: var(--lcs-font-size-2);
+    }
+  }
+}
+
+.Work {
+  background-color: var(--lcs-color);
+  color: var(--lcs-bg);
+  padding: var(--lcs-spacing-xl) var(--lcs-spacing-m);
+
+  @media (--medium) {
+    padding: var(--lcs-spacing-xl);
+  }
+
+  @media (--large) {
+    padding: var(--lcs-spacing-xxl);
+    width: 80em;
+    max-width: 100%;
+    margin: var(--lcs-spacing-xxl) auto;
+  }
+
+  & p {
+    font-size: var(--lcs-font-size-5);
+
+    @media (--large) {
+      font-size: var(--lcs-font-size-4);
+    }
+  }
+
+  & a {
+    color: inherit;
+
+    &:focus,
+    &:hover {
+      color: var(--lcs-border);
+    }
+  }
+}
+
+.WorkItem {
+  margin: var(--lcs-spacing-l) 0;
+
+  @media (--large) {
+    margin: var(--lcs-spacing-xl) 0;
+  }
+}
+

@@ -1,26 +1,11 @@
 .Footer {
-  position: relative;
-  margin: 1em 0;
-  padding: 1em;
+  padding: var(--lcs-spacing-xl) 0;
 }
 
-.Footer-contact {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+.FooterItem {
+  margin-right: var(--lcs-spacing-m);
 
-  & a {
-    font-size: 1rem;
-    font-weight: 600;
-    margin: 5px 0;
-    padding: 3px 5px;
-
-    @media (--medium-up) {
-      margin: 8px 25px 0 0;
-    }
-  }
-
-  @media (--medium-up) {
-    flex-direction: row;
+  @media (--large) {
+    margin-right: var(--lcs-spacing-l);
   }
 }

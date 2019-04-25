@@ -1,21 +1,29 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
 
-## Bio
+## $ ~ whoami
 
-Hi, my name's **Lucas da Silva** a self-taught, dedicated and highly motivated Software Developer with seven years of experience in Web application development with the focus on Web accessibility and performance.
+Hi! I’m **Lucas da Silva**, a Software Developer from Brazil living in the south of Brazil after spending almost two years in Berlin. I love The Web and besides the fact I have a little crush into native mobile applications, I consider myself a Front-End developer in my heart.
 
-Currently I'm looking for new opportunities, if you are hiring get in touch. :) Previously, I worked as a Front End Developer at [HelloFresh](https://hellofresh.com) in Berlin.
+I really enjoy helping others and build communities. I was the creator of GDG Jaraguá do Sul, back in 2014, I helped as volunteer in 5 React conferences (ReactEurope 2016 - Paris, ReactLondon - London, React Native EU - Wroclaw, React Day Berlin - Berlin, React Amsterdam - Amsterdam).
+
+Nowadays my main focus is all about creating accessible user interfaces for both The Web and iOS platform.
+
+Currently I'm looking for new opportunities, if you are hiring get in touch. You can find my résumé [here](/resume.pdf).
 
 ## Get in touch
 
-Follow me on [Twitter](https://twitter.com/_agtlucas), [GitHub](https://github.com/AgtLucas) or drop me an email: [agtlucas@me.com](mailto:agtlucas@me.com).
+You can reach me via email: [agtlucas@me.com](mailto:agtlucas@me.com).
 
-Also, you can find my résumé [here](/resume.pdf).
+Or, if you prefer, tweet me [@_agtlucas](https://twitter.com/_agtlucas).
+
+I'm also on [GitHub](https://github.com/AgtLucas) and [LinkedIn](https://linkedin.com/in/agtlucas).
 
 ## About this site
 
-This site is powered by [Jekyll](https://jekyllrb.com/) and you can found the source code [here](https://github.com/AgtLucas/lucas.ninja). MIT License.
+This site is powered by [Jekyll](https://jekyllrb.com/) and you can found the source code [here](https://github.com/AgtLucas/lucas.ninja). 
+
+MIT License. 

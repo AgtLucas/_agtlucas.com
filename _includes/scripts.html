@@ -1,0 +1,11 @@
+<script async>
+  (function (window, document) {
+    const themes = ['', 'ocean', 'classic', 'halloween', 'time-stone', 'fear-of-the-dark', 'drifter', 'prowler', 'moonchild', 'hope'];
+    const button = document.querySelector('#theme-switcher');
+
+    button.addEventListener('click', function (event) {
+      event.preventDefault();
+      document.documentElement.dataset.theme = themes[Math.floor(Math.random() * themes.length)];
+    });
+  })(window, document);
+</script>

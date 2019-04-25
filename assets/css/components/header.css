@@ -1,34 +1,12 @@
-.Header-item {
-  display: inline-block;
-
-  &:first-child {
-    margin-right: 1.5em;
-    background-color: var(--dark);
-
-    & a {
-      padding: 2px 5px;
-      font-size: 1.25rem;
-      font-weight: 600;
-      letter-spacing: 2px;
-      color: var(--light);
-
-      &:focus {
-        background-color: var(--navyBlue);
-      }
-    }
-
-    &:hover {
-      background-color: var(--navyBlue);
-    }
-  }
+.Header {
+  padding: var(--lcs-spacing-m) 0;
 }
 
-.Header-item:not(:first-child) {
-  margin-right: 1em;
+.HeaderItem {
+  margin-right: var(--lcs-spacing-l);
+}
 
-  & a {
-    @media (--medium-up) {
-      padding: 0.5em;
-    }
-  }
+.HeaderItemLogo {
+  font-size: var(--lcs-font-size-3);
+  font-weight: var(--lcs-font-weight-b);
 }
