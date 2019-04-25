@@ -3,7 +3,7 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html lang="en-GB">
+<html data-theme lang="en-GB">
   {% include head.html %}
   <body class="Site lcs-d-f">
     {% include header.html %}
@@ -11,5 +11,7 @@ layout: compress
       {{ content }}
     </main>
     {% include footer.html %}
+
+    {% include scripts.html %}
   </body>
 </html>

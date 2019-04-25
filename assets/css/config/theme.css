@@ -50,11 +50,72 @@
 @custom-media --medium screen and (min-width: 48em) and (max-width: 64em);
 @custom-media --large screen and (min-width: 64em);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --lcs-parent-bg: #B6590D;
-    --lcs-color: #F7F7F8;
-    --lcs-bg: #1D1F20;
-    --lcs-border: #E06D10;
+[data-theme="classic"] {
+  --lcs-parent-bg: #3366CC;
+  --lcs-color: #000000;
+  --lcs-bg: #FFFCF5;
+  --lcs-border: #268BD2;
+
+  & .Work {
+    background-color: var(--lcs-parent-bg);
+
+    & a:hover {
+      color: var(--lcs-color);
+    }
+  }
+}
+
+[data-theme="ocean"] {
+  --lcs-color: #FFFFFF;
+  --lcs-bg: #0067B9;
+  --lcs-border: #CCCCCC;
+}
+
+[data-theme="halloween"] {
+  --lcs-color: #F7F7F8;
+  --lcs-bg: #1D1F20;
+  --lcs-border: #E06D10;
+}
+
+[data-theme="time-stone"] {
+  --lcs-color: #F7F7F8;
+  --lcs-bg: #1D1F20;
+  --lcs-border: #2BB18E;
+}
+
+[data-theme="fear-of-the-dark"] {
+  --lcs-color: #EAEBEB;
+  --lcs-bg: #000000;
+  --lcs-border: #92979B;
+}
+
+[data-theme="drifter"] {
+  --lcs-color: #FFFFFF;
+  --lcs-bg: #222222;
+  --lcs-border: #0067B9;
+}
+
+[data-theme="prowler"] {
+  --lcs-color: #E9F7F9;
+  --lcs-bg: #0C2231;
+  --lcs-border: #DA304C;
+}
+
+[data-theme="moonchild"] {
+  --lcs-color: #FDF1E7;
+  --lcs-bg: #1D1F20;
+  --lcs-border: #DA304C;
+}
+
+[data-theme="hope"] {
+  --lcs-parent-bg: #E0E3F0;
+  --lcs-color: #2C365E;
+  --lcs-bg: #FDF1E7;
+  --lcs-border: #0C2427;
+
+  & .Work {
+    & a:hover {
+      color: var(--lcs-parent-bg);
+    }
   }
 }

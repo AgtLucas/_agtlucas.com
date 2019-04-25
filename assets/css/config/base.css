@@ -40,6 +40,26 @@ figcaption {
   margin-bottom: var(--lcs-spacing-l);
 }
 
+button {
+  cursor: pointer;
+
+  &:focus {
+    outline: 1px dotted var(--lcs-border);
+  }
+}
+
+blockquote {
+  padding: var(--lcs-spacing-l);
+  margin: var(--lcs-spacing-l) 0;
+  border-left: 10px solid var(--lcs-border);
+  background-color: var(--lcs-color);
+  color: var(--lcs-bg);
+
+  & p {
+    margin: 0;
+  }
+}
+
 .Site {
   flex-direction: column;
   min-height: 100vh;
