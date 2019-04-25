@@ -41,7 +41,7 @@
 }
 
 .lcs-section {
-  margin: var(--lcs-spacing-xl) auto;
+  margin: var(--lcs-spacing-l) auto;
 
   @media (--not-small) {
     margin: var(--lcs-spacing-xxl) auto;
@@ -102,7 +102,11 @@
   }
 
   & h2 {
-    font-size: var(--lcs-font-size-1);
+    font-size: var(--lcs-font-size-2);
+
+    @media (--not-small) {
+      font-size: var(--lcs-font-size-1);
+    }
   }
 }
 
