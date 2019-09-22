@@ -33,12 +33,13 @@
   --lcs-line-height-copy: 1.5;
 
   --lcs-color: #000000;
-  --lcs-bg: #FFFCF5;
-  --lcs-border: #268BD2;
+  --lcs-bg: #ffffff;
+  --lcs-border: #0067b9;
 
-  --lcs-code-font: 'Monaco', monospace;
+  --lcs-code-font: "Monaco", monospace;
 
-  font-family: Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Ubuntu", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Ubuntu", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
   line-height: var(--lcs-line-height-copy);
   background-color: var(--lcs-bg);
@@ -51,8 +52,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --lcs-color: #FFFFFF;
-    --lcs-bg: #222222;
-    --lcs-border: #0067B9;
+    --lcs-color: #ffffff;
+    --lcs-bg: #000000;
+    --lcs-border: #268bd2;
   }
 }

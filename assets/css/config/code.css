@@ -3,7 +3,7 @@ code {
   font-size: var(--lcs-font-size-5);
   font-weight: var(--lcs-font-weight-3);
   padding: 0 var(--lcs-spacing-s);
-  color: var(--lcs-border);
+  color: var(--lcs-color);
 }
 
 .highlight {

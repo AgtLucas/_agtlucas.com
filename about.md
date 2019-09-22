@@ -4,7 +4,7 @@ title: About me
 permalink: /about/
 ---
 
-## $ ~ whoami
+## \$ ~ whoami
 
 Hi! I’m **Lucas da Silva**, a Software Developer from Brazil living in the south of Brazil after spending almost two years in Berlin. I love The Web and besides the fact I have a little crush into native mobile applications, I consider myself a Front-End developer in my heart.
 
@@ -12,18 +12,18 @@ I really enjoy helping others and build communities. I was the creator of GDG Ja
 
 Nowadays my main focus is all about creating accessible user interfaces for both The Web and iOS platform.
 
-Currently I'm looking for new opportunities, if you are hiring get in touch. You can find my résumé [here](/resume.pdf).
+Currently I'm working as a Front-End Developer at [Magnetis](https://magnetis.com.br). You can find my résumé [here](/resume.pdf).
 
 ## Get in touch
 
 You can reach me via email: [agtlucas@me.com](mailto:agtlucas@me.com).
 
-Or, if you prefer, tweet me [@_agtlucas](https://twitter.com/_agtlucas).
+Or, if you prefer, tweet me [@\_agtlucas](https://twitter.com/_agtlucas).
 
 I'm also on [GitHub](https://github.com/AgtLucas) and [LinkedIn](https://linkedin.com/in/agtlucas).
 
 ## About this site
 
-This site is powered by [Jekyll](https://jekyllrb.com/) and you can found the source code [here](https://github.com/AgtLucas/lucas.ninja). 
+This site is powered by [Jekyll](https://jekyllrb.com/) and you can found the source code [here](https://github.com/AgtLucas/lucas.ninja).
 
-MIT License. 
+MIT License.
