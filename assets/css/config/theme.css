@@ -32,8 +32,8 @@
   --lcs-line-height-title: 1.15;
   --lcs-line-height-copy: 1.5;
 
-  --lcs-color: #000000;
-  --lcs-bg: #ffffff;
+  --lcs-color: #0b0b0b;
+  --lcs-bg: #f3f3f3;
   --lcs-border: #0067b9;
 
   --lcs-code-font: "Monaco", monospace;
@@ -52,8 +52,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --lcs-color: #ffffff;
-    --lcs-bg: #000000;
+    --lcs-color: #d8d8d8;
+    --lcs-bg: #0b0b0b;
     --lcs-border: #268bd2;
   }
 }
