@@ -1,5 +1,8 @@
-time, a, p,
-h2, h3 {
+time,
+a,
+p,
+h2,
+h3 {
   margin-bottom: var(--lcs-spacing-m);
 }
 
@@ -29,6 +32,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  margin: auto;
 }
 
 figure {
@@ -58,6 +62,10 @@ blockquote {
 
   & p {
     margin: 0;
+  }
+
+  & a:hover {
+    color: var(--lcs-bg);
   }
 }
 
@@ -124,4 +132,3 @@ blockquote {
     margin: var(--lcs-spacing-xl) 0;
   }
 }
-
