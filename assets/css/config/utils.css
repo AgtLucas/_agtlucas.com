@@ -98,7 +98,7 @@
 .InnerContent {
   & li,
   & p {
-    font-size: var(--lcs-font-size-4);
+    font-size: var(--lcs-font-size-3);
   }
 
   & h2 {

@@ -4,6 +4,7 @@
 
 .FooterItem {
   margin-right: var(--lcs-spacing-m);
+  font-weight: var(--lcs-font-weight-9);
 
   @media (--large) {
     margin-right: var(--lcs-spacing-l);

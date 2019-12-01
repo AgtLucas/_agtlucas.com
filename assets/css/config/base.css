@@ -108,10 +108,10 @@ blockquote {
   }
 
   & p {
-    font-size: var(--lcs-font-size-5);
+    font-size: var(--lcs-font-size-4);
 
     @media (--large) {
-      font-size: var(--lcs-font-size-4);
+      font-size: var(--lcs-font-size-3);
     }
   }
 

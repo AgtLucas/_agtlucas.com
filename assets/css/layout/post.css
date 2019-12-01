@@ -38,6 +38,7 @@
 
 .PostItem {
   font-size: var(--lcs-font-size-4);
+  font-weight: var(--lcs-font-weight-9);
   margin: var(--lcs-spacing-m) 0;
 
   @media (--not-small) {
@@ -46,7 +47,7 @@
 }
 
 .PostOthers {
-  display: flex;
+  font-weight: var(--lcs-font-weight-9);
   flex-direction: column;
   align-items: center;
   padding: var(--lcs-spacing-xxl) 0 0;
