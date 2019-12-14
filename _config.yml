@@ -6,10 +6,25 @@ description: >
 baseurl: ""
 url: "https://lcs.sh"
 twitter_username: _agtlucas
-github_username:  AgtLucas
-disqus_username: lucasninja
+github_username: AgtLucas
 
-exclude: ['node_modules', 'package.json', 'gulpfile.js', 'src', '.DS_Store', '.sass-cache', 'README.md', 'npm-debug.log', 'LICENSE', 'deploy.js', 'Gemfile', 'Gemfile.lock']
+exclude:
+  [
+    "node_modules",
+    "package.json",
+    "gulpfile.js",
+    "src",
+    ".DS_Store",
+    ".sass-cache",
+    "README.md",
+    "npm-debug.log",
+    "LICENSE",
+    "deploy.js",
+    "Gemfile",
+    "Gemfile.lock",
+  ]
+
+include: ["_redirects"]
 
 # Build settings
 kramdown:
