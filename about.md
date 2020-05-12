@@ -12,7 +12,7 @@ I really enjoy helping others and build communities. I was the creator of GDG Ja
 
 Nowadays my main focus is all about creating accessible user interfaces for both The Web and iOS platform.
 
-Currently I'm working as a Front-End Developer at [Magnetis](https://magnetis.com.br). You can find my résumé [here](/resume.pdf).
+You can find my résumé [here](/resume.pdf).
 
 ## Get in touch
 
