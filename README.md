@@ -3,7 +3,7 @@
 Thoughts and codes... and writing.
 
 <h6 align="center">
-	<a href="http://mit.lucas.ninja">MIT</a>
+	MIT
 	©
 	Lucas
 </h6>
