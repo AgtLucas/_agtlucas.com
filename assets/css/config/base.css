@@ -64,7 +64,7 @@ blockquote {
     margin: 0;
   }
 
-  & a:hover {
+  & a {
     color: var(--lcs-bg);
   }
 }

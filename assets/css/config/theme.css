@@ -34,6 +34,7 @@
 
   --lcs-color: #0b0b0b;
   --lcs-bg: #f3f3f3;
+  --lcs-dark-bg: #15202b;
   --lcs-border: #0067b9;
 
   --lcs-code-font: "Monaco", monospace;
@@ -50,10 +51,10 @@
 @custom-media --medium screen and (min-width: 48em) and (max-width: 64em);
 @custom-media --large screen and (min-width: 64em);
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --lcs-color: #fff;
     --lcs-bg: #15202b;
     --lcs-border: #f45d22;
   }
-}
+} */
