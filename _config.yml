@@ -1,10 +1,10 @@
 # Site settings
-title: Lucas da Silva - Software Developer
+title: Lucas da Silva - Technical Writer
 email: agtlucas@me.com
 description: >
-  A Software Developer who lives in Brazil
+  A Technical Writer who lives in Brazil
 baseurl: ""
-url: "https://lcs.sh"
+url: "https://agtlucas.com"
 twitter_username: _agtlucas
 github_username: AgtLucas
 
