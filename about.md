@@ -26,6 +26,6 @@ I'm also on [GitHub](https://github.com/AgtLucas) and [LinkedIn](https://linkedi
 
 ## About this site
 
-This site is powered by [Jekyll](https://jekyllrb.com/) and you can found the source code [here](https://github.com/AgtLucas/lucas.ninja).
+This site is powered by [Jekyll](https://jekyllrb.com/) and you can find the source code [here](https://github.com/AgtLucas/lucas.ninja).
 
 MIT License.
