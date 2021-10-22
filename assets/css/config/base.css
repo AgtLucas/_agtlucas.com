@@ -66,6 +66,11 @@ blockquote {
 
   & a {
     color: var(--lcs-bg);
+
+    &:hover {
+      color: var(--lcs-bg);
+      text-decoration: none;
+    }
   }
 }
 
