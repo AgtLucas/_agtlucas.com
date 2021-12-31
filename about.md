@@ -6,7 +6,7 @@ permalink: /about/
 
 ## \$ ~ whoami
 
-Hi! I’m **Lucas da Silva**, a <s>Software Developer</s> Technical Writer from Brazil living in the south of Brazil after spending almost two years in Berlin. <s>I love The Web and besides the fact I have a little crush into native mobile applications, I consider myself a Front-End developer in my heart.</s> I'm not sure if I love The Web anymore... maybe I still do, but simple times are over, and The Web now is super complicated.
+Hi! I’m **Lucas da Silva**, a <s>Software Developer</s> Technical Writer from Brazil living in Brazil after spending almost two years in Berlin. <s>I love The Web and besides the fact I have a little crush into native mobile applications, I consider myself a Front-End developer in my heart.</s> I'm not sure if I love The Web anymore... maybe I still do, but simple times are over, and The Web now is super complicated.
 
 I really enjoy helping others and build communities. I was the creator of GDG Jaraguá do Sul, back in 2014, I helped as volunteer in 5 React conferences (ReactEurope 2016 - Paris, ReactLondon - London, React Native EU - Wroclaw, React Day Berlin - Berlin, React Amsterdam - Amsterdam).
 
@@ -26,6 +26,6 @@ I'm also on [GitHub](https://github.com/AgtLucas) and [LinkedIn](https://linkedi
 
 ## About this site
 
-This site is powered by [Jekyll](https://jekyllrb.com/) and you can find the source code [here](https://github.com/AgtLucas/lucas.ninja).
+This site is powered by [Jekyll](https://jekyllrb.com/) and you can find the source code [here](https://github.com/AgtLucas/_agtlucas.com).
 
 MIT License.
