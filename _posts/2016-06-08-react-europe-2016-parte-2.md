@@ -7,7 +7,7 @@ categories: blog
 language: pt-BR
 ---
 
-Dando continuidade a [parte 1](https://lucas.ninja/blog/2016/06/07/react-europe-2016-parte-1.html), vamos a parte 2 do evento, ou melhor, o dia 2 (que na verdade foi o dia 03 de Junho...). E para evitar a fadiga, pegue uma caneca de café (ou chá... ou água, whatever!).
+Dando continuidade a [parte 1](https://agtlucas.com/blog/2016/06/07/react-europe-2016-parte-1), vamos a parte 2 do evento, ou melhor, o dia 2 (que na verdade foi o dia 03 de Junho...). E para evitar a fadiga, pegue uma caneca de café (ou chá... ou água, whatever!).
 
 > Melhor caneca...
 
